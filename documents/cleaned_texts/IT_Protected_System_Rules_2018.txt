@@ -1,0 +1,571 @@
+3086 GI/2018 
+(1) 
+ 
+ 
+jftLVªh laö Mhö ,yö&33004@99 
+REGD. NO. D. L.-33004/99 
+ 
+ 
+vlk/kj.k 
+EXTRAORDINARY 
+Hkkx II—[k.M 3—mi&[k.M (ii) 
+PART II—Section 3—Sub-section (ii) 
+izkf/dkj ls izdkf'kr 
+PUBLISHED BY AUTHORITY 
+la- 2017] 
+ubZ fnYyh] 'kqØokj] twu 1] 2018@T;s"B 11] 1940 
+ 
+No. 2017] 
+NEW DELHI, FRIDAY, JUNE 1, 2018/JYAISTHA 11, 1940 
+इलेॉिनस
+इलेॉिनस
+इलेॉिनस
+इलेॉिनस और
+और
+और
+और सूचना
+सूचना
+सूचना
+सूचना 
+ौोिगक
+
+ौोिगक
+
+ौोिगक
+
+ौोिगक मंालय
+मंालय
+मंालय
+मंालय 
+अिधसूचना
+अिधसूचना
+अिधसूचना
+अिधसूचना 
+नई दली, 22 मई, 2018 
+का
+का
+का
+का.आ. . . . 2235(
+2235(
+2235(
+2235(अ).).).).— कीय सरकार सूचना ौोिगक अिधिनयम, 2000 (2000 का 21) क धारा 70 के साथ पठत धारा 
+87 क उप-धारा (2) के खंड (यख) ारा द शिय का योग करते ए इसके ारा िनिलिखत िनयम बनाती है, अथा$त् .— 
+1. संि त
+संि त
+संि त
+संि त नाम
+ नाम
+ नाम
+ नाम और
+और
+और
+और ारंभ
+ारंभ
+ारंभ
+ारंभ - (1) इन िनयम का संि() त नाम सूचना ौोिगक (संरि(त णाली के िलए सूचना सुर(ा था और 
+,-या) िनयम, 2018 है। 
+(2) ये राजप/ म उनके काशन क तारीख को वृ4 त हगे। 
+2. परभाषाय
+परभाषाय
+परभाषाय
+परभाषाय – (1) इन िनयम म, जब तक ,क संदभ$ से अ8यथा अपेि(त न हो – 
+(क) "अिधिनयम" से सूचना ौोिगक अिधिनयम, 2000 (2000 का 21) अिभेत है; 
+(ख) "मु:य सूचना सुर(ा अिधकारी" से अिभेत है, वर< बंधन के अिभिहत कम$चारी जो संगठन के बंध िनदेशक / 
+काय$पालक अिधकारी / सिचव के संगठन काय$रत ह और सूचना सुर(ा और संबंिधत मु@ का Aान रखते ह, सूचना सुर(ा 
+नीितय के िनयोजन, िवकास, रखरखाव, पुनBवलोकन और काया$8वयन सिहत साइबर सुर(ा यास और पहल के िलए 
+िजCमेदार िजCमेदार ह; 
+(ग) "िववेिचत सूचना अवसंरचना" से अिभेत है वह अिधिनयम क धारा 70 क उप-धारा (1) के िववरण म िनDदE मह4वपूण$ 
+सूचना अवसंरचना है; 
+ (घ) "साइबर संकट बंधन योजना" तीFता से पहचान, सूचना आदान-दान, तीF 4 यु4 तर और मह4वपूण$ ,-याG को 
+भािवत करने वाले दुभा$वनापूण$ साइबर से संबंिधत घटनाG को कम करने और ठीक करने क उपचारा4मक कार$वाई के िलए 
+2 
+ THE GAZETTE OF INDIA : EXTRAORDINARY 
+ [PART II—SEC. 3(ii)] 
+एक समि8वत, ब-िवषयक और Kापक आधारत दृिEकोण के िलए साइबर संबंिधत घटनाG से िनपटने के िलए एक ढांचे क 
+Mपरेखा तैयार करता है; 
+(ड) "साइबर घटना" से अिभाय ,कसी वाNतिवक या सं,दOध ितकूल घटना से है जो ,कसी अपराध या उPलंघन का कारण 
+बनती है या बन सकती है, इलेRSॉिनक सूचना, तं/, सेवाG या संजाल क गोपनीयता, अखंडता, या उपलUधता को कम करके 
+साव$जिनक और ाइवेट (े/ म मह4वपूण$ कायV और सेवाG को नुकसान पँचाती हो या पँचा सकती है िजसके परणामNवMप 
+अनिधकृत पंच, सेवा क मनाई या Kवधान, ,कसी कं)यूटर संसाधन का अनिधकृत उपयोग, डाटा या सूचना म अनिधकृत 
+परवत$न होता है; या जो साव$जिनक NवाNXय या सुर(ा के िलए खतरा हो, साव$जिनक िवYास को कमजोर करती हो, राZीय 
+अथ$KवNथा पर नकारा4मक भाव डालती हो, या राZ क सुर(ा िNथित को कम करती हो; 
+ (च) "सूचना सुर(ा बंधन योजना" से अिभेत है नीितय, ,-याG और काय$णािलय का एक समु[य जो ,क सूचना सुर(ा 
+को Nथािपत करता है, काया$ि8वत करता है, संचािलत करता है, िनगरानी करता है, समी(ा करता है, रखरखाव करता है और 
+लगातार सुधार करता है और पया$\ एवं उपयु सुर(ा िनयं/ण के िवकास, रखरखाव, ,-या8वयन और समी(ा से जोिखम को 
+कम करता है; 
+(छ) "सूचना सुर(ा परचालन सिमित" का अिभाय है एक ऐसी सिमित िजसम संगठन के उ[ बंधन अिधकारी शािमल ह, जो 
+संरि(त णाली क साइबर सुर(ा क िNथित को लगातार सुधार और मजबूत करने के िलए िजCमेदार हो और दुभा$वनापूण$ 
+साइबर घटनाG को कम करने और उ8ह पुनज]िवत करने के िलए उपचारा4मक कायV क योजना बनाती हो, उनका िवकास 
+करती हो और उनक समी(ा भी करती हो; 
+(ज) "सूचना ौोिगक सुर(ा सेवा Nतर करार" से अिभेत है वह सेवा दाताG और "संरि(त णाली" से संबंिधत सूचना को 
+संरि(त करने के िलए "संरि(त णाली" से संबंिधत अिधकारय के बीच िविधक Mप से मा8यता ा\ सेवा Nतर करार; 
+(झ) "राZीय िववेिचत सूचना अवसंरचना संर(ण क" से अिभेत है वह अिधिनयम क धारा 70क क उप-धारा (1) के तहत 
+Nथािपत अिभकरण है; 
+(ञ) "संगठन" से अिभेत है- 
+(i) भारत सरकार के मं/ालय या िवभाग, रा^य सरकार और क शािसत देश; 
+(ii) क सरकार, रा^य सरकार और क शािसत देश क कोई संNथा; 
+(iii) कोई अ8य इकाई िजसके पास 'संरि(त णाली' हो; 
+(ट) "संरि(त णाली" से अिभेत है ,क वह कोई भी संगठन का कोई भी कं)यूटर, कं)यूटर णाली या कं)यूटर संजाल, जो ,क 
+अिधिनयम क धारा 70 के अधीन समुिचत सरकार ारा राजप/ म अिधसूिचत ,कया गया हो; 
+(ठ) "सेवा दाता" से अिभेत है ािधकृत _ यिEक (_ यि` ट को), सरकारी संगठन, पिU लक सेR टर क इकाइयां (पीएसयू), ाइवेट 
+अिभकरण, ाइवेट कंपनी, भागीदार फम$ या कोई अ8य िनकाय या अिभकरण ,क "संरि(त णाली" के िनबा$ध और िनरंतर 
+कृ4 यकारी के िलए सेवाएं दान कर रही हो; 
+(2) अ8य सभी यु शUद और अिभKियाँ जो ,क इन िनयम म परभािषत नहc है dकतु अिधिनयम म परभािषत हe उनका अथ$ 
+वही होगा जो अिधिनयम म उनको -मशः समनुदेिशत है। 
+ 
+3. "
+. "
+. "
+. "संरित
+संरित
+संरित
+संरित णाली
+णाली
+णाली
+णाली" " " " केकेकेके िलए
+िलए
+िलए
+िलए सूचना
+सूचना
+सूचना
+सूचना सुरा
+सुरा
+सुरा
+सुरा थाय
+थाय
+थाय
+थाय और
+और
+और
+और याय
+याय
+याय
+याय: 
+(1) (क) "संरि(त णाली" रखने वाला संगठन, संगठन के मु:य काय$पालक अिधकारी / बंध िनदेशक / सिचव के अgय(ता म एक 
+सूचना सुर(ा परचालन सिमित का गठन करेगा। 
+ 
+¹Hkkx IIµ[k.M 3(ii)º 
+Hkkjr dk jkti=k % vlk/kj.k 
+3 
+(ख) सूचना सुर(ा परचालन सिमित क संरचना िनानुसार होगी: 
+(i) सूचना ौोिगक मुख या समक(; 
+(ii) मु:य सूचना सुर(ा अिधकारी (सीआईएसओ); 
+(iii) िवीय सलाहकार या समक(; 
+(iv) राZीय िववेिचत सूचना अवसंरचना संर(ण क (एनसीआईआईपीसी) का ितिनिध; 
+(v) संगठन ारा नामिनDद` ट अ8य िवशेषA (एक या एक से अिधक); 
+(2) सूचना सुर(ा परचालन सिमित (आईएसएससी) िन भूिमकाG और उरदािय4व के साथ शीष$ िनकाय होगा: - 
+(क) "संरि(त णाली" क सभी सूचना सुर(ा नीितयां सूचना सुर(ा परचालन सिमित ारा अनुमो,दत हगी। 
+(ख) "संरि(त णाली" को भािवत करने वाले संजाल िव8यास म मह4वपूण$ परवत$न को सूचना सुर(ा परचालन सिमित 
+ारा अनुमो,दत ,कया जाएगा। 
+(ग) "संरि(त णाली" के अनुयोग म 4येक मह4वपूण$ परवत$न को सूचना सुर(ा परचालन सिमित ारा अनुमो,दत ,कया 
+जाएगा। 
+(घ) सूचना सुर(ा परचालन सिमित के साथ "संरि(त णाली" से संबंिधत साइबर घटना(घटनाएं) के समयबh संचार के िलए 
+एक तं/ Nथािपत ,कया जाएगा। 
+(ड़) "संरि(त णाली" के सभी सूचना सुर(ा लेखापरी(ाG और अनुपालन के परणाम सूचना सुर(ा परचालन सिमित के साथ 
+साझा करने के िलए एक तं/ Nथािपत ,कया जाएगा। 
+(च) 4येक दो वष$ के पi चात "संरि(त णाली" के स4यापन के िलए िविधमा8यकरण । 
+(3) "संरि(त णाली" रखने वाला संगठन अधोिलिखत काय$ करेगा: 
+(क) एक अिधकारी को मु:य सूचना सुर(ा अिधकारी (सीआईएसओ) के Mप म नामीिनDद` ट करेगा िजसक भूिमकाएं और 
+उरदािय4व एनसीआईआईपीसी ारा जारी नवीनतम "िववेिचत सूचना अवसंरचना के संर(ण के िलए ,दशािनदjश" और "भारत 
+म मह4वपूण$ (े/ के मु:य सूचना सुर(ा अिधकारय (सीआईएसओस) क भूिमकाएं और उरदािय4व " के अनुसार हगी; 
+(ख) राZीय मह4वपूण$ सूचना अवसंरचना संर(ण क ारा जारी ,कए गए “िववेिचत सूचना अवसंरचना के संर(ण के िलए 
+,दशािनदjश” या उोग ारा Nवीकृत मानक जो ,क उ राZीय मह4वपूण$ सूचना अवसंरचना संर(ण क ारा िविधवत सC यक 
+Mप से ,कये गए ह, के अनुसार "संरि(त णाली" क सूचना सुर(ा बंधन णाली (आईएसएमएस) क योजना बनायेगा, उसको 
+Nथािपत करेगा, काया$ि8वत करेगा, संचािलत करेगा, उसक िनगरानी करेगा, समी(ा करेगा, उसका रखरखाव करेगा और उसमे 
+सतत सुधार करेगा; 
+(ग) सुिनिlत करेगा ,क "संरि(त णाली" क संजाल वाNतुकला लेिखत है । इसके अलावा, संगठन सुिनिlत करेगा ,क "संरि(त 
+णाली" राZीय िववेिचत सूचना अवसंरचना संर(ण क के नवीनतम “िववेिचत सूचना अवसंरचना के संर(ण के िलए 
+,दशािनदjश” के अनुसार िNथर, लचीला और मापनीय है। संजाल वाNतुकला म कोई भी परवत$न लेिखत ,कया जाना चािहए; 
+(घ) "संरि(त णाली" तक पंच रखने वाले ािधकृत कBमय के लेखन क योजना बनाएगा, उनको िवकिसत करेगा, उनका 
+रखरखाव करेगा, और एक वष$ म कम से कम एक बार या जब भी आवiयक हो, या खंड (ख) म सुझाई गई सूचना सुर(ा बंधन 
+णाली के अनुसार उनक समी(ा करेगा; 
+(ड़) "संरि(त णाली" से संबंिधत हाड$वेयर और सॉnटवेयर क वNतुसूची के दNतावेज क योजना बनाएगा, उनको िवकिसत 
+करेगा, उनका रखरखाव करेगा और उनक समी(ा करेगा; 
+(च) सुिनिlत करेगा ,क "संरि(त णाली" क साइबर सुर(ा वाNतुकला के िलए भेता/ ख़तरा / जोिखम (वी / टी / आर) 
+िवoेषण वष$ म कम से कम एक बार ,कया जायेगा। इसके अलावा, णाली म मह4वपूण$ परवत$न या उpयन होने पर भी सूचना 
+सुर(ा अिभचालन सिमित को अवगत कराते ए वी / टी / आर िवoेषण शुM ,कया जाएगा; 
+4 
+ THE GAZETTE OF INDIA : EXTRAORDINARY 
+ [PART II—SEC. 3(ii)] 
+(छ) राZीय िववेिचत सूचना अवसंरचना संर(ण क के साथ िनकट सम8वय म साइबर आपात बंधन योजना (सीसीएमपी) क 
+योजना बनाएगा, उसको Nथािपत करेगा, उसे काया$ि8वत करेगा, उसे संचािलत करेगा, उसक िनगरानी करेगा, समी(ा करेगा और 
+उसम लगातार सुधार करेगा; 
+(ज) खqड (ख) म सुझाई गई सूचना सुर(ा बंधन णाली (आईएसएमएस) के अनुसार आविधक आंतरक और बाr सूचना सुर(ा 
+लेखा-परी(ण का आचरण करेगा। राZीय िववेिचत सूचना अवसंरचना संर(ण क (एनसीआईआईपीसी) ारा "िनजी / सरकारी 
+संगठन ारा सीआईआई / संरि(त णािलय के लेखा-परी(ण" के िलए जारी मानक संचालन ,-या (एसओपी) का दृढ़ता से 
+पालन ,कया जाएगा; 
+(झ) सूचना ौोिगक सुर(ा सेवा Nतर करार (एसएलएएस) के िलए लेिखत ,-या क योजना बनाएगा, उसको िवकिसत 
+करेगा, उसका रखरखाव करेगा और उसक समी(ा करेगा। सेवा दाताG के साथ एसएलएएस को परकिPपत करते समय इन 
+लेिखत ,-याय का दृढ़ता से पालन ,कया जाएगा; 
+(ञ) उpत और उभरते ए साइबर खतर के िवsh सुर(ा के िलए िनवारक, भे,दया और सुधारा4मक िनयं/ण को लागू करने के 
+िलए उपकरण और तकनीक का उपयोग करके एक साइबर सुर(ा संचालन क साइबर सुर(ा संचालन Nथािपत करेगा। इसके 
+अितर, साइबर सुर(ा संचालन को िनयिमत आधार पर लॉग का िवoेषण करके "संरि(त णाली" पर अनिधकृत पंच क 
+पहचान करने और "संरि(त णाली" पर असामा8य और दुभा$वनापूण$ ,-याकलाप क पहचान करने के िलए उपयोग ,कया 
+जाएगा। अनिधकृत पंच, असामा8य और दुभा$वनापूण$ गितिविध के अिभलेख, य,द कोई हो, तो उ8ह लेिखत ,कया जाएगा; 
+(ट) िनरंतर संजाल उपलUधता और दश$न सुिनिlत करने के िलए "संरि(त णाली" के संजाल(ल) का िनयं/ण करने, बंधन 
+करने और िनगरानी करने के िलए उपकरण और तकनीक का उपयोग करके एक संजाल संचालन क (एनओसी) क Nथापना 
+करेगा; 
+(ठ) वह "संरि(त णाली" का समथ$न करने वाले संजाल उपकरण, परिध उपकरण, संचार उपकरण, सव$र, णािलय और 
+सेवाG के लॉOस के िनयिमत बैकअप लेने क ,-या क योजना, िवकास, रखरखाव और समी(ा करेगा और खqड (ख) म सुझाई 
+गई सूचना सुर(ा बंधन णाली (आईएसएमएस) के अनुसार लॉOस को संभाला जाएगा। 
+4. राीय
+राीय
+राीय
+राीय िववोिचत सूचना
+िववोिचत सूचना
+िववोिचत सूचना
+िववोिचत सूचना अवसंरचना
+अवसंरचना
+अवसंरचना
+अवसंरचना संरण
+संरण
+संरण
+संरण क 
+क 
+क 
+क  केकेकेके ित
+ित
+ित
+ित "संरित
+संरित
+संरित
+संरित णाली
+णाली
+णाली
+णाली(य
+य
+य
+य)" 
+)" 
+)" 
+)" क
+क
+क
+क भूिमकाएं
+भूिमकाएं
+भूिमकाएं
+भूिमकाएं और
+और
+और
+और उरदािय व
+उरदािय व
+उरदािय व
+उरदािय व: 
+(1) मु:य सूचना सुर(ा अिधकारी (सीआईएसओ) राZीय िववेिचत सूचना अवसंरचना संर(ण क (एनसीआईआईपीसी) के साथ 
+िनयिमत संपक$ बनाए रखेगा और संचार के सभी उपलUध या उिचत तरीक का उपयोग करते ए उ राZीय मह4वपूण$ सूचना 
+अवसंरचना संर(ण क ारा सुझाए गए सुर(ा के उपाय को काया$ि8वत करने के िलए िज़Cमेदार होगा। 
+(2) मु:य सूचना सुर(ा अिधकारी (सीआईएसओ) िनिलिखत को साझा करेगा, जब भी इनम कोई परवत$न होगा, या राZीय 
+मह4वपूण$ सूचना अवसंरचना संर(ण क (एनसीआईआईपीसी) ारा अपेि(त होगा, और वह उ राZीय मह4वपूण$ सूचना 
+अवसंरचना संर(ण क ारा सुझाए गए आदान/ ितपुिEय को समािवE करेगा:- 
+(क) िववेिचत सूचना अवसंरचना (सीआईआई) का िववरण िजसे "संरि(त णाली" के Mप म घोिषत ,कया गया है, िजसम उ 
+मह4वपूण$ सूचना अवसंरचना पर और क िनभ$रताएँ शािमल हe। 
+(ख) "संरि(त णाली" क सूचना सुर(ा संचालन सिमित (आईएसएससी) के U यौरे। 
+(ग) "संरि(त णाली" क सूचना सुर(ा बंधन णाली (आईएसएमएस) 
+(घ) "संरि(त णाली" क संजाल वाNतुकला। 
+(ड़) "संरि(त णाली" तक पंच वाले ािधकृत कम]। 
+(च) "संरि(त णाली" से संबंिधत हाड$वेयर और सॉuटवेयर क वNतुसूची । 
+(छ) "संरि(त णाली" क साइबर सुर(ा वाNतुकला के िलए भेता/ ख़तरा / जोिखम (वी / टी / आर) िवoेषण के U यौरे। 
+(ज) "संरि(त णाली " के सूचना ौघोिगक क सुर(ा सेवा N तर करार (एस एल एएस) 
+¹Hkkx IIµ[k.M 3(ii)º 
+Hkkjr dk jkti=k % vlk/kj.k 
+5 
+ (3) (क) राZीय िववेिचत सूचना अवसंरचना संर(ण क (एनआईसीआईपीसी) के साथ "संरि(त णाली" के लॉOस को साझा करने के 
+िलए मु:य सूचना सुर(ा अिधकारी (सीआईएसओ), एनसीआईआईपीसी के परामश$ से एक ,-या Nथािपत करेगा ता,क िवसंगितय 
+का पता लगाया जा सके और वाNतिवक समय के आधार पर खतरे क खु,फया जानकारी उ4पp क जा सके। 
+(ख) मु:य सूचना सुर(ा अिधकारी (सीआईएसओ) "संरि(त णाली" से संबंिधत ,दशा िनदjश, सलाह और भेताG, लेखापरी(ा ट)पिणय आ,द के मु@ को सुलझाने के िलए राZीय मह4वपूण$ सूचना अवसंरचना संर(ण क के साथ "संरि(त णाली" 
+क सी-एसओसी (अनिधकृत पंच, असामा8य और दुभा$वनापूण$ ,-याकलाप से संबंिधत) के लेिखत अिभलेख साझा करने क एक 
+,-या को Nथािपत करेगा। 
+(4) (क) मु:य सूचना सुर(ा अिधकारी (सीआईएसओ) राZीय मह4वपूण$ सूचना अवसंरचना संर(ण क (एनसीआईआईपीसी) के 
+परामश$ से "सुरि(त णाली" पर घटत साइबर घटना(G) के उ राZीय मह4वपूण$ सूचना अवसंरचना संर(ण क को समय पर 
+संचार के िलए एक ,-या Nथािपत करेगा। 
+(ख) इसके अितर, "संरि(त णाली" पर साइबर घटना(G) के मामले म घटना क ित,-या पर राZीय मह4वपूण$ सूचना 
+अवसंरचना संर(ण क क नवीनतम मानक परचालन ,-या (एसओपी) का दृढ़ता से पालन ,कया जाएगा । 
+[ सं. 1(4)/2016-सीएलएफई ] 
+एस. गोपालकृ` णन, संयुR त सिचव 
+ 
+ 
+MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY 
+NOTIFICATION 
+New Delhi, the 22nd May, 2018 
+S. O. 2235(E).—In exercise of powers conferred by clause (zb) of sub-section (2) of section 87 read 
+with section 70 of the Information Technology Act, 2000 (21 of 2000), the Central Government hereby makes 
+the following Rules for the Information Security Practices and Procedures for Protected System, namely:- 
+1. 
+Short Title and Commencement. 
+ 
+(1) 
+These rules may be called the Information Technology (Information Security Practices and 
+Procedures for Protected System) Rules, 2018. 
+(2) 
+They shall come into force on the date of their publication in the Official Gazette. 
+2. 
+Definitions. 
+(1) 
+In these rules, unless the context otherwise requires - 
+(a) 
+"Act" means the Information Technology Act, 2000 (21 of 2000); 
+(b) 
+“Chief Information Security Officer” means the designated employee of Senior management, 
+directly reporting to Managing Director /Chief Executive Officer/Secretary of the organisation, 
+having knowledge of information security and related issues, responsible for cyber security 
+efforts 
+and 
+initiatives 
+including 
+planning, 
+developing, 
+maintaining, 
+reviewing 
+and 
+implementation of Information Security Policies; 
+(c) 
+"Critical Information Infrastructure" means Critical Information Infrastructure as referred to in 
+explanation of sub-section (1) of section 70 of the Act; 
+(d) 
+“Cyber Crisis Management Plan” outlines a framework for dealing with cyber related incidents 
+for a coordinated, multi-disciplinary and broad-based approach for rapid identification, 
+6 
+ THE GAZETTE OF INDIA : EXTRAORDINARY 
+ [PART II—SEC. 3(ii)] 
+information exchange, swift response and remedial actions to mitigate and recover from 
+malicious cyber related incidents impacting critical processes; 
+(e) 
+"Cyber Incident" means any real or suspected adverse event that is likely to cause or causes an 
+offence or contravention, harm to critical functions and services across the public and private 
+sectors by impairing the confidentiality, integrity, or availability of electronic information, 
+systems, services or networks resulting in unauthorised access, denial of service or disruption, 
+unauthorised use of a computer resource, changes to data or information without authorisation; or 
+threatens public health or safety, undermines public confidence, have a negative effect on the 
+national economy, or diminishes the security posture of the nation; 
+(f) 
+“Information Security Management System” means a set of policies, processes and procedures to 
+establish, implement, operate, monitor, review, maintain and continually improve information 
+security and minimize the risks by developing, maintaining, implementing and reviewing the 
+adequate and appropriate security controls; 
+(g) 
+“Information Security Steering Committee” means the committee comprising higher 
+management officials of the organisation, responsible for continuously improving and 
+strengthening the cyber security posture of the Protected System and also plan, develop, review 
+remedial actions to mitigate and recover from malicious cyber incidents; 
+(h) 
+“IT Security Service Level Agreements” means the legally recognised Service Level Agreements 
+between the service providers and officials related to the “Protected System” for securing 
+information related to “Protected System”; 
+(i) 
+“National Critical Information Infrastructure Protection Centre” means the agency established 
+under sub-section (1) of section 70A of the Act; 
+(j) 
+“Organisation” means- 
+(i) 
+Ministries or Departments of the Government of India, State Governments and Union 
+territories; 
+(ii) 
+any agency of the Central Government, State Governments and Union territories; 
+(iii) any other entity having a ‘Protected System’. 
+(k) 
+“Protected System” means any computer, computer system or computer network of any 
+organisationas notified under section 70 of the Act, in the official gazette by appropriate 
+Government. 
+(l) 
+“Service Provider” means any authorised individual(s), Government organisation, Public Sector 
+Units(PSU), private agency, private company, partnership firm or any other body or agency 
+providing services for the smooth and continuous functioning of the ‘Protected System’. 
+(2) 
+All other words and expressions used and not defined in these rules but defined in the Act shall have the 
+meanings respectively assigned to them in the Act. 
+3. 
+Information Security Practices and Procedures for “Protected System”. 
+(1) 
+(a) 
+The organisation having “Protected System” shall constitute an Information Security Steering 
+Committee under the chairmanship of Chief Executive Officer/Managing Director/Secretary of 
+the organisation. 
+(b) 
+The composition of Information Security Steering Committee(ISSC) shall be as under: 
+(i) 
+IT Head or equivalent; 
+(ii) 
+Chief Information Security Officer (CISO); 
+(iii) 
+Financial Advisor or equivalent; 
+¹Hkkx IIµ[k.M 3(ii)º 
+Hkkjr dk jkti=k % vlk/kj.k 
+7 
+(iv) 
+Representative of National Critical Information Infrastructure Protection Centre (NCIIPC); 
+(v) 
+Any other expert(s) to be nominated by the organisation. 
+(2) 
+The Information Security Steering Committee (ISSC) shall be the apex body with roles and 
+responsibilities as follows: - 
+(a) 
+All the Information Security Policies of the “Protected System “shall be approved by Information 
+Security Steering Committee. 
+(b) 
+Significant changes in network configuration impacting “Protected System” shall be approved by 
+the Information Security Steering Committee. 
+(c) 
+Each significant change in application(s) of the “Protected System” shall be approved by 
+Information Security Steering Committee. 
+(d) 
+A mechanism shall be established for timely communication of cyber incident(s) related to 
+“Protected System” to Information Security Steering Committee. 
+(e) 
+A mechanism shall be established to share the results of all information security audits and 
+compliance of “Protected System” to Information Security Steering Committee. 
+(f) 
+Assessment for validation of “Protected System” after every two years. 
+(3) 
+The organisation having “Protected System” shall 
+(a) 
+nominate an officer as Chief Information Security Officer (CISO) with roles and responsibilities 
+as per latest “Guidelines for Protection of Critical Information Infrastructure” and “Roles and 
+Responsibilities of Chief Information Security Officers (CISOs) of Critical Sectors in India” 
+released by NCIIPC; 
+(b) 
+plan, establish, implement, operate, monitor, review, maintain and continually improve 
+Information Security Management System (ISMS) of the “Protected System” as per latest 
+“Guidelines for Protection of Critical Information Infrastructure” released by the National 
+Critical Information Infrastructure Protection Centre or an industry accepted standard duly 
+approved by the said National Critical Information Infrastructure Protection Centre; 
+(c) 
+ensure that the network architecture of “Protected System” shall be documented. Further, the 
+organisation shall ensure that the “Protected System” is stable, resilient and scalable as per latest 
+National Critical Information Infrastructure Protection Centre “Guidelines for Protection of 
+Critical Information Infrastructure”. Any changes to network architecture shall be documented; 
+(d) 
+plan, develop, maintain the documentation of authorised personnel having access to “Protected 
+System” and the same shall be reviewed at least once a year, or whenever required, or according 
+to the Information Security Management System(ISMS) as suggested in clause(b); 
+(e) 
+plan, develop, maintain and review the documents of inventory of hardware and software related 
+to “Protected System”; 
+(f) 
+ensure that Vulnerability/Threat/Risk (V/T/R) Analysis for the cyber security architecture of 
+“Protected System” shall be carried out at least once a year. Further, Vulnerability/Threat/Risk 
+(V/T/R) Analysis shall be initiated whenever there is significant change or upgrade in the system, 
+under intimation to Information Security Steering Committee; 
+(g) 
+plan, establish, implement, operate, monitor, review, and continually improve Cyber Crisis 
+Management Plan (CCMP) in close coordination with National Critical Information 
+Infrastructure Protection Centre; 
+(h) 
+ensure conduct of internal and external Information Security audits periodically according to 
+Information Security Management System(ISMS) as suggested in clause (b). The Standard 
+8 
+ THE GAZETTE OF INDIA : EXTRAORDINARY 
+ [PART II—SEC. 3(ii)] 
+Operating Procedure (SOP) released by National Critical Information Infrastructure Protection 
+Centre (NCIIPC) for “Auditing of CIIs/Protected Systems by Private/Government Organisation” 
+shall be strictly followed; 
+(i) 
+plan, develop, maintain and review documented process for IT Security Service Level 
+Agreements (SLAs). The same shall be strictly followed while designing the Service Level 
+Agreements with service providers; 
+(j) 
+establish a Cyber Security Operation Center (C-SOC) using tools and technologies to implement 
+preventive, detective and corrective controls to secure against advanced and emerging cyber 
+threats. In addition, Cyber Security Operation Center is to be utilised for identifying unauthorized 
+access to “Protected System”, and unusual and malicious activities on the “Protected System”, by 
+analyzing the logs on regular basis. The records of unauthorised access, unusual and malicious 
+activity, if any, shall be documented; 
+(k) 
+establish a Network Operation Center (NOC) using tools and techniques to manage control and 
+monitor the network(s) of “Protected System” for ensuring continuous network availability and 
+performance; 
+(l) 
+plan, develop, maintain and review the process of taking regular backup of logs of networking 
+devices, perimeter devices, communication devices, servers, systems and services supporting 
+“Protected System” and the logs shall be handled as per the Information Security Management 
+System(ISMS) as suggested in clause (b). 
+4. Roles and Responsibilities of “Protected System(s)” towards National Critical Information 
+Infrastructure Protection Centre:- 
+(1) 
+The Chief Information Security Officer (CISO) shall maintain regular contact with the National Critical 
+Information Infrastructure Protection Centre(NCIIPC) and will be responsible for implementing the 
+security measures suggested by the saidNational Critical Information Infrastructure Protection 
+Centre(NCIIPC) using all available or appropriate ways of communication. 
+(2) 
+The Chief Information Security Officer (CISO) shall share the following, whenever there is any change, 
+or as required by the National Critical Information Infrastructure Protection Centre (NCIIPC), and 
+incorporate the inputs/feedbacks suggested by the said National Critical Information Infrastructure 
+Protection Centre (NCIIPC):- 
+(a) 
+Details of Critical Information Infrastructure (CII)declared as “Protected System”, including 
+dependencies on and of the saidCritical Information Infrastructure. 
+(b) 
+Details of Information Security Steering Committee (ISSC) of “Protected System”. 
+(c) 
+Information Security Management System (ISMS) of “Protected System”. 
+(d) 
+Network Architecture of “Protected System”. 
+(e) 
+Authorised personnel having access to “Protected System”. 
+(f) 
+Inventory of Hardware and Software related to “Protected System”. 
+(g) 
+Details of Vulnerability/Threat/Risk (V/T/R) Analysis for the cyber security architecture of 
+“Protected System”. 
+(h) 
+Cyber Crisis Management Plan(CCMP). 
+(i) 
+Information Security Audit Reports and post Audit Compliance Reports of “Protected System”. 
+(j) 
+IT Security Service Level Agreements (SLAs) of “Protected System”. 
+(3) 
+(a) 
+The Chief Information Security Officer (CISO) shall establish a process, in consultation with the 
+National Critical Information Infrastructure Protection Centre (NCIIPC), for sharing of logs of 
+¹Hkkx IIµ[k.M 3(ii)º 
+Hkkjr dk jkti=k % vlk/kj.k 
+9 
+“Protected System” with National Critical Information Infrastructure Protection Centre (NCIIPC) 
+to help detect anomalies and generate threat intelligence on real time basis. 
+(b) 
+The Chief Information Security Officer shall also establish a process of sharing documented 
+records of Cyber Security Operation Center (related to unauthorised access, unusual and 
+malicious activity) of “Protected System” with National Critical Information Infrastructure 
+Protection Centre(NCIIPC) to facilitate issue of guidelines, advisories and vulnerability, audit 
+notes etc. relating to “Protected System”. 
+(4) 
+(a) 
+The Chief Information Security Officer (CISO) shall establish a process in consultation with 
+National Critical Information Infrastructure Protection Centre (NCIIPC), for timely 
+communication of cyber incident(s) on “Protected System” to the said National Critical 
+Information Infrastructure Protection Centre (NCIIPC). 
+(b) 
+In addition, National Critical Information Infrastructure Protection Centre’s latest Standard 
+Operating Procedure (SOP) on Incident Response shall be strictly followed in case of cyber 
+incident(s) on “Protected System”. 
+[No. 1(4)/2016-CLFE] 
+S. GOPALAKRISHNAN, Jy. Secy. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Uploaded by Dte. of Printing at Government of India Press, Ring Road, Mayapuri, New Delhi-110064 
+and Published by the Controller of Publications, Delhi-110054. 
+RAKESH 
+SUKUL
+Digitally signed by 
+RAKESH SUKUL 
+Date: 2018.06.05 
+20:05:11 +05'30'

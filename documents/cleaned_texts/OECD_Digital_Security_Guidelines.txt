@@ -1,0 +1,228 @@
+Recommendation of the Council on Digital Security Risk Management
+
+OECD Legal Instruments
+
+This document is published under the responsibility of the Secretary-General of the OECD. It reproduces an OECD Legal Instrument and may contain additional material. The opinions expressed and arguments employed in the additional material do not necessarily reflect the official views of OECD Member countries.
+This document, as well as any data and any map included herein, are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
+
+For access to the official and up-to-date texts of OECD Legal Instruments, as well as other related information, please consult the Compendium of OECD Legal Instruments at http://legalinstruments.oecd.org.
+
+Series: OECD Legal Instruments
+
+Photo credit: © Zenzen/Shutterstock
+© OECD 2025
+
+This document is provided free of charge. It may be reproduced and distributed free of charge without requiring any further permissions, as long as it is not altered in any way. It may not be sold.
+This document is available in the two OECD official languages (English and French). It may be translated into other languages, as long as the translation is labelled "unofficial translation" and includes the following disclaimer: "This translation has been prepared by [NAME OF TRANSLATION AUTHOR] for informational purpose only and its accuracy cannot be guaranteed by the OECD. The only official versions are the English and French texts available on the OECD website http://legalinstruments.oecd.org"
+
+Background Information
+
+The Recommendation on Digital Security Risk Management was adopted by the OECD Council on 26 September 2022 on the proposal of the Digital Policy Committee (DPC) and launched at the DPC Ministerial meeting on 14 December 2022. The Recommendation aims to assist Adherents in devising or updating digital security strategies and policies to strengthen digital security without inhibiting economic and social prosperity.
+OECD work on Digital Security
+The OECD has been a pioneer in the area of digital security and has continuously updated its approach over the last 30 years. In 1992, the Council adopted the first international legal instrument on this issue, the Recommendation concerning Guidelines on Security of Information Systems (“Security Guidelines”) [OECD/LEGAL/0271], which included high-level principles on how to approach security as a condition for realising the economic and social potential of Information and Communication Technologies (ICTs). Ten years later, the 2002 “Recommendation concerning Guidelines for the Security of Information Systems and Networks: Towards a Culture of Security” [OECD/LEGAL/0312] updated the Security Guidelines to take into account the emergence of the Internet. In 2015, the 2002 Security Guidelines were replaced by the Recommendation on Digital Security Risk Management for Economic and Social Prosperity [OECD/LEGAL/0415] (“2015 Recommendation”), which emphasised the economic and social perspectives rather than only the technical nature of digital security risk.
+Since 1992, the OECD has also broadened its expertise and digital security policy standards. The twice-updated high-level digital security principles have been used as a foundation to develop additional Recommendations. In 1997, the OECD Council adopted the Recommendation concerning Guidelines on Cryptography Policy [OECD/LEGAL/0289] (“Cryptography Guidelines”) to promote the use of cryptography without unduly jeopardising public safety, law enforcement, and national security. In 2007, the Council adopted the Recommendation on Electronic Authentication [OECD/LEGAL/0353]. In 2008, it adopted the Recommendation on the Protection of Critical Information Infrastructures [OECD/LEGAL/0361], updated in 2019 to become the Recommendation on Digital Security of Critical Activities [OECD/LEGAL/0456] (“2019 Recommendation”). The 2019 Recommendation provides guidance on how to implement the 2015 Recommendation to maintain the continuity, resilience and safety of critical activities such as financial, telecommunication, energy distribution and health care services, without inhibiting the benefits of digital transformation. Furthermore, the 2015 Recommendation included a new section offering guidance on national digital security strategies.
+Following a review of the 2015 Recommendation in 2019-2022, the OECD decided to provide an updated and more comprehensive package of digital security Recommendations. The adoption of this Recommendation, along with three other new digital security Recommendations, is the culmination of 30 years of work.
+Process for developing the Recommendation
+The Recommendation is one of four digital security Recommendations (on Digital Security Risk Management, National Digital Security Strategies, the Digital Security of Products and Services, and the Treatment of Digital Security Vulnerabilities) that were developed following the work plan approved by the DPC’s Working Party on Security in the Digital Economy (SDE) in 2020. The plan included several drafting cycles based on text prepared by the Secretariat, circulated to delegations, and updated according to comments made at SDE and received in writing, including from Business@OECD as well as the Civil Society Information Society Advisory Council (CSISAC) and the Internet Technical Advisory Committee (ITAC).
+Other OECD bodies and/or their secretariats (in the area of digital economy, consumer policy, responsible business conduct, infrastructure, SME policies and public governance) were also consulted, as was an informal and international multi stakeholder group of 90 experts (“informal expert group”) who helped inform the Recommendations of the Council on the Digital Security of Products and Services and on the Treatment of Digital Security Vulnerabilities. Overall, the Secretariat received over 650 specific suggestions from governmental and non-governmental stakeholders.
+
+Scope of the Recommendation
+The Recommendation, which updates and partially replaces the 2015 Recommendation, recognises that eradicating all risk is not possible and that risk management is an essential business practice to better protect individuals, businesses and organisations from digital security threats. In addition, the Recommendation recognises the needs to avoid limiting innovation and to take into account the dynamic nature of technologies, economic activities that rely on them, and threats. The Recommendation further recognises that digital security is not just a technical issue, but an institutional and social challenge, and therefore articulates that digital security risk management should be a priority for leaders and decision makers instead of being entirely delegated to technical experts.
+To assist public policy makers as well as leaders in public and private organisations, the Recommendation of the Council on Digital Security Risk Management provides nine interrelated principles to manage digital security risk. These principles encourage all stakeholders to (1) create a culture of security, (2) take responsibility for managing the risk according to their role, (3) respect human rights and fundamental values, and (4) co-operate. At a more operational level, leaders and decision makers in organisations need to (5) take a strategic approach and (6) assess and treat the risk on an ongoing basis in order to (7) determine security measures that are appropriate to and commensurate with the risk, while (8) taking innovation into account and (9) adopting preparedness and continuity plans to ensure resilience and readiness to mitigate damage when incidents happen.
+These principles reflect the culture of promoting digital security to protect activities, people and society without inhibiting benefits and opportunities from ICT or undermining human rights. Thus the Recommendation plays a special role, as it maps the broader digital security policy space, encompassing aspects covered by other digital security Recommendations as well as others that may or may not be addressed by the OECD in the future.
+OECD Policy Framework on Digital Security
+The Framework has been developed by the OECD Secretariat with the aim of bringing together in a coherent narrative the various aspects covered in digital security Recommendations.
+
+The Framework primarily targets policy makers and is presented in a user-friendly format. It makes references to and introduces the digital security Recommendations. It also helps identify linkages with other OECD legal instruments such as the Recommendation concerning Guidelines Governing the Protection of Privacy and Transborder Flows of Personal Data [OECD/LEGAL/0188], work carried out in DPC, other OECD committees, and beyond the OECD, as appropriate.
+The Framework provides a modular approach that can scale with the potential future addition of digital security Recommendations, as appropriate, but may also be amended as necessary to ensure
+
+coherence with new developments.
+
+Next steps
+
+DPC, through the SDE, serves as a forum for exchanging information on digital security to identify good practice in coordination with other international organisations and fora. These discussions take place in the SDE and other dedicated events under the umbrella of the Global Forum on Digital Security for Prosperity. The aim of these conversations is to foster dialogue among stakeholders and support the exchange of experience among Adherents, thus supporting the implementation of good practices. In addition, analytical work that supports the implementation of the Recommendation will be determined as part of the Programme of Work and Budget and focus on priority areas identified by Members.
+
+For further information on OECD Digital Security work, please consult https://www.oecd.org/digital/ieconomy/digital-security/.
+Contact information: digitalsecurity@oecd.org.
+
+THE COUNCIL,
+
+HAVING REGARD to Article 5 b) of the Convention on the Organisation for Economic Co-operation and Development of 14 December 1960;
+
+CONSIDERING that the OECD has worked on digital security since the adoption in 1992 of the first international standard on digital security, the Recommendation of the Council concerning Guidelines for the Security of Information Systems [OECD/LEGAL/0271], and that it has been at the cutting edge in this area updating its standard in 2002 with the Recommendation of the Council Concerning Guidelines for the Security of Information Systems and Networks - Towards a Culture of Security [OECD/LEGAL/0312] and in 2015 with the Recommendation of the Council on Digital Security Risk Management for Economic and Social Prosperity [OECD/LEGAL/0415], which this Recommendation partially replaces;
+
+HAVING REGARD to the Recommendation of the Council on National Digital Security Strategies [OECD/LEGAL/0480]; the Recommendation of the Council on Digital Security of Critical Activities [OECD/LEGAL/0456]; the Recommendation of the Council on Digital Security of Products [OECD/LEGAL/0481], the Recommendation on the Treatment of Digital Security Vulnerabilities [OECD/LEGAL/0482], the Recommendation of the Council concerning Guidelines for Cryptography Policy [OECD/LEGAL/0289], and the Recommendation on Electronic Authentication [OECD/LEGAL/0353], which form with the present Recommendation a comprehensive set of international standards on digital security featured in the OECD Policy Framework on Digital Security [C(2022)145/ADD1];
+
+HAVING REGARD to the standards developed by the OECD in the area of privacy and transborder flows of personal data; Internet policy making digital economy, innovation, growth and social prosperity; artificial intelligence; digital government strategies and responsible business conduct;
+
+RECOGNISING that the digital environment is essential to the functioning of our economies and societies, underpins digital transformation, and is a source of growth, innovation, improved well-being and inclusiveness;
+
+RECOGNISING that the benefits from the digital environment and digital transformation span across all sectors of the economy and all aspects of social progress; that these benefits stem from the open, secure, stable, accessible, interoperable and peaceful nature of information and communication technologies and infrastructure, and in particular the Internet;
+
+RECOGNISING that digital security incidents create uncertainties which are dynamic in nature and can affect the digital and physical environments, damaging stakeholders’ objectives, reputation, human rights and fundamental values such as freedom of expression and privacy, protection of data, trust, economic interests, business operations, physical assets and safety, and affecting competitiveness, well-being, and public welfare;
+
+RECOGNISING that digital security risk management is a flexible, adaptable, agile, and cost-effective approach to address these uncertainties, to establish resilience, and to achieve the expected social and economic benefits while innovating and creating trust, to deliver critical activities, to preserve human rights and fundamental values, to protect individuals from digital security threats, and to increase their safety ;
+
+RECOGNISING that some stakeholders such as individuals, small and medium entreprises, and civil society organisations have limited ability and capacity to manage digital security risk;
+
+RECOGNISING that stakeholders implementing digital security risk management need to mitigate the digital security risk related to potential supply-chain attacks;
+
+EMPHASISING that digital security risk management provides a robust foundation to implement the “Security Safeguards Principle” in the Recommendation of the Council concerning Guidelines Governing the Protection of Privacy and Transborder Flows of Personal Data [OECD/LEGAL/0188] (OECD Privacy
+
+Guidelines) and, more generally, that this Recommendation and the OECD Privacy Guidelines mutually reinforce each other;
+
+MINDFUL that governments, public and private organisations, as well as individuals share responsibility, based on their roles and the context, for managing digital security risk and for protecting the digital environment; and that co-operation is essential at domestic, regional and international levels.
+
+On the proposal of the Committee on Digital Economy Policy:
+
+AGREES that, for the purposes of this Recommendation:
+
+Digital security risk refers to a category of risk (i.e. the effect of uncertainty on objectives) related to the use, development and management of the digital environment in the course of any activity, which:
+can result from the combination of threats and vulnerabilities in the digital environment;
+can undermine the achievement of economic and social objectives including physical safety by disrupting the availability, integrity, and confidentiality of the data, information systems and networks;
+is dynamic in nature;
+includes aspects related to the digital and physical environments, the people involved in the activity and the organisational processes supporting it.
+Digital security risk management refers to the set of coordinated actions taken within an organisation and/or among organisations, to address digital security risk while maximising opportunities, which:
+is an integral part of decision making and of an overall framework to manage risk to economic and social activities;
+relies on a holistic, systematic and flexible set of cyclical processes that is as transparent and as explicit as possible;
+helps to ensure that digital security risk management measures (“security measures”) are appropriate to and commensurate with the risk and economic and social objectives at stake.
+Digital security refers to the set of measures taken to manage digital security risk. Digital security can be viewed as the economic and social dimension of cybersecurity.
+Stakeholders refers to the governments, public and private organisations and the individuals, who rely on the digital environment for all or part of their economic and social activities. They can take on different roles. For example, organisations may be part of a supply chain.
+Leaders and decision makers refers to those stakeholders at the highest level of leadership in governments and in public and private organisations.
+
+RECOMMENDS that Members and non-Members adhering to this Recommendation (hereafter the “Adherents”) adopt a digital security risk management approach to build trust and take advantage of the open digital environment for economic and social prosperity, applicable at all levels of government and in public organisations; based on the following principles, which are complementary, should be taken as a whole, and are meant to be consistent with risk management processes, best practices, methodologies, and technical standards; and CALLS on private organisations to promote and implement the following principles;
+
+GENERAL PRINCIPLES
+
+Digital security culture: awareness, skills and empowerment
+
+All stakeholders should create a culture of digital security based on the understanding of digital security risk and how to manage it.
+
+To that effect, the stakeholders should be:
+
+aware that digital security risk can affect the achievement of their economic and social objectives and that their management of digital security risk can affect others, including the delivery of critical activities;
+empowered with the education and skills necessary to understand this risk, to help manage it, and to evaluate the potential impact of their digital security risk management decisions on their activities and the overall digital environment;
+aware of the role of security researchers in improving digital security by reporting vulnerabilities according to good practice.
+
+Responsibility and liability
+
+All stakeholders should take responsibility for the management of digital security risk based on their roles, the context and their ability to act.
+
+To that effect, the stakeholders should:
+
+act responsibly, be accountable for the management of digital security risk and for taking into account the potential impact of their decisions on others.
+recognise that, because there is no absolute security, they are responsible for determining the level of residual risk that is acceptable in order to achieve economic and social objectives, and to treat the risk accordingly.
+appoint responsible owners of this risk, and be aware of potential liabilities.
+
+Human rights and fundamental values
+
+All stakeholders should manage digital security risk in a transparent manner and consistently with human rights and fundamental values.
+
+To that effect, the stakeholders should:
+
+implement digital security in a manner that is consistent with and supports human rights obligations and fundamental values recognised by democratic societies, including the freedom of expression, the free flow of information, the confidentiality of information and communication, the protection of privacy and personal data, freedom of association, non-discrimination, openness and fair process.
+base their digital security on ethical conduct which respects and recognises the legitimate interests of others and of the society as a whole.
+
+Public and private organisations should have a general policy of transparency about their practices and procedures to manage digital security risk.
+
+Co-operation
+
+All stakeholders should co-operate, including across borders.
+
+All stakeholders should co-operate on digital security risk management as global interconnectedness creates interdependencies between stakeholders. To that effect, all stakeholders should co-operate:
+
+in an inclusive manner so that all stakeholders, including across supply chains participate in digital security.
+within governments, public and private organisations, as well as amongst them and with individuals, civil society, the technical community and academia, as appropriate.
+across borders at regional and international levels.
+
+Governments and public and private organisations should work together to empower individuals and small and medium enterprises to collaboratively manage digital security risk.
+
+OPERATIONAL PRINCIPLES
+
+Strategy and Governance
+
+Leaders and decision makers should ensure that digital security risk is integrated in their overall risk management strategy, and managed as a strategic risk requiring operational implementation.
+
+To that effect, leaders and decision makers should:
+
+Understand the strategic and systemic economic and social aspects of digital security risk;
+Adopt and update through a continuous improvement cycle a strategic digital security risk management plan including the allocation of resources, allowing for the progressive implementation of the security baseline and response plans;
+Set clear roles, responsibilities, and processes as well as appropriate resources to ensure that leaders and decision makers who are responsible for the benefits of an activity are also responsible for its related digital security risk (risk ownership), and for identifying how enhanced digital security can contribute to the value, effectiveness and competitiveness of the organisation and of its products and services, including by increasing its partners’ trust;
+Regularly receive risk-related reports and be responsible for acting on such reporting by making appropriate risk treatment decisions in a timely manner;
+Take into account, in their internal digital security strategy, technical and organisational aspects as well as the human factor, for example through training and awareness raising, in order to empower employees and users who are targeted by cyberattackers to protect themselves.
+
+Risk assessment and treatment cycle
+
+Leaders and decision makers should ensure that digital security risk is treated on the basis of continuous risk assessment.
+
+To that effect, leaders and decision makers should:
+
+Carry out digital security risk assessment as an ongoing systematic and cyclical process by evaluating and monitoring the threats, the vulnerabilities that they could exploit, and their possible impact to the economic and social activities at stake, including safety.
+
+Take into account in their risk assessment the risk affecting the activity’s supply chain, internal and/or external advice as well as contextualised cyber threat intelligence (CTI) that can be shared among stakeholders in order to increase the efficiency of digital security strategies and reduce digital security costs.
+Treat the risk, on the basis of the risk assessment, in order to reduce it to an acceptable level relative to the economic and social benefits expected from those activities while taking into account the potential impact on the legitimate interests of others, and legal requirements. Risk treatment includes various options: accepting the risk, reducing it, transferring it (for example through insurance), avoiding it or a combination of those.
+
+Security measures
+
+Leaders and decision makers should ensure that security measures are appropriate to and commensurate with the risk.
+
+To that effect, leaders and decision makers should:
+
+Select, operate and improve security measures based on the digital security risk assessment and with a view to reduce the digital security risk to the level deemed acceptable when treating the risk.
+Adopt security measures that are appropriate to and commensurate with the risk, and take into account their potential negative and positive impact on the economic and social activities they aim to protect, on human rights and fundamental values, and on the legitimate interests of others.
+Consider all types of measures, whether they are physical, digital, or related to people, processes or technologies involved in the activities.
+
+Governments as well as public and private organisations should seek out and appropriately address vulnerabilities as soon as possible.
+
+Innovation
+
+Leaders and decision makers should ensure that innovation is considered.
+
+To that effect, leaders and decision makers should:
+
+Consider innovation as integral to reducing the digital security risk to the acceptable level determined in the risk assessment and treatment.
+Consider the effects of digital security on innovation and its positive and negative impact on efficiency, competitiveness and human rights, recognising that digital security risk management can boost or undermine innovation depending on how it is implemented.
+Foster innovation both in the design and operation of the economic and social activities relying on the digital environment as well as in the design and development of security measures.
+
+Resilience, preparedness and continuity
+
+Leaders and decision makers should ensure that a preparedness and continuity plan based on digital security risk assessment is adopted, implemented and tested, to ensure resilience.
+
+To that effect, in their preparedness and continuity plan, leaders and decision makers should:
+
+Aim at reducing the adverse effects of security incidents, and supporting the continuity and resilience of economic and social activities.
+Identify measures to protect, detect, respond and recover from digital security incidents.
+
+Encompass participants in the supply chain such as suppliers and third-party partners, to the extent possible.
+Provide mechanisms to ascribe clear levels of escalation based on the magnitude and severity of the effects of digital security incidents, as well as their potential to extend to others in the digital environment.
+Develop appropriate notification procedures.
+
+***
+
+INVITES the Secretary-General to disseminate this Recommendation.
+
+INVITES Adherents to disseminate this Recommendation at all levels of government.
+
+IV. INVITES non-Adherents to take due account of, and adhere to, this Recommendation.
+
+INSTRUCTS the Committee on Digital Economy Policy, through the Working Party on Security in the Digital Economy, to:
+
+Serve as a forum for:
+exchanging information on digital security to identify good practice in coordination with other international organisations and fora, and
+developing analytical work to support the implementation of this Recommendation;
+Report to the Council on the implementation, dissemination, and continued relevance of this Recommendation no later than five years following its adoption and at least every ten years thereafter.
+
+About the OECD
+The OECD is a unique forum where governments work together to address the economic, social and environmental challenges of globalisation. The OECD is also at the forefront of efforts to understand and to help governments respond to new developments and concerns, such as corporate governance, the information economy and the challenges of an ageing population. The Organisation provides a setting where governments can compare policy experiences, seek answers to common problems, identify good practice and work to co-ordinate domestic and international policies.
+
+The OECD Member countries are: Australia, Austria, Belgium, Canada, Chile, Colombia, Costa Rica, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Korea, Latvia, Lithuania, Luxembourg, Mexico, the Netherlands, New Zealand, Norway, Poland, Portugal, the Slovak Republic, Slovenia, Spain, Sweden, Switzerland, Türkiye, the United Kingdom and the United States. The European Union takes part in the work of the OECD.
+
+OECD Legal Instruments
+Since the creation of the OECD in 1961, around 460 substantive legal instruments have been developed within its framework. These include OECD Acts (i.e. the Decisions and Recommendations adopted by the OECD Council in accordance with the OECD Convention) and other legal instruments developed within the OECD framework (e.g. Declarations, international agreements).
+
+All substantive OECD legal instruments, whether in force or abrogated, are listed in the online Compendium of OECD Legal Instruments. They are presented in five categories:
+Decisions are adopted by Council and are legally binding on all Members except those which abstain at the time of adoption. They set out specific rights and obligations and may contain monitoring mechanisms.
+Recommendations are adopted by Council and are not legally binding. They represent a political commitment to the principles they contain and entail an expectation that Adherents will do their best to implement them.
+Substantive Outcome Documents are adopted by the individual listed Adherents rather than by an OECD body, as the outcome of a ministerial, high-level or other meeting within the framework of the Organisation. They usually set general principles or long-term goals and have a solemn character.
+International Agreements are negotiated and concluded within the framework of the Organisation. They are legally binding on the Parties.
+Arrangement, Understanding and Others: several other types of substantive legal instruments have been developed within the OECD framework over time, such as the Arrangement on Officially Supported Export Credits, the International Understanding on Maritime Transport Principles and the Development Assistance Committee (DAC) Recommendations.
