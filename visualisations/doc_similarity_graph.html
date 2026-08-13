@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "white"}, "group": "Indian statute", "id": "DPDP Act 2023", "label": "DPDP Act 2023", "shape": "dot", "size": 32, "title": "DPDP Act 2023\nType: Indian statute\nChunks: 40\nMean F1: 0.158"}, {"font": {"color": "white"}, "group": "European statute", "id": "GDPR", "label": "GDPR", "shape": "dot", "size": 112, "title": "GDPR\nType: European statute\nChunks: 140\nMean F1: 0.469"}, {"font": {"color": "white"}, "group": "Indian rules", "id": "Digital Personal Data Protection Rules 2025", "label": "Digital Personal Data Pro", "shape": "dot", "size": 20, "title": "Digital Personal Data Protection Rules 2025\nType: Indian rules\nChunks: 26\nMean F1: 0.481"}, {"font": {"color": "white"}, "group": "Indian statute", "id": "IT Act 2000", "label": "IT Act 2000", "shape": "dot", "size": 39, "title": "IT Act 2000\nType: Indian statute\nChunks: 49\nMean F1: 0.000"}, {"font": {"color": "white"}, "group": "Indian guideline", "id": "NCIIPC Guidelines", "label": "NCIIPC Guidelines", "shape": "dot", "size": 29, "title": "NCIIPC Guidelines\nType: Indian guideline\nChunks: 37\nMean F1: 0.135"}, {"font": {"color": "white"}, "group": "Indian guideline", "id": "Cyber Security in Power Sector 2021", "label": "Cyber Security in Power S", "shape": "dot", "size": 16, "title": "Cyber Security in Power Sector 2021\nType: Indian guideline\nChunks: 21\nMean F1: 0.000"}, {"font": {"color": "white"}, "group": "Indian direction", "id": "RBI Cyber Security Framework", "label": "RBI Cyber Security Framew", "shape": "dot", "size": 13, "title": "RBI Cyber Security Framework\nType: Indian direction\nChunks: 17\nMean F1: 0.143"}, {"font": {"color": "white"}, "group": "Indian guideline", "id": "NCIIPC Guidelines for Government Entities", "label": "NCIIPC Guidelines for Gov", "shape": "dot", "size": 31, "title": "NCIIPC Guidelines for Government Entities\nType: Indian guideline\nChunks: 39\nMean F1: 0.000"}, {"font": {"color": "white"}, "group": "Intl. standard", "id": "NIST SP 800-66r2", "label": "NIST SP 800-66r2", "shape": "dot", "size": 84, "title": "NIST SP 800-66r2\nType: Intl. standard\nChunks: 106\nMean F1: 0.544"}, {"font": {"color": "white"}, "group": "Indian policy", "id": "e-Governance Policy India", "label": "e-Governance Policy India", "shape": "dot", "size": 87, "title": "e-Governance Policy India\nType: Indian policy\nChunks: 109\nMean F1: 0.528"}, {"font": {"color": "white"}, "group": "Intl. standard", "id": "ISO 27001:2022", "label": "ISO 27001:2022", "shape": "dot", "size": 14, "title": "ISO 27001:2022\nType: Intl. standard\nChunks: 18\nMean F1: 0.184"}, {"font": {"color": "white"}, "group": "Indian statute", "id": "Electricity Act 2003", "label": "Electricity Act 2003", "shape": "dot", "size": 82, "title": "Electricity Act 2003\nType: Indian statute\nChunks: 103\nMean F1: 0.000"}, {"font": {"color": "white"}, "group": "Indian rules", "id": "NCIIPC Rules", "label": "NCIIPC Rules", "shape": "dot", "size": 10, "title": "NCIIPC Rules\nType: Indian rules\nChunks: 11\nMean F1: 0.000"}, {"font": {"color": "white"}, "group": "Indian direction", "id": "CERT-In Directions 2022", "label": "CERT-In Directions 2022", "shape": "dot", "size": 10, "title": "CERT-In Directions 2022\nType: Indian direction\nChunks: 5\nMean F1: 0.132"}, {"font": {"color": "white"}, "group": "Indian direction", "id": "CSCRF", "label": "CSCRF", "shape": "dot", "size": 10, "title": "CSCRF\nType: Indian direction\nChunks: 6\nMean F1: 0.362"}, {"font": {"color": "white"}, "group": "Indian guideline", "id": "State Data Centre security guidelines", "label": "State Data Centre securit", "shape": "dot", "size": 10, "title": "State Data Centre security guidelines\nType: Indian guideline\nChunks: 7\nMean F1: 0.668"}, {"font": {"color": "white"}, "group": "Intl. standard", "id": "NIST Cybersecurity Framework", "label": "NIST Cybersecurity Framew", "shape": "dot", "size": 16.0, "title": "NIST Cybersecurity Framework\nType: Intl. standard\nChunks: 20\nMean F1: 0.160"}, {"font": {"color": "white"}, "group": "Intl. standard", "id": "OECD Digital Security Guidelines", "label": "OECD Digital Security Gui", "shape": "dot", "size": 10, "title": "OECD Digital Security Guidelines\nType: Intl. standard\nChunks: 11\nMean F1: 0.153"}, {"font": {"color": "white"}, "group": "Intl. standard", "id": "PCI Security Standards", "label": "PCI Security Standards", "shape": "dot", "size": 10, "title": "PCI Security Standards\nType: Intl. standard\nChunks: 3\nMean F1: 0.471"}, {"font": {"color": "white"}, "group": "Indian direction", "id": "Privacy, Security and Ownership of Data in the Telecom", "label": "Privacy, Security and Own", "shape": "dot", "size": 10, "title": "Privacy, Security and Ownership of Data in the Telecom\nType: Indian direction\nChunks: 11\nMean F1: 0.680"}]);
+                  edges = new vis.DataSet([{"color": "#FFD700", "from": "DPDP Act 2023", "title": "Similarity: 0.8726", "to": "GDPR", "width": 0.872592568397522}, {"color": "#FF0000", "from": "DPDP Act 2023", "title": "Similarity: 0.9774", "to": "Digital Personal Data Protection Rules 2025", "width": 0.9773746132850647}, {"color": "#FF6B00", "from": "DPDP Act 2023", "title": "Similarity: 0.9265", "to": "IT Act 2000", "width": 0.9265121221542358}, {"color": "#FFD700", "from": "Digital Personal Data Protection Rules 2025", "title": "Similarity: 0.8746", "to": "GDPR", "width": 0.8745774030685425}, {"color": "#FF6B00", "from": "Digital Personal Data Protection Rules 2025", "title": "Similarity: 0.9171", "to": "IT Act 2000", "width": 0.917095422744751}, {"color": "#FFD700", "from": "NCIIPC Guidelines", "title": "Similarity: 0.8891", "to": "Cyber Security in Power Sector 2021", "width": 0.8891239166259766}, {"color": "#FFD700", "from": "NCIIPC Guidelines", "title": "Similarity: 0.8985", "to": "RBI Cyber Security Framework", "width": 0.8984721899032593}, {"color": "#FF6B00", "from": "NCIIPC Guidelines", "title": "Similarity: 0.9130", "to": "NCIIPC Guidelines for Government Entities", "width": 0.9129562973976135}, {"color": "#FFD700", "from": "NCIIPC Guidelines for Government Entities", "title": "Similarity: 0.8828", "to": "Cyber Security in Power Sector 2021", "width": 0.8828025460243225}, {"color": "#FFD700", "from": "NCIIPC Guidelines for Government Entities", "title": "Similarity: 0.8817", "to": "RBI Cyber Security Framework", "width": 0.881726861000061}, {"color": "#FFD700", "from": "NCIIPC Guidelines for Government Entities", "title": "Similarity: 0.8797", "to": "NIST SP 800-66r2", "width": 0.8797206878662109}, {"color": "#FFD700", "from": "NCIIPC Guidelines for Government Entities", "title": "Similarity: 0.8744", "to": "e-Governance Policy India", "width": 0.8744078874588013}, {"color": "#FFD700", "from": "Cyber Security in Power Sector 2021", "title": "Similarity: 0.8702", "to": "ISO 27001:2022", "width": 0.8701907396316528}, {"color": "#FFD700", "from": "IT Act 2000", "title": "Similarity: 0.8704", "to": "Electricity Act 2003", "width": 0.8703641891479492}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"forceAtlas2Based": {"gravitationalConstant": -50, "centralGravity": 0.01, "springLength": 200, "springConstant": 0.08}, "solver": "forceAtlas2Based", "stabilization": {"iterations": 150}}, "edges": {"smooth": {"type": "continuous"}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
