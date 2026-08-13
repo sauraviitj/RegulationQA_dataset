@@ -1,0 +1,1003 @@
+question,doc_source,retrieved_doc,f1,name_overlap,correct_doc
+What is personal data under DPDP Act?,DPDP Act 2023,GDPR,0.2,0.0,0
+Who is a data fiduciary?,DPDP Act 2023,Digital Personal Data Protection Rules 2025,0.13333333333333336,0.0,0
+Who is a data principal?,DPDP Act 2023,DPDP Act 2023,0.25,1.0,1
+What is the basis for lawful data processing?,DPDP Act 2023,GDPR,0.2631578947368421,0.0,0
+What are the rights of a data principal?,DPDP Act 2023,DPDP Act 2023,0.18181818181818182,1.0,1
+What are the obligations of a data fiduciary?,DPDP Act 2023,DPDP Act 2023,0.05555555555555555,1.0,1
+How must consent be obtained?,DPDP Act 2023,GDPR,0.2258064516129032,0.0,0
+What is the data breach notification requirement?,DPDP Act 2023,GDPR,0.25641025641025644,0.0,0
+What is a Significant Data Fiduciary (SDF)?,DPDP Act 2023,Digital Personal Data Protection Rules 2025,0.3125,0.0,0
+What additional obligations apply to SDFs?,DPDP Act 2023,DPDP Act 2023,0.10526315789473684,1.0,1
+What is the storage limitation principle?,DPDP Act 2023,GDPR,0.2222222222222222,0.0,0
+Can a data principal withdraw consent?,DPDP Act 2023,DPDP Act 2023,0.3243243243243243,1.0,1
+What is the Data Protection Board?,DPDP Act 2023,GDPR,0.23529411764705882,0.0,0
+What are the penalties for data breach under DPDP?,DPDP Act 2023,DPDP Act 2023,0.027027027027027025,1.0,1
+What is purpose limitation?,DPDP Act 2023,GDPR,0.12280701754385964,0.0,0
+What is sensitive personal data?,DPDP Act 2023,GDPR,0.15384615384615385,0.0,0
+How can a data principal raise a grievance?,DPDP Act 2023,DPDP Act 2023,0.17647058823529413,1.0,1
+Are children's data subject to special rules?,DPDP Act 2023,GDPR,0.08219178082191782,0.0,0
+Can data processing be outsourced?,DPDP Act 2023,RBI Cyber Security Framework,0.10526315789473685,0.0,0
+What is cross-border data transfer policy?,DPDP Act 2023,GDPR,0.1142857142857143,0.0,0
+Why is consent central to the DPDP Act?,DPDP Act 2023,GDPR,0.12195121951219512,0.0,0
+What are the risks of non-compliance with DPDP for an organization?,DPDP Act 2023,NIST SP 800-66r2,0.10256410256410256,0.0,0
+Why does the Act require purpose limitation?,DPDP Act 2023,GDPR,0.1,0.0,0
+How does the DPDP Act affect cloud data storage practices?,DPDP Act 2023,NCIIPC Guidelines,0.13559322033898302,0.0,0
+Why must breach notification be prompt?,DPDP Act 2023,GDPR,0.11538461538461539,0.0,0
+How should an organization respond when a data principal requests erasure?,DPDP Act 2023,DPDP Act 2023,0.12345679012345678,1.0,1
+What are the implications of processing children's data without parental consent,DPDP Act 2023,GDPR,0.04705882352941177,0.0,0
+Why are Significant Data Fiduciaries subject to additional obligations?,DPDP Act 2023,Digital Personal Data Protection Rules 2025,0.09523809523809522,0.0,0
+How does DPDP interact with an organization's existing data retention policy?,DPDP Act 2023,NIST SP 800-66r2,0.2580645161290323,0.0,0
+What happens if a data processor violates instructions of the fiduciary?,DPDP Act 2023,DPDP Act 2023,0.15384615384615385,1.0,1
+Why is a grievance officer mandatory?,DPDP Act 2023,Electricity Act 2003,0.09411764705882353,0.333,1
+How should an organization implement DPDP consent for an existing user database?,DPDP Act 2023,NCIIPC Guidelines for Government Entities,0.19999999999999998,0.0,0
+What reputational risks arise from poor DPDP compliance?,DPDP Act 2023,NIST Cybersecurity Framework,0.07407407407407408,0.0,0
+Why does the Act allow withdrawal of consent?,DPDP Act 2023,GDPR,0.18604651162790697,0.0,0
+What must an organization do if it changes the purpose for which data was collec,DPDP Act 2023,GDPR,0.15384615384615385,0.0,0
+Explain user rights under the DPDP Act.,DPDP Act 2023,e-Governance Policy India,0.0975609756097561,0.0,0
+Describe data fiduciary obligations.,DPDP Act 2023,DPDP Act 2023,0.15384615384615388,1.0,1
+What is consent and why does it matter?,DPDP Act 2023,GDPR,0.19999999999999998,0.0,0
+Explain breach notification requirements.,DPDP Act 2023,GDPR,0.1764705882352941,0.0,0
+Describe cross-border data transfer rules.,DPDP Act 2023,GDPR,0.16666666666666666,0.0,0
+What is Critical Information Infrastructure (CII)?,NCIIPC Guidelines,NCIIPC Guidelines,0.4074074074074074,1.0,1
+What is NCIIPC?,NCIIPC Guidelines,NCIIPC Guidelines,0.2727272727272727,1.0,1
+Who must report cyber incidents to NCIIPC?,NCIIPC Guidelines,Cyber Security in Power Sector 2021,0.17777777777777776,0.0,0
+What is the incident reporting timeline?,NCIIPC Guidelines,CSCRF,0.31249999999999994,0.0,0
+What security audits are required for CII organizations?,NCIIPC Guidelines,NCIIPC Guidelines,0.16666666666666669,1.0,1
+What sectors are classified as CII?,NCIIPC Guidelines,NCIIPC Guidelines,0.07999999999999999,1.0,1
+How must CII organizations report incidents?,NCIIPC Guidelines,NCIIPC Guidelines,0.16666666666666666,1.0,1
+What is the patch management requirement for CII?,NCIIPC Guidelines,NCIIPC Guidelines for Government Entities,0.15789473684210525,1.0,1
+What is the network segmentation requirement?,NCIIPC Guidelines,NCIIPC Guidelines for Government Entities,0.22222222222222224,1.0,1
+What is required for supply chain security?,NCIIPC Guidelines,NCIIPC Guidelines,0.125,1.0,1
+What is a Sectoral CERT?,NCIIPC Guidelines,Cyber Security in Power Sector 2021,0.18749999999999997,0.0,0
+Is air-gapping required for CII systems?,NCIIPC Guidelines,NCIIPC Guidelines,0.13043478260869562,1.0,1
+How are vulnerabilities disclosed to CII organizations?,NCIIPC Guidelines,NCIIPC Guidelines,0.11764705882352941,1.0,1
+What is the minimum frequency for security drills?,NCIIPC Guidelines,NCIIPC Guidelines for Government Entities,0.125,1.0,1
+What access controls are required for CII?,NCIIPC Guidelines,NCIIPC Guidelines,0.3225806451612903,1.0,1
+What is the data localization requirement for CII?,NCIIPC Guidelines,Cyber Security in Power Sector 2021,0.0,0.0,0
+How are new CII designations made?,NCIIPC Guidelines,NCIIPC Guidelines,0.0625,1.0,1
+What logging requirements apply to CII systems?,NCIIPC Guidelines,NCIIPC Guidelines,0.1111111111111111,1.0,1
+What is a cyber threat intelligence sharing requirement?,NCIIPC Guidelines,OECD Digital Security Guidelines,0.10810810810810811,0.5,1
+What physical security controls are required for CII?,NCIIPC Guidelines,NCIIPC Guidelines,0.23529411764705882,1.0,1
+Why is critical infrastructure protection a national security issue?,NCIIPC Guidelines,NCIIPC Guidelines,0.1276595744680851,1.0,1
+What are the consequences of a successful attack on power sector CII?,NCIIPC Guidelines,NCIIPC Guidelines,0.03921568627450981,1.0,1
+Why is air-gapping required for high-criticality CII systems?,NCIIPC Guidelines,NCIIPC Guidelines,0.05405405405405406,1.0,1
+How should a CII organization respond to an NCIIPC vulnerability advisory?,NCIIPC Guidelines,Cyber Security in Power Sector 2021,0.13043478260869565,0.0,0
+Why must CII incidents be reported within 6 hours?,NCIIPC Guidelines,NCIIPC Guidelines for Government Entities,0.041666666666666664,1.0,1
+What happens if a CII organization fails to conduct annual audits?,NCIIPC Guidelines,NCIIPC Guidelines,0.047619047619047616,1.0,1
+Why is MFA mandatory for CII access?,NCIIPC Guidelines,NCIIPC Guidelines for Government Entities,0.1111111111111111,1.0,1
+How should a power utility manage a third-party vendor with CII system access?,NCIIPC Guidelines,RBI Cyber Security Framework,0.2,0.0,0
+What are risks of inadequate network segmentation in CII?,NCIIPC Guidelines,NCIIPC Guidelines,0.045454545454545456,1.0,1
+Why is threat intelligence sharing required across CII organizations?,NCIIPC Guidelines,NCIIPC Guidelines,0.12903225806451613,1.0,1
+What should a CII organization do if it detects an APT?,NCIIPC Guidelines,NCIIPC Guidelines,0.0,1.0,1
+How does poor supply chain security threaten CII?,NCIIPC Guidelines,NCIIPC Guidelines,0.05405405405405406,1.0,1
+Why must CII data be stored within India?,NCIIPC Guidelines,Digital Personal Data Protection Rules 2025,0.1111111111111111,0.0,0
+How should a CII organization prepare for a simulated crisis drill?,NCIIPC Guidelines,NCIIPC Guidelines,0.10256410256410256,1.0,1
+What is the systemic risk of a CII organization not patching critical vulnerabil,NCIIPC Guidelines,NCIIPC Guidelines,0.060606060606060615,1.0,1
+Describe infrastructure protection requirements.,NCIIPC Guidelines,NCIIPC Rules,0.04444444444444444,0.5,1
+What is NCIIPC and what does it do?,NCIIPC Guidelines,NCIIPC Guidelines,0.16326530612244897,1.0,1
+Explain audit requirements for CII.,NCIIPC Guidelines,NCIIPC Guidelines for Government Entities,0.2,1.0,1
+Describe incident reporting obligations.,NCIIPC Guidelines,RBI Cyber Security Framework,0.1095890410958904,0.0,0
+What are CII access control requirements and why do they matter?,NCIIPC Guidelines,NCIIPC Guidelines,0.14634146341463414,1.0,1
+What is an Information Security Management System (ISMS)?,ISO 27001:2022,ISO 27001:2022,0.33333333333333337,1.0,1
+What does ISO 27001 require for risk assessment?,ISO 27001:2022,NIST SP 800-66r2,0.10810810810810811,0.0,0
+How is the ISMS scope defined?,ISO 27001:2022,NCIIPC Guidelines,0.0975609756097561,0.0,0
+What is the Statement of Applicability (SoA)?,ISO 27001:2022,ISO 27001:2022,0.12500000000000003,1.0,1
+What management commitment is required for ISO 27001?,ISO 27001:2022,ISO 27001:2022,0.125,1.0,1
+How often must the ISMS be internally audited?,ISO 27001:2022,NCIIPC Guidelines for Government Entities,0.41666666666666663,0.0,0
+What is a risk owner?,ISO 27001:2022,NCIIPC Guidelines,0.14814814814814814,0.0,0
+What is the risk treatment process?,ISO 27001:2022,OECD Digital Security Guidelines,0.15789473684210528,0.0,0
+What is required for management review of the ISMS?,ISO 27001:2022,ISO 27001:2022,0.5,1.0,1
+What is continual improvement in ISO 27001?,ISO 27001:2022,ISO 27001:2022,0.47058823529411764,1.0,1
+What are Annex A controls?,ISO 27001:2022,ISO 27001:2022,0.2857142857142857,1.0,1
+What is required for ISMS documentation?,ISO 27001:2022,NCIIPC Rules,0.09638554216867469,0.0,0
+How are nonconformities handled?,ISO 27001:2022,ISO 27001:2022,0.29411764705882354,1.0,1
+What is required for supplier security?,ISO 27001:2022,ISO 27001:2022,0.2777777777777778,1.0,1
+What is the asset management requirement?,ISO 27001:2022,NCIIPC Guidelines,0.16216216216216214,0.0,0
+Why is risk assessment the foundation of ISO 27001?,ISO 27001:2022,NIST SP 800-66r2,0.19047619047619047,0.0,0
+Why does ISO 27001 require top management involvement?,ISO 27001:2022,ISO 27001:2022,0.12244897959183675,1.0,1
+What are the consequences of not maintaining an SoA?,ISO 27001:2022,NIST SP 800-66r2,0.018181818181818184,0.0,0
+Why is continual improvement required?,ISO 27001:2022,NIST Cybersecurity Framework,0.11764705882352941,0.0,0
+How should an organization handle a failed internal audit finding?,ISO 27001:2022,ISO 27001:2022,0.16666666666666666,1.0,1
+What happens if supplier security agreements are absent?,ISO 27001:2022,ISO 27001:2022,0.05128205128205128,1.0,1
+Why must risk owners be formally assigned?,ISO 27001:2022,OECD Digital Security Guidelines,0.08695652173913043,0.0,0
+How does ISO 27001 support DPDP Act compliance?,ISO 27001:2022,ISO 27001:2022,0.12903225806451615,1.0,1
+What is the impact of inadequate ISMS documentation?,ISO 27001:2022,NIST SP 800-66r2,0.06666666666666667,0.0,0
+Why are internal audits required at planned intervals?,ISO 27001:2022,ISO 27001:2022,0.08,1.0,1
+Explain what ISO 27001 certification means.,ISO 27001:2022,Cyber Security in Power Sector 2021,0.08,0.0,0
+Describe the risk assessment process.,ISO 27001:2022,NIST SP 800-66r2,0.10256410256410255,0.0,0
+What is the SoA and why is it needed?,ISO 27001:2022,e-Governance Policy India,0.26666666666666666,0.0,0
+Describe management review requirements.,ISO 27001:2022,ISO 27001:2022,0.20512820512820515,1.0,1
+Explain Annex A and its purpose.,ISO 27001:2022,ISO 27001:2022,0.22857142857142856,1.0,1
+How do the ISMS antivirus policy and remote working policy interact for VPN user,Cross-Document,NCIIPC Guidelines for Government Entities,0.16666666666666666,0.0,0
+How do DPDP Act obligations interact with the ISMS access control policy?,Cross-Document,ISO 27001:2022,0.17142857142857143,0.0,0
+How does the CCMP support compliance with NCIIPC incident reporting requirements,Cross-Document,NCIIPC Rules,0.16216216216216217,0.0,0
+How does ISO 27001 risk assessment inform the organization's ISMS policy control,Cross-Document,NCIIPC Guidelines,0.12,0.0,0
+How does the DPDP Act affect log retention policy?,Cross-Document,Digital Personal Data Protection Rules 2025,0.15730337078651685,0.0,0
+How does NCIIPC's network segmentation requirement align with the ISMS network p,Cross-Document,NCIIPC Rules,0.05633802816901408,0.0,0
+How do ISO 27001 supplier controls and DPDP data processor obligations overlap?,Cross-Document,GDPR,0.22641509433962262,0.0,0
+How does the CCMP interact with the ISMS incident management policy?,Cross-Document,NCIIPC Rules,0.09756097560975609,0.0,0
+What is the relationship between the NCIIPC audit requirement and ISO 27001 inte,Cross-Document,Cyber Security in Power Sector 2021,0.13333333333333333,0.0,0
+How does DPDP breach notification interact with NCIIPC incident reporting?,Cross-Document,NCIIPC Guidelines,0.1904761904761905,0.0,0
+How do ISMS password controls support NCIIPC access requirements?,Cross-Document,NCIIPC Guidelines,0.30434782608695654,0.0,0
+How does the DPDP Act affect the CCMP communications plan?,Cross-Document,RBI Cyber Security Framework,0.21428571428571427,0.0,0
+How does ISO 27001 continual improvement align with the CCMP post-incident revie,Cross-Document,ISO 27001:2022,0.11320754716981131,0.0,0
+How do NCIIPC data localization requirements interact with DPDP cross-border tra,Cross-Document,Cyber Security in Power Sector 2021,0.16666666666666666,0.0,0
+How does the ISMS backup policy support the CCMP recovery procedures?,Cross-Document,NCIIPC Rules,0.22222222222222224,0.0,0
+How does ISO 27001 asset management support NCIIPC supply chain security?,Cross-Document,NCIIPC Guidelines,0.09302325581395349,0.0,0
+How do the ISMS clear desk policy and DPDP physical access controls interact?,Cross-Document,ISO 27001:2022,0.23529411764705882,0.0,0
+How does the CCMP severity classification align with NCIIPC incident severity le,Cross-Document,RBI Cyber Security Framework,0.07017543859649124,0.0,0
+How does DPDP consent management interact with the ISMS access control policy?,Cross-Document,Digital Personal Data Protection Rules 2025,0.16,0.0,0
+How do ISMS training requirements and NCIIPC drill requirements complement each ,Cross-Document,NCIIPC Guidelines,0.0851063829787234,0.0,0
+Which regulations require mandatory incident reporting for a power sector CII or,Cross-Document,NCIIPC Guidelines,0.06896551724137931,0.0,0
+What audit requirements does a CII organization face across all applicable frame,Cross-Document,ISO 27001:2022,0.08888888888888889,0.0,0
+"What access control requirements appear across the ISMS, NCIIPC, and ISO 27001?",Cross-Document,NCIIPC Guidelines,0.13636363636363635,0.0,0
+"What are the data retention requirements across ISMS, DPDP, and NCIIPC?",Cross-Document,NCIIPC Guidelines for Government Entities,0.04545454545454545,0.0,0
+Which frameworks require third-party security assessments?,Cross-Document,RBI Cyber Security Framework,0.13043478260869565,0.0,0
+How do DPDP and NCIIPC together shape data handling practices for a public utili,Cross-Document,NCIIPC Guidelines,0.13333333333333333,0.0,0
+Explain how ISO 27001 and the ISMS policy relate to each other.,Cross-Document,ISO 27001:2022,0.15999999999999998,0.0,0
+Describe how the CCMP and ISMS incident policy work together.,Cross-Document,NCIIPC Guidelines for Government Entities,0.11320754716981134,0.0,0
+How do regulatory reporting obligations stack for a CII organization after a bre,Cross-Document,NCIIPC Guidelines,0.04545454545454546,0.0,0
+How does DuoMind's air-gapped architecture support compliance across all applica,Cross-Document,e-Governance Policy India,0.0625,0.0,0
+How do CERT-In Directions 2022 and the RBI Cyber Security Framework together str,CERT-In Directions 2022 + RBI Cyber Security Framework,CERT-In Directions 2022,0.14634146341463417,0.375,1
+How can organizations combine CERT-In Directions 2022 with the Respond and Recov,CERT-In Directions 2022 + NIST Cybersecurity Framework,NIST Cybersecurity Framework,0.13559322033898305,0.429,1
+How do CERT-In Directions 2022 and the OECD Digital Security Guidelines differ i,CERT-In Directions 2022 + OECD Digital Security Guidelines,OECD Digital Security Guidelines,0.043478260869565216,0.5,1
+How can Government organizations integrate CERT-In Directions with the e-Governa,CERT-In Directions 2022 + e-Governance Policy India,e-Governance Policy India,0.19607843137254902,0.429,1
+How does the RBI Cyber Security Framework align with the Govern function in NIST,RBI Cyber Security Framework + NIST Cybersecurity Framework,NIST SP 800-66r2,0.0851063829787234,0.143,0
+How do the RBI Framework and OECD Guidelines complement cyber risk management?,RBI Cyber Security Framework + OECD Digital Security Guidelines,CSCRF,0.2,0.0,0
+How do the RBI Framework and e-Governance Policy promote secure governance of te,RBI Cyber Security Framework + e-Governance Policy India,e-Governance Policy India,0.15,0.375,1
+How do NIST CSF and OECD Guidelines encourage enterprise cyber risk management?,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.14285714285714288,0.375,1
+How can Government agencies combine NIST CSF with the e-Governance Policy?,NIST Cybersecurity Framework + e-Governance Policy India,e-Governance Policy India,0.13333333333333333,0.429,1
+How do OECD Guidelines and the e-Governance Policy support secure digital transf,OECD Digital Security Guidelines + e-Governance Policy India,OECD Digital Security Guidelines,0.17777777777777776,0.5,1
+How can CERT-In log retention requirements support the Detect function in NIST C,CERT-In Directions 2022 + NIST Cybersecurity Framework,NIST Cybersecurity Framework,0.08333333333333334,0.429,1
+How do CERT-In Directions and the RBI Framework support continuous cyber monitor,CERT-In Directions 2022 + RBI Cyber Security Framework,CERT-In Directions 2022,0.13333333333333333,0.375,1
+How do NIST CSF and OECD Guidelines differ in treatment of governance?,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.08695652173913043,0.375,1
+How can Government email security policies be complemented by CERT-In Directions,e-Governance Policy India + CERT-In Directions 2022,NCIIPC Guidelines for Government Entities,0.16216216216216217,0.0,0
+How do cloud-ready application guidelines align with NIST CSF?,e-Governance Policy India + NIST Cybersecurity Framework,NIST SP 800-66r2,0.20689655172413793,0.143,0
+In what way do CERT-In Directions 2022 and the RBI Cyber Security Framework toge,CERT-In Directions 2022 + RBI Cyber Security Framework,CERT-In Directions 2022,0.14634146341463417,0.375,1
+In what way can organizations combine CERT-In Directions 2022 with the Respond a,CERT-In Directions 2022 + NIST Cybersecurity Framework,NIST Cybersecurity Framework,0.13559322033898305,0.429,1
+In what way do CERT-In Directions 2022 and the OECD Digital Security Guidelines ,CERT-In Directions 2022 + OECD Digital Security Guidelines,OECD Digital Security Guidelines,0.043478260869565216,0.5,1
+In what way can Government organizations integrate CERT-In Directions with the e,CERT-In Directions 2022 + e-Governance Policy India,e-Governance Policy India,0.19607843137254902,0.429,1
+In what way does the RBI Cyber Security Framework align with the Govern function,RBI Cyber Security Framework + NIST Cybersecurity Framework,NIST SP 800-66r2,0.0851063829787234,0.143,0
+In what way do the RBI Framework and OECD Guidelines complement cyber risk manag,RBI Cyber Security Framework + OECD Digital Security Guidelines,CSCRF,0.2,0.0,0
+In what way do the RBI Framework and e-Governance Policy promote secure governan,RBI Cyber Security Framework + e-Governance Policy India,e-Governance Policy India,0.09302325581395349,0.375,1
+In what way do NIST CSF and OECD Guidelines encourage enterprise cyber risk mana,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.14285714285714288,0.375,1
+In what way can Government agencies combine NIST CSF with the e-Governance Polic,NIST Cybersecurity Framework + e-Governance Policy India,e-Governance Policy India,0.13333333333333333,0.429,1
+In what way do OECD Guidelines and the e-Governance Policy support secure digita,OECD Digital Security Guidelines + e-Governance Policy India,OECD Digital Security Guidelines,0.17777777777777776,0.5,1
+How do CERT-In Directions and the RBI Cyber Security Framework complement each o,CERT-In Directions 2022 + RBI Cyber Security Framework,CERT-In Directions 2022,0.11764705882352941,0.375,1
+In what way can CERT-In reporting requirements be mapped to the NIST Cybersecuri,CERT-In Directions 2022 + NIST Cybersecurity Framework,NIST SP 800-66r2,0.11764705882352941,0.143,0
+To what extent do NIST CSF and OECD Guidelines together improve enterprise cyber,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.12121212121212123,0.375,1
+Why can Government IT resource policies support compliance with CERT-In Directio,e-Governance Policy India + CERT-In Directions 2022,CERT-In Directions 2022,0.11764705882352941,0.429,1
+How do RBI and NIST frameworks jointly strengthen cyber risk governance?,RBI Cyber Security Framework + NIST Cybersecurity Framework,NIST Cybersecurity Framework,0.06666666666666667,0.429,1
+How can organizations combine CERT-In operational obligations with OECD digital ,CERT-In Directions 2022 + OECD Digital Security Guidelines,OECD Digital Security Guidelines,0.16326530612244897,0.5,1
+In what way can the NIST Cybersecurity Framework support implementation of e-Gov,NIST Cybersecurity Framework + e-Governance Policy India,e-Governance Policy India,0.22857142857142854,0.429,1
+Why do the RBI Cyber Security Framework and OECD Guidelines together improve cyb,RBI Cyber Security Framework + OECD Digital Security Guidelines,CSCRF,0.1951219512195122,0.0,0
+To what extent can CERT-In incident reporting requirements be incorporated into ,CERT-In Directions 2022 + NIST Cybersecurity Framework,CERT-In Directions 2022,0.17647058823529413,0.429,1
+Explain how can governance practices from the RBI Cyber Security Framework stren,e-Governance Policy India + RBI Cyber Security Framework,e-Governance Policy India,0.14814814814814817,0.375,1
+How can mandatory incident reporting improve governance of Government digital se,CERT-In Directions 2022 + e-Governance Policy India,OECD Digital Security Guidelines,0.11764705882352942,0.0,0
+In what way do NIST CSF and the RBI Framework complement each other for cyber ri,NIST Cybersecurity Framework + RBI Cyber Security Framework,NIST Cybersecurity Framework,0.2777777777777778,0.429,1
+Why do OECD principles complement CERT-In's operational cyber security obligatio,OECD Digital Security Guidelines + CERT-In Directions 2022,Cyber Security in Power Sector 2021,0.13333333333333333,0.125,0
+Explain how can organizations align enterprise governance with cybersecurity out,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.2926829268292683,0.375,1
+To what extent can governance practices from the RBI Framework strengthen public,RBI Cyber Security Framework + e-Governance Policy India,e-Governance Policy India,0.1935483870967742,0.375,1
+How can organizations integrate CERT-In reporting obligations into the NIST Resp,CERT-In Directions 2022 + NIST Cybersecurity Framework,CERT-In Directions 2022,0.07272727272727274,0.429,1
+In what way do the RBI Framework and OECD Guidelines together promote cyber resi,RBI Cyber Security Framework + OECD Digital Security Guidelines,CSCRF,0.11764705882352938,0.0,0
+Why do Government IT governance practices complement CERT-In operational require,e-Governance Policy India + CERT-In Directions 2022,NCIIPC Guidelines for Government Entities,0.09523809523809525,0.0,0
+Explain how can the NIST CSF strengthen cybersecurity for Government digital ser,NIST Cybersecurity Framework + e-Governance Policy India,NIST Cybersecurity Framework,0.29411764705882354,0.429,1
+To what extent do OECD governance principles support compliance with CERT-In Dir,OECD Digital Security Guidelines + CERT-In Directions 2022,CERT-In Directions 2022,0.12000000000000001,0.375,1
+How can CERT-In incident reporting requirements enhance the cyber resilience mea,CERT-In Directions 2022 + RBI Cyber Security Framework,CERT-In Directions 2022,0.12658227848101264,0.375,1
+In what way do the NIST Cybersecurity Framework and OECD Guidelines complement e,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.1951219512195122,0.375,1
+Why can Government organizations align e-Governance security practices with CERT,e-Governance Policy India + CERT-In Directions 2022,e-Governance Policy India,0.2105263157894737,0.429,1
+Explain how do governance requirements in the RBI Framework align with the Gover,RBI Cyber Security Framework + NIST Cybersecurity Framework,NIST SP 800-66r2,0.14285714285714285,0.143,0
+To what extent do OECD digital security principles support secure implementation,OECD Digital Security Guidelines + e-Governance Policy India,e-Governance Policy India,0.25,0.375,1
+How can CERT-In operational requirements be integrated into a NIST CSF governanc,CERT-In Directions 2022 + NIST Cybersecurity Framework,NIST SP 800-66r2,0.16393442622950816,0.143,0
+In what way do the RBI Framework and OECD Guidelines reinforce cyber resilience?,RBI Cyber Security Framework + OECD Digital Security Guidelines,CSCRF,0.11538461538461539,0.0,0
+Why can Government agencies align e-Governance practices with CERT-In Directions,e-Governance Policy India + CERT-In Directions 2022,e-Governance Policy India,0.1764705882352941,0.429,1
+Explain how can NIST CSF improve cybersecurity for digital government initiative,NIST Cybersecurity Framework + e-Governance Policy India,NIST Cybersecurity Framework,0.28571428571428575,0.429,1
+To what extent do OECD principles support implementation of CERT-In Directions?,OECD Digital Security Guidelines + CERT-In Directions 2022,CERT-In Directions 2022,0.03174603174603175,0.375,1
+How can organizations combine CERT-In Directions with the RBI Cyber Security Fra,CERT-In Directions 2022 + RBI Cyber Security Framework,CERT-In Directions 2022,0.15789473684210525,0.375,1
+In what way do NIST CSF and OECD Guidelines complement each other for enterprise,NIST Cybersecurity Framework + OECD Digital Security Guidelines,NIST Cybersecurity Framework,0.25,0.375,1
+Why can Government organizations satisfy both e-Governance security practices an,e-Governance Policy India + CERT-In Directions 2022,e-Governance Policy India,0.163265306122449,0.429,1
+Explain how does the RBI Cyber Security Framework align with the Govern function,RBI Cyber Security Framework + NIST Cybersecurity Framework,NIST SP 800-66r2,0.10909090909090909,0.143,0
+To what extent can OECD digital security principles strengthen e-Governance init,OECD Digital Security Guidelines + e-Governance Policy India,e-Governance Policy India,0.1724137931034483,0.375,1
+"What is a ""user account""?","Digital Personal Data Protection Rules, 2025",NCIIPC Guidelines for Government Entities,0.21176470588235294,0.0,0
+"What is ""verifiable consent""?","Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.16666666666666669,0.833,1
+What must a notice given by a Data Fiduciary to a Data Principal be like?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.39316239316239315,0.833,1
+What minimum information must the notice provide about the processing of persona,"Digital Personal Data Protection Rules, 2025",GDPR,0.17391304347826086,0.0,0
+What must a Data Fiduciary provide to enable withdrawal of consent?,"Digital Personal Data Protection Rules, 2025",DPDP Act 2023,0.3838383838383838,0.0,0
+What may the Board do if a Consent Manager is not adhering to its conditions and,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.5194805194805194,0.833,1
+What can the Board do to a Consent Manager in the interests of Data Principals?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.628099173553719,0.833,1
+What security safeguards must a Data Fiduciary take to prevent a personal data b,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.41758241758241765,0.833,1
+How long must relevant logs and personal data be retained for breach detection a,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.37623762376237624,0.833,1
+What must a Data Fiduciary communicate to an affected Data Principal after becom,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.30601092896174864,0.833,1
+Within what period must detailed information about a personal data breach be pro,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.34374999999999994,0.833,1
+When must a Data Fiduciary inform a Data Principal that personal data will be er,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.44642857142857145,0.833,1
+"For how long must a Data Fiduciary retain personal data, associated traffic data","Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.33082706766917286,0.833,1
+What contact information must every Data Fiduciary prominently publish?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.6074074074074074,0.833,1
+What must a Data Fiduciary do before processing the personal data of a child?,"Digital Personal Data Protection Rules, 2025",DPDP Act 2023,0.4067796610169491,0.0,0
+"Who is considered an ""adult"" under the rules?","Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.26506024096385544,0.833,1
+How must a Data Fiduciary verify a person claiming to be the lawful guardian of ,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.6086956521739131,0.833,1
+How frequently must a Significant Data Fiduciary undertake a Data Protection Imp,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.6407766990291263,0.833,1
+What must a Significant Data Fiduciary ensure regarding algorithmic software ado,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.8282828282828283,0.833,1
+What must Data Fiduciaries publish to enable Data Principals to exercise their r,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.5333333333333333,0.833,1
+Within what period must a Data Fiduciary and Consent Manager provide for grievan,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.6599999999999999,0.833,1
+Under what condition may personal data be transferred outside India?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.540983606557377,0.833,1
+What must a Consent Manager maintain on its platform?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.7200000000000001,0.833,1
+How long must a Consent Manager maintain its records?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,0.5148514851485149,0.833,1
+What must a Consent Manager do to prevent a personal data breach?,"Digital Personal Data Protection Rules, 2025",Digital Personal Data Protection Rules 2025,1.0,0.833,1
+What is a controller?,GDPR,GDPR,0.16666666666666666,1.0,1
+What is a processor?,GDPR,GDPR,0.31147540983606553,1.0,1
+What is consent under the GDPR?,GDPR,GDPR,0.15053763440860216,1.0,1
+What is a personal data breach?,GDPR,GDPR,0.32558139534883723,1.0,1
+What is pseudonymisation?,GDPR,"Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.32432432432432434,0.0,0
+What must a controller and processor implement to ensure security of processing?,GDPR,GDPR,0.3050847457627119,1.0,1
+What security measures may be included to protect personal data?,GDPR,Digital Personal Data Protection Rules 2025,0.21333333333333332,0.0,0
+What must a controller do when a personal data breach occurs?,GDPR,GDPR,0.6785714285714285,1.0,1
+What must a processor do after becoming aware of a personal data breach?,GDPR,GDPR,0.9411764705882353,1.0,1
+What information must a personal data breach notification contain?,GDPR,GDPR,0.33986928104575165,1.0,1
+When must a controller communicate a personal data breach to a data subject?,GDPR,GDPR,0.7222222222222222,1.0,1
+When must a controller carry out a data protection impact assessment?,GDPR,GDPR,0.6434782608695652,1.0,1
+What processing operations particularly require a data protection impact assessm,GDPR,GDPR,0.336283185840708,1.0,1
+What must a data protection impact assessment contain?,GDPR,GDPR,0.29213483146067415,1.0,1
+When must a controller consult the supervisory authority before processing?,GDPR,GDPR,0.7160493827160495,1.0,1
+Who must designate a data protection officer?,GDPR,GDPR,0.38323353293413176,1.0,1
+What qualifications should a data protection officer have?,GDPR,GDPR,0.75,1.0,1
+What must a controller or processor do regarding records of processing activitie,GDPR,GDPR,0.5106382978723404,1.0,1
+What must a controller or processor do when a supervisory authority requests coo,GDPR,GDPR,0.7636363636363636,1.0,1
+What information must a controller provide when personal data are collected from,GDPR,GDPR,0.2765957446808511,1.0,1
+Within what period must information be provided when personal data were obtained,GDPR,GDPR,0.2982456140350877,1.0,1
+What right of access does a data subject have?,GDPR,GDPR,0.3695652173913044,1.0,1
+What is the right to data portability?,GDPR,GDPR,0.271604938271605,1.0,1
+What right does a data subject have to object to processing?,GDPR,GDPR,0.7659574468085105,1.0,1
+What compensation right does a person have after an infringement of the GDPR?,GDPR,GDPR,0.8529411764705882,1.0,1
+What is the maximum administrative fine for certain serious GDPR infringements?,GDPR,GDPR,0.4869565217391304,1.0,1
+What is a regulated entity under the HIPAA Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.5357142857142857,1.0,1
+What does the HIPAA Security Rule specifically focus on safeguarding?,NIST SP 800-66r2,NIST SP 800-66r2,0.9333333333333333,1.0,1
+Which entities does the HIPAA Security Rule generally apply to?,NIST SP 800-66r2,NIST SP 800-66r2,0.3733333333333333,1.0,1
+What is confidentiality under the HIPAA Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.2545454545454546,1.0,1
+What is integrity under the HIPAA Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.3529411764705882,1.0,1
+What is availability under the HIPAA Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.3529411764705882,1.0,1
+What is a threat event?,NIST SP 800-66r2,NIST SP 800-66r2,0.7222222222222222,1.0,1
+What is a vulnerability in the context of risk assessment?,NIST SP 800-66r2,NIST SP 800-66r2,0.6530612244897959,1.0,1
+What does likelihood refer to in risk assessment?,NIST SP 800-66r2,NIST SP 800-66r2,0.8292682926829269,1.0,1
+What does impact refer to in risk assessment?,NIST SP 800-66r2,GDPR,0.2127659574468085,0.0,0
+What is risk according to the risk assessment guidance?,NIST SP 800-66r2,NIST SP 800-66r2,0.6956521739130435,1.0,1
+What must a regulated entity do under the Security Management Process standard?,NIST SP 800-66r2,NIST SP 800-66r2,0.5945945945945945,1.0,1
+What must be included in a HIPAA risk analysis?,NIST SP 800-66r2,NIST SP 800-66r2,0.15625,1.0,1
+What must regulated entities do for risk management?,NIST SP 800-66r2,NIST SP 800-66r2,0.3404255319148936,1.0,1
+Who is responsible for the development and implementation of HIPAA Security Rule,NIST SP 800-66r2,NIST SP 800-66r2,0.6666666666666665,1.0,1
+How should responsibility for HIPAA security be assigned?,NIST SP 800-66r2,NIST SP 800-66r2,0.14545454545454545,1.0,1
+What must regulated entities do with assessments and decisions concerning addres,NIST SP 800-66r2,NIST SP 800-66r2,1.0,1.0,1
+What is a security incident under the HIPAA Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.721311475409836,1.0,1
+What must organizations establish for responding to security incidents?,NIST SP 800-66r2,NCIIPC Guidelines for Government Entities,0.8275862068965518,0.0,0
+What must a contingency plan address?,NIST SP 800-66r2,NCIIPC Guidelines,0.26666666666666666,0.0,0
+What procedures must be established for data backup and disaster recovery?,NIST SP 800-66r2,NIST SP 800-66r2,0.4313725490196078,1.0,1
+What must facility access control policies and procedures accomplish?,NIST SP 800-66r2,NIST SP 800-66r2,0.875,1.0,1
+What is required for person or entity authentication?,NIST SP 800-66r2,NIST SP 800-66r2,0.24489795918367346,1.0,1
+How long must HIPAA Security Rule documentation be retained?,NIST SP 800-66r2,NIST SP 800-66r2,0.7605633802816902,1.0,1
+What are PCI security standards?,PCI Security Standards  Standards Overview,PCI Security Standards,0.7307692307692307,0.6,1
+Who do PCI security standards globally govern?,PCI Security Standards  Standards Overview,PCI Security Standards,0.18604651162790697,0.6,1
+What is the PCI DSS?,PCI Security Standards  Standards Overview,PCI Security Standards,0.44680851063829785,0.6,1
+What must a business do to build and maintain a secure network under PCI DSS?,PCI Security Standards  Standards Overview,PCI Security Standards,0.4545454545454545,0.6,1
+What must organizations do to protect stored cardholder data?,PCI Security Standards  Standards Overview,PCI Security Standards,0.4444444444444444,0.6,1
+What does PCI DSS require for vulnerability management?,PCI Security Standards  Standards Overview,NCIIPC Guidelines,0.17142857142857143,0.0,0
+How should access to cardholder data be restricted?,PCI Security Standards  Standards Overview,PCI Security Standards,0.6666666666666666,0.6,1
+What identification requirement applies to people with computer access?,PCI Security Standards  Standards Overview,PCI Security Standards,0.8571428571428572,0.6,1
+What physical access control does PCI DSS require?,PCI Security Standards  Standards Overview,NCIIPC Guidelines,0.14814814814814814,0.0,0
+What must organizations do to monitor network access?,PCI Security Standards  Standards Overview,NCIIPC Guidelines for Government Entities,0.2608695652173913,0.0,0
+How should security systems and processes be tested under PCI DSS?,PCI Security Standards  Standards Overview,PCI Security Standards,0.7692307692307692,0.6,1
+What information security policy must an organization maintain under PCI DSS?,PCI Security Standards  Standards Overview,NCIIPC Guidelines,0.6,0.0,0
+What entities does the PCI DSS apply to?,PCI Security Standards  Standards Overview,PCI Security Standards,0.35443037974683544,0.6,1
+What system components are covered by the PCI DSS?,PCI Security Standards  Standards Overview,PCI Security Standards,0.13333333333333333,0.6,1
+What must a business do if it accepts or processes payment cards?,PCI Security Standards  Standards Overview,PCI Security Standards,1.0,0.6,1
+What is the purpose of PCI PED?,PCI Security Standards  Standards Overview,PCI Security Standards,0.8421052631578947,0.6,1
+Who does the Payment Application Data Security Standard apply to?,PCI Security Standards  Standards Overview,PCI Security Standards,0.8235294117647057,0.6,1
+What applications are also governed by PA-DSS?,PCI Security Standards  Standards Overview,PCI Security Standards,0.14285714285714285,0.6,1
+How should organizations address PCI DSS compliance questions?,PCI Security Standards  Standards Overview,PCI Security Standards,0.09302325581395349,0.6,1
+What is the role of a Qualified Security Assessor (QSA)?,PCI Security Standards  Standards Overview,PCI Security Standards,0.9032258064516129,0.6,1
+What do Approved Scanning Vendors (ASVs) provide?,PCI Security Standards  Standards Overview,PCI Security Standards,1.0,0.6,1
+What is the Self-Assessment Questionnaire (SAQ)?,PCI Security Standards  Standards Overview,NIST SP 800-66r2,0.17391304347826086,0.0,0
+What is the goal of PA-DSS?,PCI Security Standards  Standards Overview,PCI Security Standards,0.20833333333333331,0.6,1
+What must payment applications do regarding sensitive authentication data under ,PCI Security Standards  Standards Overview,PCI Security Standards,0.0425531914893617,0.6,1
+What requirement applies to cardholder data stored on Internet-connected servers,PCI Security Standards  Standards Overview,PCI Security Standards,0.8799999999999999,0.6,1
+What is the purpose of the CSCRF?,Presentation - CSCRF(1).pdf,CSCRF,0.14285714285714285,0.0,0
+On what basis does CSCRF classify Regulated Entities (REs)?,Presentation - CSCRF(1).pdf,CSCRF,0.12,0.0,0
+What happens when an RE is registered under more than one category?,Presentation - CSCRF(1).pdf,CSCRF,0.8846153846153846,0.0,0
+What is the AUM threshold for a self-certification PMS RE?,Presentation - CSCRF(1).pdf,CSCRF,0.21428571428571427,0.0,0
+What is the AUM threshold for a small-size PMS RE?,Presentation - CSCRF(1).pdf,CSCRF,0.1764705882352941,0.0,0
+What is the AUM threshold for a mid-size PMS RE?,Presentation - CSCRF(1).pdf,CSCRF,0.038461538461538464,0.0,0
+When is the category of an RE decided?,Presentation - CSCRF(1).pdf,CSCRF,0.2692307692307692,0.0,0
+How long does an RE remain in its decided category?,Presentation - CSCRF(1).pdf,CSCRF,0.6896551724137931,0.0,0
+What are the five Cyber Resiliency goals under CSCRF?,Presentation - CSCRF(1).pdf,CSCRF,0.5,0.0,0
+What does Anticipate mean under CSCRF?,Presentation - CSCRF(1).pdf,CSCRF,0.918918918918919,0.0,0
+What does Withstand mean under CSCRF?,Presentation - CSCRF(1).pdf,CSCRF,0.888888888888889,0.0,0
+What does Contain mean under CSCRF?,Presentation - CSCRF(1).pdf,CSCRF,0.17391304347826086,0.0,0
+What does Recover mean under CSCRF?,Presentation - CSCRF(1).pdf,NIST Cybersecurity Framework,0.8205128205128205,0.0,0
+What does Evolve mean under CSCRF?,Presentation - CSCRF(1).pdf,CSCRF,0.7017543859649122,0.0,0
+How frequently must cybersecurity training be conducted for mid-size REs?,Presentation - CSCRF(1).pdf,CSCRF,0.027777777777777776,0.0,0
+How frequently must VAPT be conducted by REs?,Presentation - CSCRF(1).pdf,CSCRF,0.4727272727272727,0.0,0
+When must the VAPT activity commence?,Presentation - CSCRF(1).pdf,CSCRF,0.23999999999999996,0.0,0
+When must the VAPT report and declaration by the MD/CEO be submitted?,Presentation - CSCRF(1).pdf,CSCRF,0.07246376811594205,0.0,0
+When must findings identified during VAPT be closed?,Presentation - CSCRF(1).pdf,CSCRF,0.3225806451612903,0.0,0
+When must VAPT be revalidated?,Presentation - CSCRF(1).pdf,CSCRF,0.09302325581395349,0.0,0
+What must happen to open vulnerabilities after 3 months of VAPT activity?,Presentation - CSCRF(1).pdf,CSCRF,0.7301587301587301,0.0,0
+How quickly must an incident be reported to SEBI through the incident reporting ,Presentation - CSCRF(1).pdf,CSCRF,0.3448275862068965,0.0,0
+Within what time must incident reporting be shared with SEBI by email?,Presentation - CSCRF(1).pdf,CSCRF,0.7272727272727273,0.0,0
+What must a cyber audit verify?,Presentation - CSCRF(1).pdf,Cyber Security in Power Sector 2021,0.18604651162790697,0.0,0
+Who must conduct the Cyber Audit?,Presentation - CSCRF(1).pdf,Cyber Security in Power Sector 2021,0.34615384615384615,0.0,0
+What must Self-certification REs submit instead of a Cyber Audit?,Presentation - CSCRF(1).pdf,CSCRF,0.20833333333333334,0.0,0
+How frequently must privileged users' activities be reviewed?,Presentation - CSCRF(1).pdf,NCIIPC Guidelines for Government Entities,0.0,0.0,0
+What must the State security policy include?,State Data Centre security guidelines,State Data Centre security guidelines,0.2553191489361702,1.0,1
+What security strategy would the State deploy for securing the State Data Center,State Data Centre security guidelines,State Data Centre security guidelines,0.9375,1.0,1
+What is the purpose of the Trust and Identity Management Policy?,State Data Centre security guidelines,State Data Centre security guidelines,0.14285714285714285,1.0,1
+What must be done before users access services from the SDC?,State Data Centre security guidelines,State Data Centre security guidelines,0.7906976744186046,1.0,1
+What authentication mechanism shall be used for critical and sensitive online tr,State Data Centre security guidelines,State Data Centre security guidelines,0.5714285714285714,1.0,1
+What authentication mechanisms would the State use for critical transactions?,State Data Centre security guidelines,State Data Centre security guidelines,0.8333333333333333,1.0,1
+What authentication mechanism would be used for less sensitive data when public ,State Data Centre security guidelines,State Data Centre security guidelines,0.9433962264150944,1.0,1
+What does a security posture assessment identify?,State Data Centre security guidelines,NCIIPC Guidelines,0.20689655172413793,0.2,0
+Why are security zones defined at the SDC?,State Data Centre security guidelines,State Data Centre security guidelines,0.7000000000000001,1.0,1
+What controls access between zones at the State Data Center?,State Data Centre security guidelines,State Data Centre security guidelines,0.9600000000000001,1.0,1
+What firewalls would the State need to implement?,State Data Centre security guidelines,State Data Centre security guidelines,0.7843137254901961,1.0,1
+What is the purpose of network IPS for critical network segments?,State Data Centre security guidelines,State Data Centre security guidelines,0.9473684210526315,1.0,1
+What does Host based IPS provide for critical servers and hosts?,State Data Centre security guidelines,State Data Centre security guidelines,0.2127659574468085,1.0,1
+What threats must the State protect the SAN from?,State Data Centre security guidelines,State Data Centre security guidelines,0.4067796610169491,1.0,1
+What is the purpose of the privacy policy statement?,State Data Centre security guidelines,State Data Centre security guidelines,0.9,1.0,1
+When should the State obtain consent from individuals?,State Data Centre security guidelines,GDPR,0.12658227848101267,0.0,0
+Who must control access to the database and production servers?,State Data Centre security guidelines,State Data Centre security guidelines,0.8372093023255814,1.0,1
+What must be logged for database audit purposes?,State Data Centre security guidelines,State Data Centre security guidelines,0.8571428571428572,1.0,1
+What confidentiality obligation applies to the Operator?,State Data Centre security guidelines,State Data Centre security guidelines,0.5833333333333333,1.0,1
+"What must the Operator's employees, agents and sub-contractors execute?",State Data Centre security guidelines,State Data Centre security guidelines,0.9206349206349206,1.0,1
+What information is excluded from the confidentiality provisions?,State Data Centre security guidelines,State Data Centre security guidelines,0.641025641025641,1.0,1
+What disaster recovery and business continuity plan must the State establish?,State Data Centre security guidelines,State Data Centre security guidelines,0.7654320987654323,1.0,1
+How should backups be verified for recovery during a crisis?,State Data Centre security guidelines,State Data Centre security guidelines,0.7042253521126761,1.0,1
+What must the State define regarding disaster responsibilities?,State Data Centre security guidelines,State Data Centre security guidelines,0.9387755102040817,1.0,1
+How should data replication between the SDC and DR site be performed?,State Data Centre security guidelines,State Data Centre security guidelines,0.575,1.0,1
+How frequently must the State Data Center be security audited by a third party?,State Data Centre security guidelines,State Data Centre security guidelines,0.830188679245283,1.0,1
+What is the primary duty of a data controller?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.42622950819672134,0.929,1
+What is a data subject?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7391304347826089,0.929,1
+What should the definition of personal data encompass?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.8051948051948051,0.929,1
+What approach to data protection does the document recommend?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.6857142857142856,0.929,1
+What must a data collector ensure when processing an individual's data?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7719298245614034,0.929,1
+What should happen to the burden of evaluating privacy risk to personal data?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory",GDPR,0.18867924528301888,0.0,0
+Who should be responsible for harmful consequences arising from improper handlin,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7999999999999999,0.929,1
+What should the data protection framework focus on instead of relying primarily ,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.9714285714285714,0.929,1
+What ability should users have regarding their consent?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.38596491228070184,0.929,1
+When will a data controller be held liable for processing data?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.39999999999999997,0.929,1
+What are the three principles governing data processing by controllers?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.8484848484848485,0.929,1
+What does the accountability principle require of a data controller?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.8888888888888888,0.929,1
+What does autonomy mean for an individual?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.8571428571428572,0.929,1
+What responsibility does a data controller have under the security principle?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7567567567567567,0.929,1
+What happens if a data security breach occurs even when no harm results?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",1.0,0.929,1
+Who should be included within the definition of data controller?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.8275862068965517,0.929,1
+What is the role of Learned Intermediaries?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.15384615384615383,0.929,1
+What should a Data Commissioner do?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7222222222222223,0.929,1
+What regulatory duties should the Data Commissioner perform?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7575757575757576,0.929,1
+What powers should the Data Commissioner have regarding improper processing?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.676056338028169,0.929,1
+What must auditors do when reviewing machine learning algorithms?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.1875,0.929,1
+What must data controllers publish regarding database queries?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.7659574468085107,0.929,1
+What is a black box audit?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.48275862068965514,0.929,1
+What should the big data framework use?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.9411764705882353,0.929,1
+How should legitimate exceptions to data protection requirements be designed?,"Privacy, Security and Ownership of Data in the Telecom Sector  Takshashila Policy Advisory","Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.9523809523809523,0.929,1
+What is a vulnerability in the context of ePHI risk assessment?,NIST SP 800-66r2,NIST SP 800-66r2,0.2647058823529412,1.0,1
+What does likelihood mean in the HIPAA risk assessment context?,NIST SP 800-66r2,NIST SP 800-66r2,0.8292682926829269,1.0,1
+What is risk according to the document?,NIST SP 800-66r2,NIST SP 800-66r2,0.6956521739130435,1.0,1
+What is a business associate under the HIPAA Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.345679012345679,1.0,1
+What must each regulated entity do to protect ePHI under the Security Rule?,NIST SP 800-66r2,NIST SP 800-66r2,0.525,1.0,1
+What must regulated entities do when implementing addressable implementation spe,NIST SP 800-66r2,NIST SP 800-66r2,0.9230769230769231,1.0,1
+What requirements apply when an addressable implementation specification is not ,NIST SP 800-66r2,NIST SP 800-66r2,0.3529411764705882,1.0,1
+What must regulated entities do regarding risk management?,NIST SP 800-66r2,NIST SP 800-66r2,0.3404255319148936,1.0,1
+What must a covered entity obtain before allowing a business associate to handle,NIST SP 800-66r2,NIST SP 800-66r2,0.30357142857142855,1.0,1
+How should a regulated entity document the results of its risk assessment?,NIST SP 800-66r2,NIST SP 800-66r2,0.27777777777777785,1.0,1
+How should an entity determine the impact of a threat exploiting a vulnerability,NIST SP 800-66r2,NIST SP 800-66r2,0.631578947368421,1.0,1
+How frequently should risk management be performed?,NIST SP 800-66r2,NIST SP 800-66r2,0.8846153846153846,1.0,1
+How must access to ePHI be established and modified for users?,NIST SP 800-66r2,NIST SP 800-66r2,0.4489795918367347,1.0,1
+What procedures should be followed when a workforce member's employment or arran,NIST SP 800-66r2,NIST SP 800-66r2,0.5066666666666667,1.0,1
+What procedures are required for maintaining retrievable copies of ePHI and rest,NIST SP 800-66r2,NIST SP 800-66r2,0.48,1.0,1
+How should organizations protect electronically transmitted ePHI from improper m,NIST SP 800-66r2,NIST SP 800-66r2,0.8372093023255813,1.0,1
+How must audit activity be handled for systems containing or using ePHI?,NIST SP 800-66r2,NIST SP 800-66r2,0.24615384615384617,1.0,1
+What happens when workforce members fail to comply with security policies and pr,NIST SP 800-66r2,NIST SP 800-66r2,0.6470588235294118,1.0,1
+What liability does a business associate have for HIPAA Security Rule violations,NIST SP 800-66r2,NIST SP 800-66r2,1.0,1.0,1
+What potential benefits can recognized security practices provide regarding HIPA,NIST SP 800-66r2,NIST SP 800-66r2,0.41558441558441556,1.0,1
+What consequences can unauthorized or unanticipated disclosure of ePHI produce?,NIST SP 800-66r2,NIST SP 800-66r2,0.896551724137931,1.0,1
+What should an organization do when unacceptable risk to ePHI cannot be adequate,NIST SP 800-66r2,NIST SP 800-66r2,0.6315789473684209,1.0,1
+Which entities are covered by the HIPAA Security Rule requirements and implement,NIST SP 800-66r2,NIST SP 800-66r2,0.41558441558441556,1.0,1
+What entities does the NIST SP 800-66r2 guidance apply to based on size and hand,NIST SP 800-66r2,NIST SP 800-66r2,0.25396825396825395,1.0,1
+"How do the DPDP Act, 2023 and the DPDP Rules, 2025 together determine when the d",DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.07070707070707072,0.0,0
+What information must a Data Fiduciary provide in a consent notice when the requ,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.24521072796934862,0.25,0
+How do the Act and Rules together operationalise a Data Principal's right to wit,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.32857142857142857,0.25,0
+"If a Data Principal withdraws consent, how do the Act's erasure obligation and t",DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.29457364341085274,0.25,0
+What security measures must a Data Fiduciary implement when the general obligati,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.29545454545454547,0.25,0
+What must an organisation do after discovering a personal data breach under the ,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,GDPR,0.15238095238095237,0.0,0
+How do the Act and Rules together regulate the retention and eventual erasure of,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.2903225806451613,0.0,0
+How is the Data Fiduciary's obligation to provide a contact point for data-relat,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.3939393939393939,0.0,0
+What additional steps are required to obtain verifiable parental consent for pro,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.2755102040816327,0.0,0
+How do the Act and Rules address verification of a lawful guardian before proces,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.4642857142857143,0.25,0
+What exemptions from the child-data obligations arise when the DPDP Act and DPDP,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.2647058823529412,0.0,0
+What additional compliance framework applies to a Significant Data Fiduciary und,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.2748091603053435,0.25,0
+How do the Act and Rules together regulate international transfers of personal d,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,GDPR,0.23728813559322037,0.0,0
+"How do the Act and Rules jointly structure the exemption for research, archiving",DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.34146341463414637,0.0,0
+"When State authorities process personal data for subsidies, benefits, services, ",DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.20512820512820512,0.25,0
+How do the Act and Rules complement each other in regulating Consent Managers?,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.1904761904761905,0.0,0
+"What records must a Consent Manager maintain, and how does this requirement rela",DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.2807017543859649,0.0,0
+How are Data Principal grievance rights translated into a concrete response peri,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.38016528925619836,0.25,0
+How do the Act and Rules together define the practical mechanism for exercising ,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.2385321100917431,0.0,0
+How do the Act and Rules jointly regulate Data Fiduciaries' responsibility when ,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.34375,0.25,0
+How do the Act and Rules interact in determining retention periods for large e-c,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.17777777777777778,0.0,0
+How does the Act's framework for appeals compare with the procedural requirement,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,IT Act 2000,0.22900763358778625,0.0,0
+How do the Act and Rules together establish the digital functioning and inquiry ,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.2809917355371901,0.0,0
+What is the relationship between the Act's rule-making authority and the detaile,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,Digital Personal Data Protection Rules 2025,0.050632911392405056,0.0,0
+How would a Data Fiduciary combine the Act's general compliance obligations with,DPDP ACT.pdf + DPDP_Rules_2025_English_only(2).pdf,DPDP Act 2023,0.20155038759689925,0.25,0
+What is the primary purpose of the information security management system descri,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.6896551724137931,0.0,0
+What security properties does the information security management system preserv,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.30769230769230765,0.0,0
+What does determining the scope of an information security management system req,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.6956521739130435,0.0,0
+What is the purpose of data masking under the technological controls?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.8666666666666666,0.0,0
+What does the document require for the management of authentication information?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.7916666666666666,0.0,0
+What responsibilities must top management undertake to demonstrate leadership an,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.49645390070921985,0.0,0
+How must an organization perform its information security risk assessment?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.24137931034482757,0.0,0
+What steps are required when establishing an information security risk treatment,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.34375,0.0,0
+How must information backups be managed and verified?,ISO/IEC 27001:2022(E) ,NCIIPC Guidelines,0.875,0.0,0
+How must security testing be incorporated into the development life cycle?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.7647058823529412,0.0,0
+What actions are required when a nonconformity occurs?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.6444444444444444,0.0,0
+How should corrective actions relate to the effects of nonconformities?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.9166666666666666,0.0,0
+What consequence is specified for personnel or relevant interested parties who c,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.8928571428571429,0.0,0
+What must happen to information security responsibilities that remain valid afte,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.7936507936507936,0.0,0
+What evidence must be retained following corrective action?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.8461538461538461,0.0,0
+Which organizations are the requirements of this document intended to apply to?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.9166666666666666,0.0,0
+What happens when an organization claims conformity to the document but excludes,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.9545454545454546,0.0,0
+"Who is required to receive information security awareness, education and trainin",ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.7000000000000001,0.0,0
+"What organizational processes are required for the acquisition, use, management ",ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.8235294117647058,0.0,0
+What must be verified before equipment containing storage media is disposed of o,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.7761194029850746,0.0,0
+"What information must logs capture, and what must happen to those logs?",ISO/IEC 27001:2022(E) ,RBI Cyber Security Framework,0.18750000000000003,0.0,0
+What requirements apply to network security and cryptographic controls?,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.5555555555555556,0.0,0
+What requirements apply to information transfer within an organization and betwe,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.7857142857142856,0.0,0
+What mechanism must an organization provide for reporting observed or suspected ,ISO/IEC 27001:2022(E) ,ISO 27001:2022,0.8301886792452831,0.0,0
+How should an organization address technical vulnerabilities in information syst,ISO/IEC 27001:2022(E) ,NCIIPC Guidelines for Government Entities,0.27450980392156865,0.0,0
+How do the 2018 Rules and the NCIIPC Guidelines jointly establish senior-managem,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.125,0.0,0
+How does the CISO role in the 2018 Rules complement the Information Security Dep,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.24096385542168677,0.0,0
+What combined governance structure should a Protected System establish under the,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.0970873786407767,0.0,0
+How should an organization reconcile the Rules' requirement for an ISSC with the,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,ISO 27001:2022,0.10638297872340424,0.0,0
+How do the two NCIIPC documents address information security policy approval and,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.19672131147540986,0.0,0
+What must an organization do when a security control is not considered appropria,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines,0.24742268041237114,0.0,0
+How do the Rules' ISMS requirement and the Guidelines' ISO/IEC 27001 recommendat,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines,0.3421052631578947,0.0,0
+How do the two documents together address VTR assessment frequency and triggers?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines,0.24390243902439024,0.0,0
+What additional risk-governance element does the Guidelines add to the Rules' VT,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines,0.2222222222222222,0.0,0
+How should a significant network architecture change be handled under both docum,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.20168067226890757,0.0,0
+How do the Rules and Guidelines jointly address significant application changes?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,e-Governance Policy India,0.15384615384615385,0.0,0
+What documentation obligations emerge when the two NCIIPC documents are consider,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.09523809523809522,0.0,0
+How do the Rules' authorized-personnel review requirement and the Guidelines' ac,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NIST SP 800-66r2,0.19444444444444445,0.0,0
+What does the Guidelines' asset-management control add to the Rules' hardware an,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,RBI Cyber Security Framework,0.16901408450704225,0.0,0
+How do the Rules and Guidelines together address network resilience?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,CSCRF,0.10810810810810811,0.0,0
+How does the CCMP requirement in the Rules relate to the Guidelines' incident-re,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines for Government Entities,0.13793103448275862,0.0,0
+How do the two documents address incident reporting to NCIIPC?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.2696629213483146,0.0,0
+What combined role do the C-SOC and SOC concepts play under the two documents?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.21176470588235297,0.0,0
+How do the Rules' NOC requirement and the Guidelines' network-device controls co,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines for Government Entities,0.1846153846153846,0.0,0
+What is the relationship between the Rules' log-backup requirement and the Guide,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,CSCRF,0.11428571428571428,0.0,0
+How do the Rules' audit provisions differ from the Guidelines' audit expectation,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,State Data Centre security guidelines,0.1308411214953271,0.0,0
+What additional independence consideration does the Guidelines introduce for aud,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,GDPR,0.23076923076923075,0.0,0
+How do the two documents address validation of a Protected System?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.27450980392156865,0.0,0
+How should service-provider security be managed when both documents apply?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,RBI Cyber Security Framework,0.15625,0.0,0
+What does the Guidelines' supply-chain control add to the Rules' IT Security SLA,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines,0.10666666666666667,0.0,0
+How do the Rules and Guidelines jointly address communication of security inform,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.20202020202020202,0.0,0
+How do the Rules' requirement to share C-SOC records and the Guidelines' SOC fun,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,RBI Cyber Security Framework,0.1176470588235294,0.0,0
+What combined obligations arise for maintaining security records?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NIST SP 800-66r2,0.1142857142857143,0.0,0
+How do the two documents combine to address business continuity?,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,State Data Centre security guidelines,0.10909090909090909,0.0,0
+What gap would remain if an organization implemented only the Rules' CCMP requir,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines for Government Entities,0.11764705882352942,0.0,0
+How do the Rules and Guidelines together address security of cloud or externally,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines for Government Entities,0.21951219512195122,0.0,0
+What does the Guidelines' cloud-control framework add to the Rules' service-prov,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,e-Governance Policy India,0.10666666666666666,0.0,0
+How do the Rules and Guidelines jointly address protection against emerging cybe,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Rules,0.3037974683544304,0.0,0
+How does the definition of ISMS in the Rules connect to the operational controls,NCIIPC-Rules-notification-1(1).pdf + NCIIPC_Guidelines_V2(1).pdf,NCIIPC Guidelines,0.124031007751938,0.0,0
+How should a Protected System handle cyber incidents when the NCIIPC Rules and C,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.2028985507246377,0.0,0
+What is the key difference between the NCIIPC Rules' incident communication requ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.2921348314606742,0.0,0
+How do the CISO and CERT-In Point of Contact roles differ and how could they be ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.24324324324324323,0.0,0
+How do the two documents together address cybersecurity information requested by,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NIST SP 800-66r2,0.1,0.0,0
+How do the Rules' log-sharing requirements and CERT-In's log-retention requireme,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.1359223300970874,0.0,0
+What additional log-management obligation does CERT-In impose beyond the NCIIPC ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.12371134020618553,0.0,0
+How should an organization structure its incident evidence so that it can satisf,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.13636363636363635,0.0,0
+How do the NCIIPC Rules and CERT-In Directions differ in their treatment of inci,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.07547169811320754,0.0,0
+"If an incident affects SCADA or operational technology in a Protected System, wh",NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NIST SP 800-66r2,0.2033898305084746,0.0,0
+"If a cloud-related incident affects a Protected System, how do the two documents",NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NCIIPC Rules,0.10958904109589042,0.0,0
+How do the Rules' IT Security SLA requirement and CERT-In's obligations for clou,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.15384615384615383,0.0,0
+What combined obligation applies when CERT-In requests near-real-time informatio,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.18947368421052632,0.0,0
+How do the consequences of non-compliance differ between the two documents?,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NIST SP 800-66r2,0.07547169811320754,0.0,0
+How do the two documents address time synchronization and incident investigation,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NIST SP 800-66r2,0.11940298507462685,0.0,0
+What security operations capability is required by the NCIIPC Rules that is not ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.08333333333333333,0.0,0
+What CERT-In requirement should be incorporated into a Protected System's existi,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.14035087719298245,0.0,0
+How do the Rules and CERT-In Directions jointly support government access to inc,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.14583333333333334,0.0,0
+How should a Protected System treat a cyber incident that is both a data breach ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.13333333333333333,0.0,0
+How does the NCIIPC Rules' CISO coordination role complement CERT-In's Point of ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NCIIPC Rules,0.21428571428571427,0.0,0
+What additional organizational control is required by the Rules that CERT-In doe,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.11904761904761904,0.0,0
+What additional operational record-keeping requirement is introduced by CERT-In ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.10526315789473685,0.0,0
+How do the Rules and CERT-In Directions jointly address attacks on AI or machine,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.15894039735099336,0.0,0
+How do the two documents address incidents involving denial-of-service attacks?,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NIST SP 800-66r2,0.15625,0.0,0
+How should an organization respond if CERT-In directs it to provide information ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.1694915254237288,0.0,0
+What combined retention approach should a Protected System adopt for logs when b,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,IT Act 2000,0.1408450704225352,0.0,0
+What is the relationship between the NCIIPC Rules' C-SOC evidence and CERT-In's ,NCIIPC-Rules-notification-1(1).pdf + CERT-In_Directions(2).docx,NCIIPC Rules,0.2903225806451613,0.0,0
+How do the NCIIPC Guidelines' incident-response controls complement CERT-In's ma,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.21052631578947367,0.0,0
+What additional evidence-preservation requirement does CERT-In add to the Guidel,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.175,0.0,0
+How do the Guidelines' SOC concept and CERT-In's Point of Contact requirement se,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.1217391304347826,0.0,0
+How do the Guidelines' periodic audit expectations compare with CERT-In's loggin,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CSCRF,0.14705882352941177,0.0,0
+How should time synchronization be incorporated into the NCIIPC Guidelines' inci,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.07999999999999999,0.0,0
+What does CERT-In add to the Guidelines' threat-reporting control?,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.2608695652173913,0.0,0
+How do the Guidelines' cloud-protection requirements interact with CERT-In's clo,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.15384615384615383,0.0,0
+What gap would remain if an organization followed the NCIIPC cloud-protection re,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.12195121951219512,0.0,0
+How do the Guidelines' data-storage controls and CERT-In's logging requirements ,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,ISO 27001:2022,0.1643835616438356,0.0,0
+How do the Guidelines' data-loss-prevention control and CERT-In's data-breach/da,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,ISO 27001:2022,0.15384615384615383,0.0,0
+How do the Guidelines' network-device protection requirements complement CERT-In,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.1587301587301587,0.0,0
+How do the Guidelines' SCADA protection concerns align with CERT-In's incident c,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.2033898305084746,0.0,0
+How do the Guidelines' APT-protection control and CERT-In's malware reporting re,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.18390804597701152,0.0,0
+How should an organization integrate CERT-In's six-hour deadline into the Guidel,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.15789473684210525,0.0,0
+How do the Guidelines' requirement for a 24x7x365 Information Security Departmen,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.13953488372093023,0.0,0
+What does CERT-In require that is not explicitly specified in the NCIIPC Guideli,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.13333333333333333,0.0,0
+How do the Guidelines' audit and compliance controls relate to CERT-In's stated ,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CSCRF,0.19718309859154928,0.0,0
+How do the Guidelines' training requirements support compliance with CERT-In's i,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.09248554913294797,0.0,0
+How do the Guidelines' BCP and DR controls complement CERT-In's incident-respons,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines,0.1276595744680851,0.0,0
+What combined controls should an organization apply to logs generated by cloud s,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.17142857142857143,0.0,0
+How do the Guidelines' perimeter-protection controls and CERT-In's reportable sc,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.16666666666666669,0.0,0
+How do the Guidelines' access-control requirements complement CERT-In's unauthor,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.25,0.0,0
+What combined obligations apply to an organization using VPN services for CII co,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines,0.24324324324324326,0.0,0
+How do the Guidelines' supply-chain controls and CERT-In provider-record require,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.10526315789473685,0.0,0
+How do the Guidelines' periodic vulnerability assessments and CERT-In's incident,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CSCRF,0.11320754716981132,0.0,0
+What additional external-communication mechanism does CERT-In introduce beyond t,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.25,0.0,0
+How do the Guidelines' incident records and CERT-In's log requirements differ in,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CSCRF,0.17977528089887637,0.0,0
+How do the Guidelines' requirement for an independent audit/pentest team and CER,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.15384615384615383,0.0,0
+How do the Guidelines' secure architecture principle and CERT-In's NTP requireme,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,ISO 27001:2022,0.16666666666666669,0.0,0
+What combined approach should be taken for an AI/ML security incident under the ,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,e-Governance Policy India,0.1764705882352941,0.0,0
+How do the Guidelines' compliance controls and CERT-In's punitive consequence st,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.13043478260869565,0.0,0
+How do the Guidelines' protection of critical information and CERT-In's data-lea,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Rules,0.11627906976744186,0.0,0
+How do the Guidelines' requirement for secure cloud logs and CERT-In's requireme,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.20155038759689922,0.0,0
+What does the CERT-In Directions add to the Guidelines' concept of real-time thr,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,CERT-In Directions 2022,0.19148936170212766,0.0,0
+How do the Guidelines' interdependency controls and CERT-In's broad incident cat,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.11363636363636365,0.0,0
+How do the Guidelines' disaster-recovery controls and CERT-In's six-hour reporti,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines,0.16901408450704225,0.0,0
+How should security awareness training support compliance with both documents wh,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.1627906976744186,0.0,0
+What combined logging architecture would best satisfy both the Guidelines and CE,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,NCIIPC Guidelines for Government Entities,0.15,0.0,0
+How do the Guidelines' legal and regulatory compliance responsibilities and CERT,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.18867924528301885,0.0,0
+What end-to-end cybersecurity process emerges when the NCIIPC Guidelines and CER,NCIIPC_Guidelines_V2(1).pdf + CERT-In_Directions(2).docx,Cyber Security in Power Sector 2021,0.08403361344537816,0.0,0
+What is the purpose of the Payment Application Data Security Standard?,PCI Security Standards: At a Glance,PCI Security Standards,0.3902439024390244,0.333,1
+What does PCI PED refer to?,PCI Security Standards: At a Glance,PCI Security Standards,0.8421052631578947,0.333,1
+What is a Qualified Security Assessor?,PCI Security Standards: At a Glance,PCI Security Standards,0.16326530612244897,0.333,1
+What must businesses do to accept payment cards under the PCI DSS?,PCI Security Standards: At a Glance,PCI Security Standards,0.44680851063829785,0.333,1
+What is required to protect cardholder data when it is transmitted across public,PCI Security Standards: At a Glance,PCI Security Standards,0.8421052631578948,0.333,1
+What access-control requirements apply to cardholder data?,PCI Security Standards: At a Glance,PCI Security Standards,0.3684210526315789,0.333,1
+What security measures are required for systems handling cardholder data?,PCI Security Standards: At a Glance,PCI Security Standards,0.5555555555555556,0.333,1
+What monitoring and testing activities are required under PCI DSS?,PCI Security Standards: At a Glance,PCI Security Standards,0.14285714285714285,0.333,1
+Which entities are covered by the PCI DSS?,PCI Security Standards: At a Glance,PCI Security Standards,0.32258064516129037,0.333,1
+Which organizations are subject to PCI security standards according to the docum,PCI Security Standards: At a Glance,PCI Security Standards,0.2162162162162162,0.333,1
+Who is covered by the Payment Application Data Security Standard?,PCI Security Standards: At a Glance,PCI Security Standards,0.6461538461538462,0.333,1
+Which companies are covered by the PIN Entry Device security requirements?,PCI Security Standards: At a Glance,PCI Security Standards,0.6769230769230768,0.333,1
+What types of organizations are identified as participating organizations in the,PCI Security Standards: At a Glance,PCI Security Standards,0.3137254901960784,0.333,1
+How should organizations address system passwords and other security parameters?,PCI Security Standards: At a Glance,PCI Security Standards,0.6874999999999999,0.333,1
+How frequently should anti-virus software be maintained under the PCI DSS requir,PCI Security Standards: At a Glance,PCI Security Standards,0.5555555555555556,0.333,1
+How should a payment application handle sensitive traffic over public networks?,PCI Security Standards: At a Glance,PCI Security Standards,0.7692307692307692,0.333,1
+What steps must payment applications take to address security vulnerabilities?,PCI Security Standards: At a Glance,PCI Security Standards,0.0975609756097561,0.333,1
+How should organizations obtain guidance on specific PCI DSS compliance question,PCI Security Standards: At a Glance,PCI Security Standards,0.09302325581395349,0.333,1
+What are the consequences of failing to comply with the PCI standards according ,PCI Security Standards: At a Glance,PCI Security Standards,0.45833333333333337,0.333,1
+What happens when an organization is assessed for compliance under the complianc,PCI Security Standards: At a Glance,e-Governance Policy India,0.0784313725490196,0.0,0
+What must systems do to support monitoring and alerting of cardholder data?,PCI Security Standards: At a Glance,PCI Security Standards,0.31932773109243695,0.333,1
+What requirements apply to storing cardholder data on servers connected to the I,PCI Security Standards: At a Glance,PCI Security Standards,0.8799999999999999,0.333,1
+What lifecycle controls are required for PIN Entry Devices?,PCI Security Standards: At a Glance,PCI Security Standards,0.4144144144144144,0.333,1
+What is the Cybersecurity and Cyber Resilience Framework (CSCRF) intended to pro,Presentation - CSCRF(2).pdf,CSCRF,0.125,0.0,0
+What does the 'Anticipate' cyber resiliency goal mean?,Presentation - CSCRF(2).pdf,CSCRF,0.04545454545454546,0.0,0
+What does 'Withstand' mean under the CSCRF cyber resiliency goals?,Presentation - CSCRF(2).pdf,CSCRF,0.888888888888889,0.0,0
+What is meant by cyber risk management in the framework?,Presentation - CSCRF(2).pdf,NIST Cybersecurity Framework,0.23255813953488372,0.0,0
+What does the 'Evaluate' stage of cyber risk management require?,Presentation - CSCRF(2).pdf,RBI Cyber Security Framework,0.25000000000000006,0.0,0
+What are the main categories into which regulated entities are classified under ,Presentation - CSCRF(2).pdf,CSCRF,0.1951219512195122,0.0,0
+How is the category of a regulated entity determined during a financial year?,Presentation - CSCRF(2).pdf,CSCRF,0.4938271604938272,0.0,0
+How are PMS regulated entities categorized according to their AUM?,Presentation - CSCRF(2).pdf,CSCRF,0.1818181818181818,0.0,0
+What is the required frequency for VAPT under the framework?,Presentation - CSCRF(2).pdf,CSCRF,0.18867924528301885,0.0,0
+How must regulated entities submit the VAPT report to SEBI?,Presentation - CSCRF(2).pdf,CSCRF,0.7936507936507936,0.0,0
+What cybersecurity training frequency applies to mid-size REs?,Presentation - CSCRF(2).pdf,CSCRF,0.027777777777777776,0.0,0
+What incident response planning requirement applies to small-size REs?,Presentation - CSCRF(2).pdf,CSCRF,0.043478260869565216,0.0,0
+"How frequently must user access rights, delegated access and unused tokens be re",Presentation - CSCRF(2).pdf,NCIIPC Guidelines for Government Entities,0.0,0.0,0
+How must cyber audits be conducted under the CSCRF?,Presentation - CSCRF(2).pdf,NCIIPC Guidelines for Government Entities,0.1694915254237288,0.0,0
+What happens to an RE if it is registered under more than one category?,Presentation - CSCRF(2).pdf,CSCRF,0.8846153846153846,0.0,0
+What is required when an audit period is left unaudited because of a change in c,Presentation - CSCRF(2).pdf,CSCRF,0.8292682926829269,0.0,0
+What happens to open vulnerabilities remaining three months after VAPT?,Presentation - CSCRF(2).pdf,CSCRF,0.7301587301587301,0.0,0
+What is the consequence for a self-certification RE in relation to cyber audit?,Presentation - CSCRF(2).pdf,CSCRF,0.4571428571428572,0.0,0
+What happens when an RE has no IT Committee and is a small-size or self-certific,Presentation - CSCRF(2).pdf,CSCRF,0.7999999999999999,0.0,0
+What are the timelines for closure of findings identified during VAPT?,Presentation - CSCRF(2).pdf,CSCRF,0.1,0.0,0
+Which categories of REs are subject to continuous monitoring through the Securit,Presentation - CSCRF(2).pdf,RBI Cyber Security Framework,0.12500000000000003,0.0,0
+Which RE category requires an IT Committee with an external independent Technolo,Presentation - CSCRF(2).pdf,CSCRF,0.22413793103448276,0.0,0
+"Which RE category requires network segmentation, AD management and controls, and",Presentation - CSCRF(2).pdf,CSCRF,0.0,0.0,0
+"Which PMS entities were scheduled for adoption of the framework from January 01,",Presentation - CSCRF(2).pdf,CSCRF,0.5588235294117647,0.0,0
+What are the required timelines for VAPT report submission and subsequent revali,Presentation - CSCRF(2).pdf,CSCRF,0.1794871794871795,0.0,0
+What is e-Kranti?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8947368421052632,0.5,1
+What is the mission of e-Kranti?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.4580152671755725,0.5,1
+What is Open Source Software according to the framework?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.3125,0.5,1
+What characteristics must Open Source Software have under the policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5897435897435896,0.5,1
+What is a Closed Source Software or Proprietary Software?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5660377358490567,0.5,1
+What does “Free” mean in the context of OSS?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.3235294117647059,0.5,1
+What is localisation in the OSS framework?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7777777777777777,0.5,1
+What is Total Cost of Ownership in the OSS framework?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8219178082191781,0.5,1
+What is an Open API?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7894736842105262,0.5,1
+What is an API?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8461538461538461,0.5,1
+What is e-Governance according to the Open API policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.870967741935484,0.5,1
+What is a legacy system?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9487179487179489,0.5,1
+What is a security incident under the E-mail Policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6774193548387097,0.5,1
+What are IT Resources under the Government IT Resources policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8378378378378378,0.5,1
+What is a security incident under the IT Resources policy?,e-Governance Policy Initiatives under Digital India,NIST SP 800-66r2,1.0,0.0,0
+What is the objective of the Collaborative Application Development policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8333333333333334,0.5,1
+What is the purpose of the Application Development and Re-Engineering Guidelines,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6666666666666666,0.5,1
+What is the Rehost approach for cloud migration?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6885245901639345,0.5,1
+What is the Replace with SaaS approach?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7560975609756098,0.5,1
+What does Level III of the SaaS maturity model imply?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6071428571428571,0.5,1
+What must all new Mission Mode Projects follow under e-Kranti?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.26804123711340205,0.5,1
+What is required for Government Process Reengineering in every MMP?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.4390243902439024,0.5,1
+Where must sensitive information of Government Departments be stored under the C,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9285714285714286,0.5,1
+What security requirement applies to all online applications and e-services unde,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5652173913043479,0.5,1
+What is the preferred implementation arrangement for e-Governance projects where,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,1.0,0.5,1
+What is the preferred software option under the Open Source Software policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7936507936507938,0.5,1
+What security measures are recommended for establishing enterprise security with,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.1904761904761905,0.5,1
+What should users ensure when procuring computers and peripherals for e-Governan,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,1.0,0.5,1
+What security factor should be considered when procuring OSS solutions?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.27906976744186046,0.5,1
+What should tender specifications require regarding maintenance and support serv,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7741935483870968,0.5,1
+What should be done when an OSS solution is rolled out in live systems?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5882352941176471,0.5,1
+What is the primary API publication objective for Government organisations?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6363636363636364,0.5,1
+What characteristics must information provided through Government e-Governance a,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,1.0,0.5,1
+What security policy must Open APIs and the data they provide adhere to?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,1.0,0.5,1
+What must Government organisations ensure about the stability and scalability of,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9285714285714286,0.5,1
+How should published APIs be documented?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,1.0,0.5,1
+What backward compatibility is required for an Open API?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,1.0,0.5,1
+Which e-mail service must organisations use for official communications?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8169014084507041,0.5,1
+What must users do for classified and sensitive e-mails?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6666666666666667,0.5,1
+What restriction applies to downloading GoI e-mails through private providers?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8571428571428571,0.5,1
+When may a Government Department use a private cloud under e-Kranti?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8405797101449276,0.5,1
+How should successes in e-Kranti projects be handled?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.1764705882352941,0.5,1
+How should Government organisations compare OSS and CSS options?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9,0.5,1
+What must future e-Governance RFPs include regarding OSS?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.34782608695652173,0.5,1
+When should the OSS adoption framework be used?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.13636363636363635,0.5,1
+How should an OSS Stack be prepared for formal adoption and reuse?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.29850746268656714,0.5,1
+What factors should be considered when procuring or selecting ICT solutions?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.34782608695652173,0.5,1
+What are the stages for induction of an OSS solution?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.16949152542372883,0.5,1
+What should happen during the Exploration & Testing stage of OSS induction?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.23809523809523808,0.5,1
+How must a Government organisation consuming data through Open APIs handle infor,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8529411764705882,0.5,1
+What are the consequences of opening Government application source code accordin,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.39344262295081966,0.5,1
+What can public release of application source code achieve?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8055555555555556,0.5,1
+What can result from the absence of sharing Government application source code?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5882352941176471,0.5,1
+What can happen when applications are redeveloped without reusing existing appli,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6530612244897959,0.5,1
+What is the effect of hosting Government application source code on a single uni,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6060606060606061,0.5,1
+What is the effect of reuse of OSS Stacks in data-centre applications?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8799999999999999,0.5,1
+What can localisation of OSS help achieve in India?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8000000000000002,0.5,1
+What does adoption of the Common Application Software approach help achieve?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.21538461538461537,0.5,1
+What is the consequence of using a common middleware and integrated back-end pro,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7843137254901961,0.5,1
+What can adoption of open APIs enable for citizens seeking multiple Government s,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9523809523809523,0.5,1
+What can happen when a user does not follow required action after five e-mail co,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5454545454545454,0.5,1
+What may result from inappropriate use of an e-mail account?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7916666666666666,0.5,1
+What additional action may inappropriate e-mail use invite?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.2105263157894737,0.5,1
+What may happen to an e-mail feature deemed a threat to the service?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7714285714285715,0.5,1
+What happens to an e-mail ID that is being used to impact the security of the Go,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6808510638297872,0.5,1
+What happens after an e-mail ID is deactivated?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.23076923076923078,0.5,1
+What may the IA do if a device is deemed a threat to the network?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7945205479452055,0.5,1
+What may happen to resources used by a user if they threaten Government systems ,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.43478260869565216,0.5,1
+What happens after resources are deactivated under the IT Resources policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.15384615384615385,0.5,1
+What happens if a project does not undertake GPR as the essential first step in ,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7843137254901961,0.5,1
+Which projects are required to follow the key principles of e-Kranti?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.26804123711340205,0.5,1
+Who has overall responsibility for each component of e-Kranti?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5714285714285715,0.5,1
+Who is responsible for implementing State Sector MMPs?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9433962264150944,0.5,1
+Which Government organisations are covered by the Open Source Software adoption ,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5428571428571428,0.5,1
+What types of e-Governance systems are covered by the Open Source Software polic,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.26666666666666666,0.5,1
+What is the applicability of the Framework for Adoption of OSS?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.12903225806451613,0.5,1
+Who are the targeted stakeholders of the OSS adoption framework?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.14117647058823532,0.5,1
+Which e-Governance systems are covered by the Open API policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.3404255319148936,0.5,1
+Which organisations are excluded from the definition of Government organisation ,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.2727272727272727,0.5,1
+Who is the Implementing Agency for the GoI e-mail service?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8333333333333334,0.5,1
+Who is covered by the E-mail Policy of Government of India?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.647887323943662,0.5,1
+Which organisations may continue to operate their own independent mail servers?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9310344827586207,0.5,1
+Which mail servers are exempt from the E-mail Policy?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.9600000000000001,0.5,1
+Who is covered by the Policy on Use of IT Resources of Government of India?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6571428571428571,0.5,1
+Which applications are covered by the Collaborative Application Development poli,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.2962962962962963,0.5,1
+When does the Collaborative Application Development policy apply to development ,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.6551724137931034,0.5,1
+Which applications are excluded from the Collaborative Application Development p,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.23008849557522124,0.5,1
+What does the policy say about already developed monolithic applications?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.3913043478260869,0.5,1
+Which type of software is outside the scope of the Collaborative Application Dev,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.2,0.5,1
+Which development arrangements are covered by the Collaborative Application Deve,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.28571428571428575,0.5,1
+What must the Government have regarding custom-built software source code?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7777777777777778,0.5,1
+What rights does the Government have over customization code on a COTS product?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5217391304347826,0.5,1
+What must the Collaborative Application Development Platform provide?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.821917808219178,0.5,1
+What preference should be given when evaluating new software for development or ,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.8888888888888888,0.5,1
+What should future procurement processes ensure the Government receives?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.7916666666666666,0.5,1
+What should an application support for integration and interoperability?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.5481481481481482,0.5,1
+How should data be exchanged between e-Governance departments under the cloud-re,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.92,0.5,1
+What quality tests should be completed before an e-Governance solution is replic,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.0,0.5,1
+How should legacy data be migrated through offline interfaces?,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.2047244094488189,0.5,1
+What approaches are provided for migrating traditional applications to the cloud,e-Governance Policy Initiatives under Digital India,e-Governance Policy India,0.4,0.5,1
+How do the GDPR and DPDP Rules 2025 differ in their requirements for providing a,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.12612612612612614,0.0,0
+How do the GDPR and DPDP Rules together establish requirements for clear and und,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,ISO 27001:2022,0.18666666666666665,0.0,0
+What must an organisation do regarding consent withdrawal if it wants to satisfy,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.13698630136986303,0.0,0
+How does the GDPR's consent standard complement the DPDP Rules' notice requireme,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,DPDP Act 2023,0.24657534246575347,0.0,0
+Where do the GDPR and DPDP Rules differ concerning consent in relationships invo,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2545454545454545,0.0,0
+How should an organisation reconcile the GDPR's multiple lawful bases with the D,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.11976047904191617,0.0,0
+How do the two documents address the transparency of processing purposes?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.1794871794871795,0.0,0
+What additional transparency information does the GDPR require that is not expre,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,"Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.1388888888888889,0.0,0
+How do the GDPR and DPDP Rules approach retention of personal data?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.16901408450704225,0.0,0
+"If a retention schedule requires one year of logs under the DPDP Rules, how shou",CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.12658227848101267,0.0,0
+How do the GDPR and DPDP Rules combine retention and data-subject notification o,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,DPDP Act 2023,0.16161616161616163,0.0,0
+How do the GDPR and DPDP Rules address security safeguards for personal data?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.17073170731707318,0.0,0
+What additional implementation detail does the DPDP Rules provide compared with ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,NIST SP 800-66r2,0.11428571428571428,0.0,0
+How do the two regimes treat processor-related security obligations?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.24113475177304963,0.0,0
+What should an organisation do when outsourcing personal-data processing to a cl,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.16161616161616163,0.0,0
+How do the GDPR and DPDP Rules differ in their approach to logging and monitorin,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.3146067415730337,0.0,0
+How should an organisation combine GDPR risk-based security with the DPDP Rules',CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,NIST SP 800-66r2,0.18461538461538457,0.0,0
+How do the GDPR and DPDP Rules differ in their breach-notification trigger to th,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,NIST SP 800-66r2,0.16666666666666669,0.0,0
+What is a significant difference between the GDPR and DPDP Rules regarding wheth,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.20869565217391303,0.0,0
+How do the GDPR and DPDP Rules differ in notifying affected individuals after a ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.25210084033613445,0.0,0
+What common information should be prepared for breach response under both regime,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.17475728155339806,0.0,0
+How do the two regimes combine breach-prevention and breach-response obligations,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.08333333333333333,0.0,0
+How do the GDPR and DPDP Rules address data-subject rights and the mechanisms fo,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.19999999999999996,0.0,0
+Where do the GDPR and DPDP Rules differ on response deadlines for individual rig,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.24390243902439024,0.0,0
+How do the GDPR's detailed data-subject rights compare with the DPDP Rules' righ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.17582417582417584,0.0,0
+What gap would an organisation relying only on the DPDP Rules need to address to,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.18823529411764708,0.0,0
+How do the two regimes approach complaints and regulatory redress?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.17777777777777778,0.0,0
+How do the GDPR and DPDP Rules address identification of individuals making righ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2727272727272727,0.0,0
+How do the GDPR and DPDP Rules address children differently?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.22680412371134023,0.0,0
+What additional verification burden does the DPDP Rules impose for parental cons,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.18823529411764706,0.0,0
+How do the GDPR and DPDP Rules address special treatment of vulnerable individua,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.13953488372093023,0.0,0
+How do the two regimes address processing of personal data of persons with disab,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.17600000000000002,0.0,0
+How do the GDPR and DPDP Rules approach privacy risk assessment?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,NIST SP 800-66r2,0.1176470588235294,0.0,0
+What is the key difference between GDPR DPIA obligations and DPDP Rules DPIA obl,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2153846153846154,0.0,0
+How do the two regimes treat algorithmic processing from a privacy-risk perspect,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.3877551020408163,0.0,0
+What additional governance step would a Significant Data Fiduciary need beyond a,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.32,0.0,0
+How do the GDPR and DPDP Rules combine accountability and technical-organisation,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.19999999999999998,0.0,0
+How does GDPR data protection by design compare with the DPDP Rules' security-by,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2,0.0,0
+What should an organisation implement if it wants to combine GDPR privacy-by-des,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,OECD Digital Security Guidelines,0.12658227848101267,0.0,0
+How do the GDPR and DPDP Rules approach international transfers of personal data,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2558139534883721,0.0,0
+What is the principal compliance gap for an organisation applying only the DPDP ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.16260162601626016,0.0,0
+How do the GDPR and DPDP Rules address data localisation?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,e-Governance Policy India,0.16129032258064516,0.0,0
+What must a multinational Significant Data Fiduciary consider when processing da,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.14285714285714288,0.0,0
+How do the two regimes address transfer transparency to individuals?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.14285714285714285,0.0,0
+"How do the GDPR and DPDP Rules treat research, archiving and statistical process",CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2777777777777778,0.0,0
+What common safeguards should a researcher consider when relying on research-rel,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.19298245614035087,0.0,0
+How do the GDPR and DPDP Rules address government processing of personal data?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.26785714285714285,0.0,0
+How does the GDPR's public-interest processing framework differ from the DPDP Ru,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2641509433962264,0.0,0
+How should a public-sector organisation reconcile GDPR public-authority processi,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.1584158415841584,0.0,0
+How do the GDPR and DPDP Rules approach accountability for determining the purpo,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.17391304347826086,0.0,0
+How do the GDPR and DPDP Rules treat Data Protection Officers or equivalent priv,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.17283950617283952,0.0,0
+What governance requirement exists under the GDPR for a DPO that is not expressl,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.1111111111111111,0.0,0
+How do the two regimes combine privacy-contact obligations for individuals?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.1475409836065574,0.0,0
+How do the GDPR and DPDP Rules treat Consent Managers and privacy governance?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.18181818181818185,0.0,0
+How does the DPDP Consent Manager model add an operational layer beyond the GDPR,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.13513513513513514,0.0,0
+What retention conflict can arise between GDPR data minimisation and the DPDP Co,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.21374045801526717,0.0,0
+How do the two regimes address machine-readable information?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.17977528089887637,0.0,0
+How do the GDPR and DPDP Rules differ in their treatment of consent records?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.20869565217391306,0.0,0
+How should an organisation demonstrate consent compliance under both regimes?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.19178082191780824,0.0,0
+How do the GDPR and DPDP Rules approach privacy governance for high-impact organ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,OECD Digital Security Guidelines,0.17142857142857143,0.0,0
+What audit obligations arise when an organisation qualifies as a Significant Dat,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,DPDP Act 2023,0.2857142857142857,0.0,0
+How do the GDPR and DPDP Rules address privacy risks associated with large-scale,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.1728395061728395,0.0,0
+How do the GDPR and DPDP Rules address automated decision-making and algorithmic,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.14492753623188406,0.0,0
+What information about automated processing would an organisation need to consid,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.11235955056179775,0.0,0
+How do the two regimes combine algorithmic governance with individual transparen,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,e-Governance Policy India,0.1411764705882353,0.0,0
+How do the GDPR and DPDP Rules address privacy and security for processors?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.20512820512820515,0.0,0
+What combined processor contract should an organisation use if it is subject to ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.24242424242424243,0.0,0
+How do the two regimes address continued processing after a security compromise?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.23684210526315788,0.0,0
+How do the GDPR and DPDP Rules address pseudonymisation or equivalent protective,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,"Privacy, Security and Ownership of Data in the Telecom Sector Takshashila Policy Advisory",0.19718309859154928,0.0,0
+How do the GDPR and DPDP Rules address organisational accountability after a dat,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.186046511627907,0.0,0
+How do the GDPR and DPDP Rules combine privacy governance with security governan,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,NIST Cybersecurity Framework,0.14035087719298245,0.0,0
+How do the two regimes differ in their regulatory structures for privacy enforce,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.22857142857142856,0.0,0
+How would a multinational organisation handle regulatory interaction under both ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.15384615384615383,0.0,0
+How do the GDPR and DPDP Rules differ in the treatment of regulatory complaints?,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.14457831325301204,0.0,0
+How do the GDPR and DPDP Rules address regulatory cooperation and information sh,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.20754716981132076,0.0,0
+How do the GDPR and DPDP Rules address the tension between transparency and gove,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.2247191011235955,0.0,0
+How do the GDPR and DPDP Rules address records and evidence needed to demonstrat,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.23076923076923075,0.0,0
+"What combined compliance evidence should an organisation maintain for consent, s",CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,Digital Personal Data Protection Rules 2025,0.16666666666666669,0.0,0
+How do the GDPR and DPDP Rules differ in the specificity of mandatory technical ,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,GDPR,0.15384615384615383,0.0,0
+If an organisation wants one unified privacy programme for GDPR and DPDP Rules c,CELEX_32016R0679_EN_TXT(3).pdf + DPDP_Rules_2025_English_only(3).pdf,NIST SP 800-66r2,0.054794520547945195,0.0,0
+What is personal data under the Regulation?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6129032258064516,0.0,0
+What does processing mean under the Regulation?,General Data Protection Regulation (EU) 2016/679,GDPR,0.16363636363636364,0.0,0
+What is consent of the data subject?,General Data Protection Regulation (EU) 2016/679,GDPR,0.46315789473684216,0.0,0
+What constitutes a personal data breach?,General Data Protection Regulation (EU) 2016/679,GDPR,0.19444444444444445,0.0,0
+What are biometric data?,General Data Protection Regulation (EU) 2016/679,GDPR,0.3448275862068966,0.0,0
+What are data concerning health?,General Data Protection Regulation (EU) 2016/679,GDPR,0.4000000000000001,0.0,0
+What is a representative?,General Data Protection Regulation (EU) 2016/679,GDPR,0.3823529411764707,0.0,0
+What is a supervisory authority?,General Data Protection Regulation (EU) 2016/679,GDPR,0.3157894736842105,0.0,0
+What is a group of undertakings?,General Data Protection Regulation (EU) 2016/679,GDPR,0.21818181818181817,0.0,0
+What processing activities fall within the material scope of the Regulation?,General Data Protection Regulation (EU) 2016/679,GDPR,0.20930232558139536,0.0,0
+Which purely personal activities are excluded from the Regulation?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6774193548387097,0.0,0
+When does the Regulation apply to an establishment of a controller or processor ,General Data Protection Regulation (EU) 2016/679,GDPR,0.6410256410256411,0.0,0
+When can the Regulation apply to a controller or processor not established in th,General Data Protection Regulation (EU) 2016/679,GDPR,0.631578947368421,0.0,0
+What processing by competent authorities is outside the material scope of the Re,General Data Protection Regulation (EU) 2016/679,GDPR,0.4444444444444444,0.0,0
+Who is protected by the Regulation in relation to personal data?,General Data Protection Regulation (EU) 2016/679,GDPR,0.8363636363636364,0.0,0
+Does the Regulation cover personal data concerning legal persons?,General Data Protection Regulation (EU) 2016/679,GDPR,0.7,0.0,0
+How does the Regulation treat anonymous information?,General Data Protection Regulation (EU) 2016/679,GDPR,0.4444444444444445,0.0,0
+What requirements apply to consent?,General Data Protection Regulation (EU) 2016/679,GDPR,0.8041237113402061,0.0,0
+Which actions do not constitute consent?,General Data Protection Regulation (EU) 2016/679,GDPR,1.0,0.0,0
+What information must a data subject know for consent to be informed?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6875,0.0,0
+When is consent not considered freely given?,General Data Protection Regulation (EU) 2016/679,GDPR,0.8928571428571429,0.0,0
+What legal basis is required when processing is based on a legal obligation or p,General Data Protection Regulation (EU) 2016/679,GDPR,0.6355140186915889,0.0,0
+What must controllers consider when determining whether further processing is co,General Data Protection Regulation (EU) 2016/679,GDPR,0.5201793721973094,0.0,0
+What security principle applies to personal data processing?,General Data Protection Regulation (EU) 2016/679,GDPR,0.7777777777777778,0.0,0
+What must controllers do to limit the retention of personal data?,General Data Protection Regulation (EU) 2016/679,GDPR,0.39999999999999997,0.0,0
+How quickly should controllers respond to data subject requests?,General Data Protection Regulation (EU) 2016/679,GDPR,0.7948717948717948,0.0,0
+What information should a data subject be able to obtain through the right of ac,General Data Protection Regulation (EU) 2016/679,GDPR,0.676923076923077,0.0,0
+What measures should a controller use when verifying the identity of a data subj,General Data Protection Regulation (EU) 2016/679,GDPR,0.8135593220338982,0.0,0
+Under what circumstances can a data subject have personal data erased?,General Data Protection Regulation (EU) 2016/679,GDPR,0.5499999999999999,0.0,0
+What must a controller do when it has made personal data public and receives an ,General Data Protection Regulation (EU) 2016/679,GDPR,0.6105263157894737,0.0,0
+What format should personal data be provided in for data portability?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6346153846153846,0.0,0
+When does the right to data portability apply?,General Data Protection Regulation (EU) 2016/679,GDPR,0.27272727272727276,0.0,0
+What right does a data subject have regarding direct marketing?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6956521739130435,0.0,0
+What safeguards apply to automated decision-making that significantly affects a ,General Data Protection Regulation (EU) 2016/679,GDPR,0.28125,0.0,0
+What technical and organisational measures should controllers and processors imp,General Data Protection Regulation (EU) 2016/679,GDPR,0.46586345381526106,0.0,0
+What must controllers and processors do regarding persons who access personal da,General Data Protection Regulation (EU) 2016/679,GDPR,0.8148148148148148,0.0,0
+How must a processor notify a controller of a personal data breach?,General Data Protection Regulation (EU) 2016/679,GDPR,0.9411764705882353,0.0,0
+When must a controller notify the supervisory authority of a personal data breac,General Data Protection Regulation (EU) 2016/679,GDPR,0.7301587301587301,0.0,0
+What must accompany a breach notification submitted after 72 hours?,General Data Protection Regulation (EU) 2016/679,GDPR,0.9090909090909091,0.0,0
+When should a personal data breach be communicated to the data subject?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6206896551724138,0.0,0
+What information should breach communication to a data subject contain?,General Data Protection Regulation (EU) 2016/679,GDPR,0.8399999999999999,0.0,0
+When is a data protection impact assessment required?,General Data Protection Regulation (EU) 2016/679,GDPR,0.3711340206185567,0.0,0
+What must happen when a data protection impact assessment identifies a high risk,General Data Protection Regulation (EU) 2016/679,GDPR,0.8604651162790697,0.0,0
+What must controllers and processors maintain to demonstrate compliance?,General Data Protection Regulation (EU) 2016/679,GDPR,0.9767441860465117,0.0,0
+When must records of processing activities be made available to the supervisory ,General Data Protection Regulation (EU) 2016/679,GDPR,0.90625,0.0,0
+Which small organisations are exempt from the record-keeping obligations?,General Data Protection Regulation (EU) 2016/679,GDPR,0.16981132075471697,0.0,0
+What must controllers and processors do when requested to cooperate with the sup,General Data Protection Regulation (EU) 2016/679,GDPR,0.7636363636363636,0.0,0
+What responsibility does a controller have for demonstrating compliance?,General Data Protection Regulation (EU) 2016/679,GDPR,0.5111111111111111,0.0,0
+What additional measures may be included in the controller's responsibility for ,General Data Protection Regulation (EU) 2016/679,GDPR,0.8461538461538461,0.0,0
+What must a controller do when selecting a processor?,General Data Protection Regulation (EU) 2016/679,GDPR,0.6722689075630252,0.0,0
+How must processing carried out by a processor be governed?,General Data Protection Regulation (EU) 2016/679,GDPR,0.5423728813559321,0.0,0
+What should happen to personal data after processing by a processor is completed,General Data Protection Regulation (EU) 2016/679,GDPR,0.6666666666666666,0.0,0
+What measures are associated with data protection by design and by default?,General Data Protection Regulation (EU) 2016/679,GDPR,0.21333333333333332,0.0,0
+What rights does a person have if they suffer material or non-material damage fr,General Data Protection Regulation (EU) 2016/679,GDPR,0.8529411764705882,0.0,0
+When is a processor liable for damage caused by processing?,General Data Protection Regulation (EU) 2016/679,GDPR,0.825,0.0,0
+How can a controller or processor be exempted from liability for damage?,General Data Protection Regulation (EU) 2016/679,GDPR,0.9354838709677419,0.0,0
+How are multiple controllers or processors liable when they are responsible for ,General Data Protection Regulation (EU) 2016/679,GDPR,0.7586206896551724,0.0,0
+What is the required character of administrative fines under the Regulation?,General Data Protection Regulation (EU) 2016/679,GDPR,0.775,0.0,0
+What factors must be considered when determining an administrative fine?,General Data Protection Regulation (EU) 2016/679,GDPR,0.5962732919254657,0.0,0
+What alternative consequence may apply to a minor infringement instead of a fine,General Data Protection Regulation (EU) 2016/679,GDPR,0.7575757575757576,0.0,0
+What other penalties may Member States establish for infringements?,General Data Protection Regulation (EU) 2016/679,GDPR,0.7872340425531916,0.0,0
+What factors can create a high risk to the rights and freedoms of data subjects?,General Data Protection Regulation (EU) 2016/679,GDPR,0.46601941747572817,0.0,0
+What is meant by digital security risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.2933333333333334,0.182,0
+What does digital security risk management refer to?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.3529411764705882,0.182,0
+How does the Recommendation define digital security?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.3,0.182,0
+Who are considered stakeholders under the Recommendation?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8571428571428571,0.182,0
+Who are leaders and decision makers for purposes of the Recommendation?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8636363636363636,0.182,0
+What does digital security risk management seek to maximise?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.3529411764705882,0.182,0
+What characteristics should the processes for managing digital security risk hav,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.2807017543859649,0.182,0
+What is meant by security measures in the Recommendation?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,NCIIPC Guidelines,0.23529411764705882,0.0,0
+What is the purpose of the OECD Policy Framework on Digital Security?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.7666666666666667,0.182,0
+What does the Recommendation recognise about eliminating digital security risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.775,0.182,0
+What should all stakeholders do to establish a digital security culture?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.4999999999999999,0.182,0
+What education and capability should stakeholders have for managing digital secu,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.43609022556390975,0.182,0
+What responsibility do stakeholders have for digital security risk management?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8571428571428572,0.182,0
+How should stakeholders determine acceptable residual risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.7419354838709677,0.182,0
+What should stakeholders do regarding ownership of digital security risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.19047619047619044,0.182,0
+How should digital security risk be managed in relation to human rights and fund,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8372093023255814,0.182,0
+What transparency policy should public and private organisations maintain?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.9523809523809523,0.182,0
+What principles should guide the implementation of digital security with respect,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.7321428571428573,0.182,0
+What ethical requirement applies to digital security practices?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8695652173913043,0.182,0
+How should stakeholders cooperate in managing digital security risk across organ,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.9333333333333333,0.182,0
+What is required for cooperation across supply chains?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,NCIIPC Guidelines,0.7906976744186046,0.0,0
+Which groups should governments and organisations work with to collaboratively m,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8260869565217391,0.182,0
+How should leaders integrate digital security risk into organisational governanc,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8135593220338982,0.182,0
+What should a strategic digital security risk management plan include?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.28571428571428575,0.182,0
+How should risk ownership be assigned within an organisation?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.28828828828828834,0.182,0
+What should leaders do with risk-related reports?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.20388349514563106,0.182,0
+What human factors should organisations consider in their internal digital secur,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.32,0.182,0
+What approach should leaders use for digital security risk assessment?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8372093023255814,0.182,0
+How should digital security risk assessment be carried out?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.7906976744186047,0.182,0
+What supply-chain and intelligence factors should be considered during risk asse,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8510638297872339,0.182,0
+What options are available for treating digital security risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,ISO 27001:2022,0.1702127659574468,0.0,0
+How should risk treatment relate to expected economic and social benefits?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.782608695652174,0.182,0
+What relationship should exist between security measures and assessed risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,NIST SP 800-66r2,0.8888888888888888,0.0,0
+On what basis should security measures be selected and improved?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.6388888888888888,0.182,0
+What types of measures should organisations consider when managing digital secur,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.9523809523809523,0.182,0
+How quickly should vulnerabilities be addressed?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,e-Governance Policy India,0.10810810810810811,0.0,0
+What role should innovation play in digital security risk management?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.68,0.182,0
+What potential effects of digital security on innovation should leaders consider,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8108108108108109,0.182,0
+How should innovation be fostered in relation to security measures?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.7,0.182,0
+"What must leaders adopt, implement and test to ensure resilience?",OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.8214285714285715,0.182,0
+What should preparedness and continuity plans aim to achieve after security inci,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.5925925925925927,0.182,0
+Which incident-response capabilities should preparedness and continuity plans id,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.2564102564102564,0.182,0
+Which external participants should preparedness and continuity plans encompass?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.15999999999999998,0.182,0
+How should escalation mechanisms be designed for digital security incidents?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.7647058823529412,0.182,0
+What notification capability should be included in preparedness and continuity p,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.0,0.182,0
+What types of harm can digital security incidents cause?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,e-Governance Policy India,0.16091954022988503,0.0,0
+What can result from the combination of threats and vulnerabilities in the digit,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.25000000000000006,0.182,0
+What may happen when digital security risk disrupts data and information systems,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.40404040404040403,0.182,0
+What can happen to innovation depending on how digital security risk management ,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.5769230769230769,0.182,0
+What is the consequence of failing to consider the broader impact of risk manage,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.31111111111111117,0.182,0
+Which entities are expected to adopt the digital security risk management approa,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.43478260869565216,0.182,0
+At what governmental levels does the recommended approach apply?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.380952380952381,0.182,0
+What does the Recommendation call on private organisations to do?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.22727272727272727,0.182,0
+How should the principles in the Recommendation be treated in relation to one an,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.11320754716981132,0.182,0
+What groups share responsibility for managing digital security risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.3548387096774193,0.182,0
+Why is cooperation considered essential in digital security risk management?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.11764705882352941,0.182,0
+What makes digital security risk management a flexible approach to uncertainty?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.25974025974025977,0.182,0
+What limitation may some stakeholders face in managing digital security risk?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.391304347826087,0.182,0
+What type of risk should stakeholders implementing digital security risk managem,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.30769230769230765,0.182,0
+How does the Recommendation relate to the OECD Privacy Guidelines?,OECD/LEGAL/0479 - Recommendation of the Council on Digital Security Risk Management,OECD Digital Security Guidelines,0.32967032967032966,0.182,0
+How does the DPDP Rules operationalize the DPDP Act's requirement that consent b,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.2933333333333334,0.0,0
+How do the Act and Rules together govern withdrawal of consent?,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.3076923076923077,0.0,0
+What additional notice elements must a Data Fiduciary provide under the Rules be,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,DPDP Act 2023,0.217687074829932,0.25,0
+How do the Act and Rules together address processing by a Data Processor?,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.17241379310344826,0.0,0
+How do the Act's general security obligation and the Rules' minimum safeguards c,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,DPDP Act 2023,0.2857142857142857,0.25,0
+What does the Rules' one-year log-retention requirement add to the Act's general,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3076923076923077,0.0,0
+How do the Act and Rules establish a layered personal data breach notification f,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.17307692307692307,0.0,0
+What information must be communicated after a personal data breach when the Act ,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.14035087719298245,0.0,0
+How does the Rules' breach notification procedure give practical meaning to the ,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.19047619047619047,0.0,0
+How do the Act and Rules balance erasure after withdrawal or completion of purpo,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.24793388429752067,0.0,0
+How does the Rules' Third Schedule modify the Act's general rule for determining,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.27350427350427353,0.0,0
+How does the 48-hour pre-erasure notice under the Rules relate to the Act's eras,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.11320754716981132,0.0,0
+How do the Act and Rules together protect a Data Principal's ability to ask ques,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3492063492063492,0.0,0
+How do the Act and Rules operationalize the Data Principal's right to access inf,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.31067961165048547,0.0,0
+How do the Act and Rules together establish grievance-redressal requirements?,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Electricity Act 2003,0.14953271028037382,0.0,0
+What additional operational requirements do the Rules impose on the exercise of ,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.17821782178217824,0.0,0
+How do the Act and Rules regulate processing of children's personal data through,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.2840909090909091,0.0,0
+What does the Rules add to the Act's prohibition on tracking or behavioural moni,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,DPDP Act 2023,0.3,0.25,0
+How do the Act and Fourth Schedule together address child-data processing by edu,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.15053763440860213,0.0,0
+How do the Act and Rules address real-time location processing of children?,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3870967741935483,0.0,0
+How do the Act and Rules treat child-data processing for government benefits?,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,DPDP Act 2023,0.2113821138211382,0.25,0
+How do the Act and Rules address verification that a Data Principal is not a chi,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,DPDP Act 2023,0.2033898305084746,0.25,0
+How do the Act and Rules together address persons with disabilities who have law,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.44230769230769235,0.0,0
+How do the Act and Rules define and implement the role of a Consent Manager?,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3157894736842105,0.0,0
+What retention period applies to Consent Manager consent records when the Act an,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3448275862068965,0.0,0
+How do the Act and Rules prevent a Consent Manager from becoming a source of add,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.26666666666666666,0.0,0
+How do the Act and Rules address conflicts of interest involving Consent Manager,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.2068965517241379,0.0,0
+How do the Act and Rules establish accountability for Significant Data Fiduciari,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3584905660377358,0.0,0
+What additional detail do the Rules provide regarding the frequency of Significa,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.4,0.0,0
+How do the Act and Rules address algorithmic risks for Significant Data Fiduciar,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3917525773195877,0.0,0
+How do the Act and Rules regulate localisation of specified personal and traffic,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.3269230769230769,0.0,0
+How does the Rules' cross-border transfer provision relate to the Act's power to,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.18181818181818182,0.0,0
+"How do the Act and Rules treat research, archiving and statistical processing?",DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.5822784810126581,0.0,0
+"How do the Act and Rules apply to State processing for subsidies, benefits, serv",DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,GDPR,0.2318840579710145,0.0,0
+What additional safeguards apply when State processing relies on the subsidy or ,DPDP ACT(1).pdf + DPDP_Rules_2025_English_only(4).pdf,Digital Personal Data Protection Rules 2025,0.18749999999999997,0.0,0
+"If a cyber incident also constitutes a personal data breach, how do the DPDP Act",DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.2558139534883721,0.0,0
+How do the DPDP Act's personal data breach concept and the CERT-In Directions' c,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.16091954022988503,0.0,0
+What is the timing difference between DPDP breach notification to the Board and ,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.25641025641025644,0.0,0
+"For a ransomware attack involving personal data, what would an organisation need",DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NIST Cybersecurity Framework,0.15555555555555556,0.0,0
+How should an organisation distinguish CERT-In reporting from notification to af,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.18823529411764706,0.0,0
+How do the two documents differ in the recipients of incident-related notificati,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NIST SP 800-66r2,0.17073170731707316,0.0,0
+How do the DPDP Act and CERT-In Directions complement each other in incident res,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.1414141414141414,0.0,0
+What record-preservation duties arise when a personal data breach is also a CERT,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,GDPR,0.09374999999999999,0.0,0
+How do the DPDP Act and CERT-In Directions address cyber incidents involving Dat,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.17857142857142858,0.0,0
+"If a cloud provider experiences a breach affecting its customer's personal data,",DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines,0.14285714285714285,0.0,0
+How do the Act's security requirements and CERT-In's logging requirements differ,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.12307692307692307,0.0,0
+What additional clock-synchronisation requirement applies under CERT-In that is ,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.04597701149425287,0.0,0
+How does NTP synchronisation under CERT-In strengthen compliance with DPDP breac,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.11538461538461539,0.0,0
+How do the DPDP Act and CERT-In Directions differ regarding the role of a design,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.26666666666666666,0.0,0
+"If an organisation has a DPO under the DPDP Act, does that alone satisfy the CER",DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.20512820512820512,0.0,0
+How do the two frameworks address incidents involving unauthorised access to per,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,GDPR,0.275,0.0,0
+How should an organisation respond when a data leak is discovered but it is uncl,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,GDPR,0.1956521739130435,0.0,0
+How do the two frameworks treat attacks on cloud systems containing personal dat,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CSCRF,0.14285714285714282,0.0,0
+How do the two documents apply to attacks involving artificial intelligence or m,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.19736842105263158,0.0,0
+How do the two frameworks apply to SCADA or operational-technology attacks invol,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.15094339622641512,0.0,0
+How do the Act's data-protection focus and CERT-In's national cyber-security foc,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.06060606060606061,0.0,0
+What compliance gap exists if an organisation only prepares for DPDP personal da,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,GDPR,0.2,0.0,0
+What compliance gap exists if an organisation reports cyber incidents to CERT-In,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.136986301369863,0.0,0
+How do the two frameworks address retention of incident-related evidence?,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.125,0.0,0
+How do the Act and CERT-In Directions interact where another law requires longer,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.17777777777777778,0.0,0
+How do the two documents create different geographic requirements for retained i,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,IT Act 2000,0.0923076923076923,0.0,0
+How should an organisation reconcile DPDP cross-border transfer rules with CERT-,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.20930232558139536,0.0,0
+How do the DPDP Act and CERT-In Directions treat government organisations that p,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.3333333333333333,0.0,0
+How do the Act's State-processing provisions and CERT-In's government-organisati,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.19354838709677422,0.0,0
+How do DPDP penalties and CERT-In non-compliance consequences differ?,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,Cyber Security in Power Sector 2021,0.2795698924731183,0.0,0
+If an organisation fails both to maintain reasonable security safeguards and to ,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.17307692307692307,0.0,0
+How do the two frameworks treat incident mitigation after detection?,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.14705882352941177,0.0,0
+How do the two frameworks support post-incident recurrence prevention?,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NIST Cybersecurity Framework,0.136986301369863,0.0,0
+How do the two documents address evidence needed to investigate the cause of an ,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.15584415584415584,0.0,0
+How do the two frameworks differ in the information they require after an incide,DPDP ACT(1).pdf + CERT-In_Directions(3).docx,CSCRF,0.12658227848101264,0.0,0
+How do the DPDP Rules' logging requirements compare with CERT-In's 180-day ICT l,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.3269230769230769,0.0,0
+What is the combined minimum logging position for an organisation whose processi,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.28571428571428575,0.0,0
+How do the Rules' one-year retention requirement and CERT-In's five-year provide,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NIST SP 800-66r2,0.27184466019417475,0.0,0
+How do the two documents differ in what must be retained by cloud service provid,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.23021582733812948,0.0,0
+How does the DPDP Rules' requirement to retain processing logs support CERT-In's,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Digital Personal Data Protection Rules 2025,0.13114754098360656,0.0,0
+How do the Rules and CERT-In Directions complement each other on access monitori,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.13592233009708737,0.0,0
+How do the Rules' backup requirement and CERT-In's incident-response requirement,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Cyber Security in Power Sector 2021,0.08450704225352113,0.0,0
+How do the Rules' access-control requirement and CERT-In's incident reporting re,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.17777777777777776,0.0,0
+How do the Rules' encryption and masking requirements complement CERT-In's broad,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Cyber Security in Power Sector 2021,0.1188118811881188,0.0,0
+How do the Rules and CERT-In Directions jointly address incident reporting for c,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.1616161616161616,0.0,0
+How do the Rules' processor security contract requirement and CERT-In's direct o,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,GDPR,0.14285714285714282,0.0,0
+How do the Rules and CERT-In Directions address evidence integrity through time ,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.1395348837209302,0.0,0
+What additional incident-response contact requirement applies under CERT-In beyo,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.15873015873015872,0.0,0
+How do the Rules' breach notification content and CERT-In's reporting mechanism ,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,GDPR,0.16,0.0,0
+How do the Rules and CERT-In Directions create different retention objectives fo,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.24561403508771928,0.0,0
+How do the two documents apply when a cyber incident affects a Consent Manager?,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Digital Personal Data Protection Rules 2025,0.3928571428571428,0.0,0
+How do the Rules' security obligations for Consent Managers overlap with CERT-In,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Digital Personal Data Protection Rules 2025,0.15555555555555556,0.0,0
+How do the Rules' transparency requirements for Consent Managers relate to CERT-,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Digital Personal Data Protection Rules 2025,0.19178082191780824,0.0,0
+How do the Rules' research exemption and CERT-In incident obligations interact f,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,GDPR,0.13333333333333336,0.0,0
+How do the Rules' State-processing security standards and CERT-In's Government-o,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.15841584158415842,0.0,0
+How do the Second Schedule's accuracy requirement and CERT-In's logging requirem,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.1643835616438356,0.0,0
+How do the Rules' accountability requirement and CERT-In's Point of Contact requ,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.20588235294117646,0.0,0
+How do the Rules' data minimisation standard and CERT-In's broad logging require,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,GDPR,0.17721518987341772,0.0,0
+How should a State organisation handle retention when the DPDP Rules require del,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,Digital Personal Data Protection Rules 2025,0.19875776397515527,0.0,0
+How do the Rules and CERT-In Directions jointly support forensic reconstruction ,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.11428571428571428,0.0,0
+How do the Rules' breach-remediation requirements and CERT-In's cooperation requ,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NCIIPC Guidelines for Government Entities,0.15,0.0,0
+How do the Rules and CERT-In Directions address data held by intermediaries or i,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.2,0.0,0
+How do the Rules' requirement for processing logs and CERT-In's requirement to p,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.3582089552238806,0.0,0
+How do the Rules' minimum security safeguards and CERT-In's mandatory incident c,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,NIST SP 800-66r2,0.136986301369863,0.0,0
+What would a unified incident-management workflow need to cover to satisfy both ,DPDP_Rules_2025_English_only(4).pdf + CERT-In_Directions(3).docx,CERT-In Directions 2022,0.18018018018018017,0.0,0
