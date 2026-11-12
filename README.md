@@ -75,11 +75,11 @@ id, document_source, question, ground_truth_answer
 
 | Document | Type | Words |
 |---|---|---|
-| ISO/IEC 27001:2022 | International standard | 7,194 |
+| Intl. Standard A | International standard | 7,194 |
 | NIST SP 800-66r2 | International standard | 42,128 |
 | NIST Cybersecurity Framework | International standard | 7,834 |
 | OECD Digital Security Guidelines | International standard | 4,154 |
-| PCI Security Standards | International standard | 1,107 |
+| Intl. Standard B | International standard | 1,107 |
 
 ---
 
@@ -316,11 +316,11 @@ The cleaned document texts in `documents/cleaned_texts/` are sourced from public
 | NIST SP 800-66r2 | NIST (US Government) | Public domain |
 | NIST Cybersecurity Framework | NIST (US Government) | Public domain |
 | OECD Digital Security Guidelines | OECD | Research use |
-| ISO/IEC 27001:2022 | ISO/IEC | Research use only |
-| PCI Security Standards | PCI SSC | Research use only |
+| Intl. Standard A | Standards body | Research use only |
+| Intl. Standard B | Standards body | Research use only |
 | DPDP Rules 2025 | Government of India | Public domain |
 
-**Note:** ISO/IEC 27001:2022 and PCI Security Standards are proprietary standards. The cleaned texts are included solely for academic research purposes. Users must comply with the original licensing terms of these documents and must not use them for commercial purposes.
+**Note:** Intl. Standard A and Intl. Standard B are proprietary standards. Their cleaned texts are included solely for academic research purposes. Users must comply with the original licensing terms of these documents and must not use them for commercial purposes.
 
 ### Code License
 
@@ -355,6 +355,9 @@ SOFTWARE.
 If you use RegulationQA in your research, please cite:
 
 To be updated
+
+
+---
 
 ## Acknowledgements
 
