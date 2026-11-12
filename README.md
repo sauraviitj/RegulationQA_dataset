@@ -75,11 +75,13 @@ id, document_source, question, ground_truth_answer
 
 | Document | Type | Words |
 |---|---|---|
-| Intl. Standard A | International standard | 7,194 |
+| ISO/IEC 27001:2022 † | International standard | 7,194 |
 | NIST SP 800-66r2 | International standard | 42,128 |
 | NIST Cybersecurity Framework | International standard | 7,834 |
 | OECD Digital Security Guidelines | International standard | 4,154 |
-| Intl. Standard B | International standard | 1,107 |
+| PCI Security Standards † | International standard | 1,107 |
+
+† Proprietary standard. Its full text is **not distributed** in this repository; see [Documents you must obtain yourself](#documents-you-must-obtain-yourself).
 
 ---
 
@@ -146,7 +148,7 @@ RegulationQA/
 │
 ├── documents/
 │   └── cleaned_texts/
-│       └── *.txt                 <- cleaned text files
+│       └── *.txt                 <- cleaned text files (18 of 20; ISO/IEC 27001 and PCI texts not included)
 │
 ├── index/
 │   ├── faiss_index.bin           <- BGE FAISS index (766 chunks)
@@ -295,32 +297,41 @@ You are free to share and adapt the material for any purpose, provided appropria
 
 ### Document License
 
-The cleaned document texts in `documents/cleaned_texts/` are sourced from publicly available government publications and international standards bodies:
+The cleaned document texts in `documents/cleaned_texts/` are sourced from publicly available government publications and international bodies. Government and EU texts are reusable with attribution; check each source's current terms:
 
 | Document | Source | License |
 |---|---|---|
-| DPDP Act 2023 | Government of India | Public domain |
-| CERT-In Directions 2022 | MeitY, Government of India | Public domain |
-| IT Act 2000 | Government of India | Public domain |
-| Electricity Act 2003 | Government of India | Public domain |
-| NCIIPC Guidelines | Government of India | Public domain |
-| RBI Cyber Security Framework | Reserve Bank of India | Public domain |
-| e-Governance Policy India | Government of India | Public domain |
-| SEBI CSCRF | SEBI | Public domain |
-| State DC Security Guidelines | Government of India | Public domain |
-| TRAI Telecom Advisory | TRAI | Public domain |
-| NCIIPC Rules | Government of India | Public domain |
-| IT Protected System Rules 2018 | Government of India | Public domain |
-| Cyber Security Power Sector 2021 | Government of India | Public domain |
-| GDPR (EU) 2016/679 | European Union | Public domain |
+| DPDP Act 2023 | Government of India | Reuse with attribution |
+| CERT-In Directions 2022 | MeitY, Government of India | Reuse with attribution |
+| IT Act 2000 | Government of India | Reuse with attribution |
+| Electricity Act 2003 | Government of India | Reuse with attribution |
+| NCIIPC Guidelines | Government of India | Reuse with attribution |
+| RBI Cyber Security Framework | Reserve Bank of India | Reuse with attribution |
+| e-Governance Policy India | Government of India | Reuse with attribution |
+| SEBI CSCRF | SEBI | Reuse with attribution |
+| State DC Security Guidelines | Government of India | Reuse with attribution |
+| TRAI Telecom Advisory | TRAI | Reuse with attribution |
+| NCIIPC Rules | Government of India | Reuse with attribution |
+| IT Protected System Rules 2018 | Government of India | Reuse with attribution |
+| Cyber Security Power Sector 2021 | Government of India | Reuse with attribution |
+| GDPR (EU) 2016/679 | European Union | Reuse with attribution |
 | NIST SP 800-66r2 | NIST (US Government) | Public domain |
 | NIST Cybersecurity Framework | NIST (US Government) | Public domain |
-| OECD Digital Security Guidelines | OECD | Research use |
-| Intl. Standard A | Standards body | Research use only |
-| Intl. Standard B | Standards body | Research use only |
-| DPDP Rules 2025 | Government of India | Public domain |
+| OECD Digital Security Guidelines | OECD | Reuse subject to OECD terms |
+| ISO/IEC 27001:2022 | ISO/IEC | Proprietary; text not distributed |
+| PCI Security Standards | PCI SSC | Proprietary; text not distributed |
+| DPDP Rules 2025 | Government of India | Reuse with attribution |
 
-**Note:** Intl. Standard A and Intl. Standard B are proprietary standards. Their cleaned texts are included solely for academic research purposes. Users must comply with the original licensing terms of these documents and must not use them for commercial purposes.
+### Documents you must obtain yourself
+
+Two of the 20 documents are proprietary standards. Their full texts are **not distributed** as files in this repository:
+
+- ISO/IEC 27001:2022 (ISO/IEC)
+- PCI Security Standards (PCI SSC)
+
+To rebuild the corpus or the index from scratch, obtain these documents from their publishers under their licence terms, extract the text, and save it as `documents/cleaned_texts/ISO_IEC_27001_2022.txt` and `documents/cleaned_texts/PCI_Security_Standards.txt`. Questions that refer to these documents remain in the dataset.
+
+For reproducibility, the shipped index in `index/` contains chunked passages derived from all 20 documents, including these two. Please do not extract or redistribute those passages. If you are a rights holder and want them removed, open a GitHub issue.
 
 ### Code License
 
@@ -361,7 +372,7 @@ To be updated
 
 ## Acknowledgements
 
-Documents sourced from publicly available government publications of India, the European Union, and international standards bodies. We thank the annotators who contributed to the human evaluation.
+Documents sourced from publicly available government publications of India, the European Union, and international bodies. We thank the annotators who contributed to the human evaluation.
 
 ---
 
