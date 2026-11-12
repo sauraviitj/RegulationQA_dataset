@@ -2,7 +2,9 @@
 
 **A regulatory document retrieval benchmark spanning Indian, European, and international cybersecurity and data protection frameworks.**
 
-RegulationQA comprises **1,002 questions** over **20 documents** including cross-document questions requiring evidence from two regulatory instruments. It is designed to evaluate retrieval systems under realistic compliance constraints — heterogeneous documents, precise legal terminology, and offline deployment requirements.
+RegulationQA comprises **1,002 questions** over **20 documents**, including cross-document questions that need evidence from two regulatory instruments. It is designed to evaluate retrieval systems under realistic compliance constraints: heterogeneous documents, precise legal terminology, and offline deployment requirements.
+
+> **Reproducing the paper?** Start with the numbered, annotated series in [`code_series/`](code_series/README.md). It covers indexing, retrieval, span extraction, ablations, BERTScore, ObliQA, LLM judges, NLI and corpus analysis, and says which step produces which paper table.
 
 ---
 
@@ -10,7 +12,7 @@ RegulationQA comprises **1,002 questions** over **20 documents** including cross
 
 ![RegulationQA Pipeline Architecture](architecture.png)
 
-The retrieval pipeline combines dense (BGE) and sparse (BM25) retrieval via Reciprocal Rank Fusion, followed by sliding window sentence extraction with adaptive cross-encoder scoring. No generative model is required at inference time.
+The retrieval pipeline combines dense (BGE) and sparse (BM25) retrieval via Reciprocal Rank Fusion (k = 60), followed by cross-encoder scoring of the fused candidates (pool m = 20), a ±1 passage sliding window, and sentence-level span extraction with adaptive inner decay (τ = 0, δ = 2). No generative model is required at inference time.
 
 ---
 
@@ -28,6 +30,8 @@ id, document_source, question, ground_truth_answer
 | `document_source` | Source document name (or `Doc A + Doc B` for cross-document) |
 | `question` | Natural language compliance question |
 | `ground_truth_answer` | Reference answer extracted from source document |
+
+607 questions are single-source and 395 are cross-document. The raw `document_source` strings contain naming variants of the same instrument; `code_series/adsir_common.py` maps them to one canonical name each.
 
 ### Question Types
 
@@ -81,7 +85,18 @@ id, document_source, question, ground_truth_answer
 
 ## Evaluation Results
 
-### RegulationQA (Span-Level)
+### RegulationQA, span level (full pipeline)
+
+| Span mode | Token F1 | Uses reference answer? |
+|---|---|---|
+| Top-1 | 0.2994 | No |
+| Query-guided (highest cross-encoder sentence among top-3) | 0.3083 | No |
+| Oracle best-of-3 | 0.3737 | **Yes** (upper bound, not a deployable system) |
+
+BERTScore (roberta-large, raw F1): 0.8804 (top-1), 0.8801 (query-guided), 0.8939 (best-of-3).
+Step 05 of the code series also reports length-matched controls, because BERTScore can reward length.
+
+### RegulationQA, baselines and LLM judges (oracle best-of-3 spans)
 
 | System | Token F1 | R@F1≥0.3 | R@F1≥0.5 | Qwen3-4B | Mistral-7B |
 |---|---|---|---|---|---|
@@ -89,18 +104,26 @@ id, document_source, question, ground_truth_answer
 | BM25 only | 0.2156 | 0.1188 | 0.0509 | 39.5% | 77.1% |
 | **Full pipeline** | **0.3623** | **0.4062** | **0.2764** | **82.8%** | **91.4%** |
 
-Inter-model agreement between Qwen3-4B and Mistral-7B: Cohen's κ = 0.296 (Fair). The gap between token F1 (0.36) and LLM-based correctness (82.8–91.4%) reflects the known limitation of exact-match metrics on regulatory text where the same obligation can be expressed in multiple valid phrasings.
+The judges score the oracle best-of-3 span (chosen using the reference answer), so these percentages measure whether the answer is present in the top-3, not top-1 accuracy. Judge percentages are "correct or partially correct".
+Inter-model agreement between Qwen3-4B and Mistral-7B: Cohen's κ = 0.296 (Fair). The gap between token F1 (0.36) and LLM-judged correctness (82.8–91.4%) reflects the limits of overlap metrics on regulatory text, where the same obligation can be phrased in many valid ways.
 
-### ObliQA (Passage-Level)
+### ObliQA (Passage-Level, 2,786 test questions)
 
 | System | R@1 | R@5 | R@10 | MAP@10 |
 |---|---|---|---|---|
 | BGE only | 0.4986 | 0.7146 | 0.7778 | 0.5400 |
 | BM25 only | 0.5696 | 0.7545 | 0.8008 | 0.5808 |
 | BGE + CE + Window | 0.5754 | 0.7373 | 0.7778 | 0.5841 |
-| **Full pipeline** | **0.5750** | **0.7624** | **0.8029** | **0.5915** |
+| **Full pipeline (pool m = 50)** | **0.5750** | **0.7624** | **0.8029** | **0.5915** |
 
+Differences between the full pipeline and BM25 are small; `code_series/07_obliqa_results_ablation` gives paired-bootstrap 95% confidence intervals and the m = 20 variant.
 Published baselines on ObliQA: BM25 MAP@10 = 0.6236, BGE-5shot MAP@10 = 0.6178 (Gokhan et al., COLING 2025).
+
+### Reproducibility notes
+
+* The released spans in `evaluation/extraction_results.csv` come from the original submitted run. Re-running the released code reproduces about 88% of the saved top-1 spans exactly; the rest differ because of small retrieval-pool differences.
+* The saved spans are single sentences (the best-scoring sentence of the ±1 window of each candidate). `src/pipeline.py` returns all sentences kept by inner decay; `code_series/03_rqa_span_extraction` computes both and labels them.
+* Hallucination (NLI) numbers in the paper come from the original run; `code_series/09_hallucination_nli` is a fresh re-run and will differ.
 
 ---
 
@@ -109,42 +132,48 @@ Published baselines on ObliQA: BM25 MAP@10 = 0.6236, BGE-5shot MAP@10 = 0.6178 (
 ```
 RegulationQA/
 ├── README.md
-├── LICENSE
 ├── requirements.txt
-├── architecture.png              ← pipeline diagram
+├── architecture.png              <- pipeline diagram
+│
+├── code_series/                  <- numbered, annotated pipeline (start here)
+│   ├── README.md
+│   ├── adsir_common.py           <- shared settings and helpers
+│   ├── 01_build_indexes.py ... 11_corpus_analysis.py
+│   └── notebooks/                <- the same steps as .ipynb
 │
 ├── dataset/
-│   ├── regulationqa_v1.csv       ← 1002 Q&A pairs
-│   └── metadata.json             ← corpus statistics
+│   └── regulationqa_v1.csv       <- 1002 Q&A pairs
 │
 ├── documents/
-│   └── cleaned/
-│       └── *.txt                 ← 20 cleaned text files
+│   └── cleaned_texts/
+│       └── *.txt                 <- cleaned text files
 │
 ├── index/
-│   ├── faiss_index.bin           ← BGE FAISS index (766 chunks)
-│   ├── chunks.pkl                ← chunked passages with metadata
-│   └── bm25.pkl                  ← BM25Okapi sparse index
+│   ├── faiss_index.bin           <- BGE FAISS index (766 chunks)
+│   ├── chunks.pkl                <- chunked passages with metadata
+│   └── bm25.pkl                  <- BM25Okapi sparse index
 │
 ├── evaluation/
-│   ├── extraction_log.json       ← retrieval results per question
-│   ├── extraction_results.csv    ← summary CSV
-│   ├── qwen_eval.csv             ← Qwen3-4B judge scores
-│   ├── combined_eval.csv         ← all evaluation scores
-│   ├── overlap_analysis.csv      ← document overlap analysis
-│   ├── ablation_results.json     ← ablation study results
-│   ├── all_llm_eval.json         ← full LLM evaluation
-│   └── baseline_llm_eval.json    ← baseline LLM evaluation
+│   ├── extraction_log.json       <- retrieval results per question
+│   ├── extraction_results.csv    <- summary CSV (saved submitted run)
+│   ├── qwen_eval.csv             <- Qwen3-4B judge scores
+│   ├── combined_eval.csv         <- all evaluation scores
+│   ├── overlap_analysis.csv      <- document overlap analysis
+│   ├── ablation_results.json     <- ablation study results
+│   ├── all_llm_eval.json         <- full LLM evaluation
+│   └── baseline_llm_eval.json    <- baseline LLM evaluation
 │
-├── visualizations/
-│   ├── kg_documents.html         ← document similarity graph
-│   ├── kg_answers_v2.html        ← retrieval quality graph
-│   └── doc_similarity_matrix.csv ← pairwise similarity matrix
+├── visualisations/
+│   ├── doc_similarity_graph.html <- document similarity graph
+│   ├── kg_answers_v2.html        <- retrieval quality graph
+│   └── doc_similarity_matrix.csv <- pairwise similarity matrix
+│
+├── Notebooks/                    <- original working notebooks (kept for history)
 │
 └── src/
-    ├── pipeline.py               ← retrieval pipeline
-    ├── evaluate.py               ← evaluation functions
-    └── utils.py                  ← helper utilities
+    ├── pipeline.py               <- retrieval pipeline
+    ├── evaluate.py               <- evaluation functions
+    └── utils.py                  <- helper utilities
 ```
 
 ---
@@ -175,14 +204,9 @@ print(df.head())
 import pickle
 import faiss
 
-# Load chunks
 with open('index/chunks.pkl', 'rb') as f:
     chunks = pickle.load(f)
-
-# Load FAISS index
 index = faiss.read_index('index/faiss_index.bin')
-
-# Load BM25
 with open('index/bm25.pkl', 'rb') as f:
     bm25 = pickle.load(f)
 
@@ -203,7 +227,7 @@ for r in results[:3]:
     print(f"\nDocument: {r['doc_name']}")
     print(f"CE Score: {r['top_ce_score']:.3f}")
     for span in r['extracted_spans'][:2]:
-        print(f"  → {span}")
+        print(f"  -> {span}")
 ```
 
 ### Evaluate
@@ -211,12 +235,13 @@ for r in results[:3]:
 ```python
 from src.evaluate import evaluate_regulationqa, print_report
 
-metrics = evaluate_regulationqa(
-    df=df,
-    retrieve_fn=pipeline.retrieve,
-)
+metrics = evaluate_regulationqa(df=df, retrieve_fn=pipeline.retrieve)
 print_report(metrics, "RegulationQA Results")
 ```
+
+### Reproduce the paper tables
+
+Follow [`code_series/README.md`](code_series/README.md): run steps 01 to 11 in order (GPU T4 for steps 02, 05, 06, 08, 09, 11).
 
 ### Build Index From Scratch
 
@@ -226,17 +251,16 @@ from src.utils import (
     build_faiss_index, build_bm25_index, save_index
 )
 
-# Load and chunk documents
-documents  = load_documents('documents/cleaned/')
+documents  = load_documents('documents/cleaned_texts/')
 chunks     = chunk_documents(documents, chunk_size=500, overlap=100)
 
-# Build indices
 index, embeddings, model = build_faiss_index(chunks)
 bm25                     = build_bm25_index(chunks)
 
-# Save
 save_index(index, chunks, bm25, output_dir='index/')
 ```
+
+For reproducing the paper, use the shipped index in `index/`; a rebuilt index can differ slightly.
 
 ---
 
@@ -257,6 +281,8 @@ transformers>=4.35.0
 torch>=2.0.0
 ```
 
+Code-series steps 05 and 08 additionally use `bert-score`, `accelerate` and `bitsandbytes` (installed by the first cell of each notebook).
+
 ---
 
 ## License
@@ -269,7 +295,7 @@ You are free to share and adapt the material for any purpose, provided appropria
 
 ### Document License
 
-The cleaned document texts in `documents/cleaned/` are sourced from publicly available government publications and international standards bodies:
+The cleaned document texts in `documents/cleaned_texts/` are sourced from publicly available government publications and international standards bodies:
 
 | Document | Source | License |
 |---|---|---|
@@ -298,7 +324,7 @@ The cleaned document texts in `documents/cleaned/` are sourced from publicly ava
 
 ### Code License
 
-Source code in `src/` is released under the **MIT License**.
+Source code in `src/` and `code_series/` is released under the **MIT License**.
 
 ```
 MIT License
@@ -328,17 +354,7 @@ SOFTWARE.
 
 If you use RegulationQA in your research, please cite:
 
-```bibtex
-@inproceedings{regulationqa2026,
-  title     = {Adaptive Span Extraction with Hybrid Retrieval
-               for Offline Regulatory Document Compliance},
-  author    = {[Anonymous]},
-  booktitle = {[Venue — to be updated upon acceptance]},
-  year      = {2026}
-}
-```
-
----
+To be updated
 
 ## Acknowledgements
 
