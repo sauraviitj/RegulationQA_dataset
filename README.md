@@ -3,7 +3,7 @@
 **A regulatory document retrieval benchmark spanning Indian, European, and international cybersecurity and data protection frameworks.**
 
 RegulationQA comprises **1,002 questions** over **20 documents**, including cross-document questions that need evidence from two regulatory instruments. It is designed to evaluate retrieval systems under realistic compliance constraints: heterogeneous documents, precise legal terminology, and offline deployment requirements.
-> **Paper.** *Adaptive Span Extraction with Hybrid Retrieval for Regulatory Question Answering*, Saurav Chowdhury and Lipika Dey. Accepted at the **ACM India Joint International Conference on Data Science and Management of Data (CODS 2026)**, Main Track, 13–16 December 2026, Gandhinagar, India. Published in the ACM proceedings (DOI to be added).
+**Paper.** *Adaptive Span Extraction with Hybrid Retrieval for Regulatory Question Answering*, Saurav Chowdhury and Lipika Dey. Accepted at the **ACM India Joint International Conference on Data Science and Management of Data (CODS 2026)**, Main Track, 13–16 December 2026, Gandhinagar, India. Published in the ACM proceedings (DOI to be added).
 > **Reproducing the paper?** Start with the numbered, annotated series in [`code_series/`](code_series/README.md). It covers indexing, retrieval, span extraction, ablations, BERTScore, ObliQA, LLM judges, NLI and corpus analysis, and says which step produces which paper table.
 
 ---
