@@ -18,6 +18,9 @@ part of the paper it feeds. Shared settings and helper functions live in ONE fil
 | `09_hallucination_nli` | full chunk vs span generation, DeBERTa NLI | hallucination table (re-run) | Kaggle GPU, ~25 min |
 | `10_human_evaluation` | annotator % and Cohen's kappa from the annotation file | human-eval table | CPU |
 | `11_corpus_analysis` | per-instrument F1, document similarity, DPDP Act->Rules confusion | analysis section | Kaggle GPU (encoding), 3 min |
+| `12_span_extraction_study` | controlled comparison of single-sentence vs adaptive multi-sentence extraction (top-1 and query-guided), delta/tau sensitivity on a validation half, candidate-vs-sentence ceilings, paired bootstrap, BERTScore | Table 5 adaptive rows, adaptive-selection paragraph | Kaggle GPU (BERTScore), needs step 02 cache, ~10 min |
+| `13_judge_adaptive_spans` | Qwen3-4B + Mistral-7B judges on the adaptive spans from step 12 (same prompt as step 08) | judge columns of the adaptive rows | Kaggle GPU, ~20-30 min per configuration per judge |
+| `12_sliding window_output run.ipynb` / `table5_adaptive_all_in_one.ipynb` | steps 02 + 12 + 13 in one Kaggle notebook (set `RUN_JUDGES`) | Table 5 adaptive rows | Kaggle GPU T4, Internet ON |
 | `make_notebooks.py` | turns the `.py` files into `.ipynb` (already done: see `notebooks/`) | - | anywhere |
 
 Each `.py` is written as `# %%` cells, so it works as a plain script, in VS Code / Spyder as a notebook, and as the ready-made
@@ -30,7 +33,7 @@ Each `.py` is written as `# %%` cells, so it works as a plain script, in VS Code
    (upload it as a tiny dataset). `find()` searches `/kaggle/input` recursively, so folder names do not matter.
 3. Everything the steps create is written to `/kaggle/working` (locally: `./outputs`). Download it before the session ends.
 
-Order: `01B -> 02 -> 03 -> 04 -> 05`, `06 -> 07`, and independently `08`, `09` (after 03), `10`, `11` (after 03).
+Order: `01B -> 02 -> 03 -> 04 -> 05`, `06 -> 07`, and independently `08`, `09` (after 03), `10`, `11` (after 03), `12` (after 02) `-> 13`.
 
 ## Which numbers come from where (read this before editing the paper)
 | Paper number | Produced by | Comes from |
@@ -40,6 +43,8 @@ Order: `01B -> 02 -> 03 -> 04 -> 05`, `06 -> 07`, and independently `08`, `09` (
 | BERTScore + length controls | step 05 | saved spans + baselines |
 | ObliQA Table 4, ablation, CIs | steps 06-07 | fresh run on all 2,786 questions |
 | LLM judges | step 08 | saved best-of-3 spans, fresh judge run |
+| Adaptive rows of Table 5 (F1, BERTScore, words), decomposition (0.462 / 0.397 / 0.296), paired bootstrap | step 12 | re-implementation on the step-02 cache (m = 20); single-sentence reference rows are the same re-implementation, not the saved run |
+| Judge columns of the adaptive rows | step 13 | fresh judge run on the adaptive spans only; the single-sentence rows keep the saved-run judge values |
 | Hallucination NLI | step 09 | fresh re-run (original generations were not recovered) |
 | Human evaluation | step 10 | needs the original annotation CSV (not in the repo) |
 
@@ -55,7 +60,13 @@ Order: `01B -> 02 -> 03 -> 04 -> 05`, `06 -> 07`, and independently `08`, `09` (
 5. **Oracle numbers use the reference answer** (best-of-3, and the judged `best_span`). They are upper bounds, not deployable accuracy.
 6. **Steps 09 and 10** cannot recover the original files; they either re-run (09) or need the original CSV (10). Do not mix re-run numbers
    and original numbers in one table.
-7. **Label normalisation** (`SOURCE_CANON` in `adsir_common.py`) maps the 40 raw `document_source` strings to 13 groups
+7. **Adaptive study (steps 12-13).** The questions are split 50/50 (499 validation / 503 test, stratified by instrument, seed 42).
+   delta is chosen on the validation half (the smallest delta wins ties; 0.5 for both top-1 and query-guided) and reported on the test
+   half. The delta-sensitivity analysis of the paper (Table 3) uses all 1,002 questions with no split. The single-sentence
+   re-implementation scores token F1 0.2961 and BERTScore 0.8798 (saved run: 0.2994 and 0.8804), so compare adaptive rows with the
+   re-implementation's single-sentence rows, never with the saved run. Oracle configuration `E1` (best of the per-candidate best
+   sentences, F1 0.3319) is NOT the paper's best-of-3 oracle (0.3737); do not use it to fill that row.
+8. **Label normalisation** (`SOURCE_CANON` in `adsir_common.py`) maps the 40 raw `document_source` strings to 13 groups
    (12 single-source instruments + cross-document). The assert in `load_regulationqa()` checks 607 single-source / 395 cross-document.
    Check the ISO/IEC 27001 label against the paper before submission (the raw labels use "ISO 27001:2022" and "ISO/IEC 27001:2022").
 
