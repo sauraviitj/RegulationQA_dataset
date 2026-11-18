@@ -3,7 +3,9 @@
 **A regulatory document retrieval benchmark spanning Indian, European, and international cybersecurity and data protection frameworks.**
 
 RegulationQA comprises **1,002 questions** over **20 documents**, including cross-document questions that need evidence from two regulatory instruments. It is designed to evaluate retrieval systems under realistic compliance constraints: heterogeneous documents, precise legal terminology, and offline deployment requirements.
-**Paper.** *Adaptive Span Extraction with Hybrid Retrieval for Regulatory Question Answering*, Saurav Chowdhury and Lipika Dey. Accepted at the **ACM India Joint International Conference on Data Science and Management of Data (CODS 2026)**, Main Track, 13–16 December 2026, Gandhinagar, India. Published in the ACM proceedings (DOI to be added).
+
+> **Paper.** *Adaptive Span Extraction with Hybrid Retrieval for Regulatory Question Answering*, Saurav Chowdhury and Lipika Dey. Accepted at the **ACM India Joint International Conference on Data Science and Management of Data (CODS 2026)**, Main Track, 13–16 December 2026, Gandhinagar, India. To appear in the ACM proceedings (DOI to be added).
+
 > **Reproducing the paper?** Start with the numbered, annotated series in [`code_series/`](code_series/README.md). It covers indexing, retrieval, span extraction, ablations, BERTScore, ObliQA, LLM judges, NLI and corpus analysis, and says which step produces which paper table.
 
 ---
@@ -12,7 +14,7 @@ RegulationQA comprises **1,002 questions** over **20 documents**, including cros
 
 ![RegulationQA Pipeline Architecture](architecture.png)
 
-The retrieval pipeline combines dense (BGE) and sparse (BM25) retrieval via Reciprocal Rank Fusion (k = 60), followed by cross-encoder scoring of the fused candidates (pool m = 20), a ±1 passage sliding window, and sentence-level span extraction with adaptive inner decay (τ = 0, δ = 2). No generative model is required at inference time.
+The retrieval pipeline combines dense (BGE) and sparse (BM25) retrieval via Reciprocal Rank Fusion (k = 60), followed by cross-encoder scoring of the fused candidates (pool m = 20), a ±1 passage sliding window, and sentence-level span extraction. The deployed output is the single best-scoring sentence in the top-ranked candidate's window. A multi-sentence variant that keeps every sentence retained by inner decay (score floor τ, drop tolerance δ) is analysed separately in the paper and is available in `src/pipeline.py`. No generative model is required at inference time.
 
 ---
 
@@ -95,36 +97,47 @@ id, document_source, question, ground_truth_answer
 | Query-guided (highest cross-encoder sentence among top-3) | 0.3083 | No |
 | Oracle best-of-3 | 0.3737 | **Yes** (upper bound, not a deployable system) |
 
-BERTScore (roberta-large, raw F1): 0.8804 (top-1), 0.8801 (query-guided), 0.8939 (best-of-3).
+BERTScore (roberta-large, raw F1): 0.8804 (top-1), 0.8801 (query-guided), 0.8939 (best-of-3). Top-1 spans average 54 words, against about 500 words for a full retrieved chunk.
 Step 05 of the code series also reports length-matched controls, because BERTScore can reward length.
 
 ### RegulationQA, baselines and LLM judges (oracle best-of-3 spans)
 
-| System | Token F1 | R@F1≥0.3 | R@F1≥0.5 | Qwen3-4B | Mistral-7B |
-|---|---|---|---|---|---|
-| BGE only | 0.2229 | 0.1377 | 0.0539 | 46.2% | 79.3% |
-| BM25 only | 0.2156 | 0.1188 | 0.0509 | 39.5% | 77.1% |
-| **Full pipeline** | **0.3623** | **0.4062** | **0.2764** | **82.8%** | **91.4%** |
+| System | Token F1 | BERT-F1 | Qwen3-4B | Mistral-7B |
+|---|---|---|---|---|
+| BGE only | 0.2229 | 0.8613 | 46.2% | 79.3% |
+| BM25 only | 0.2156 | 0.8590 | 39.5% | 77.1% |
+| **Full pipeline (oracle best-of-3)** | **0.3737** | **0.8939** | **82.8%** | **91.4%** |
 
 The judges score the oracle best-of-3 span (chosen using the reference answer), so these percentages measure whether the answer is present in the top-3, not top-1 accuracy. Judge percentages are "correct or partially correct".
-Inter-model agreement between Qwen3-4B and Mistral-7B: Cohen's κ = 0.296 (Fair). The gap between token F1 (0.36) and LLM-judged correctness (82.8–91.4%) reflects the limits of overlap metrics on regulatory text, where the same obligation can be phrased in many valid ways.
+Inter-model agreement between Qwen3-4B and Mistral-7B: Cohen's κ = 0.296 (Fair). The gap between token F1 (0.37) and LLM-judged correctness (82.8–91.4%) reflects the limits of overlap metrics on regulatory text, where the same obligation can be phrased in many valid ways.
+
+### Adaptive multi-sentence selection (re-implementation)
+
+Keeping every sentence retained by inner decay (τ = 0, δ = 2.0) instead of only the best one:
+
+| Mode | Words (mean) | Token F1 | BERT-F1 | Qwen3-4B | Mistral-7B |
+|---|---|---|---|---|---|
+| Adaptive top-1 | 126 | 0.2527 | 0.8702 | 75.9% | 90.6% |
+| Adaptive query-guided | 261 | 0.2219 | 0.8640 | 70.1% | 80.3% |
+
+Adaptive selection lowers Token F1 and BERTScore relative to the single best sentence (paired bootstrap differences −0.043 for top-1 and −0.076 for query-guided on the re-implementation), so the single best sentence remains the output. These rows come from a re-implementation of the pipeline, not from the saved run; see the reproducibility notes below.
 
 ### ObliQA (Passage-Level, 2,786 test questions)
 
 | System | R@1 | R@5 | R@10 | MAP@10 |
 |---|---|---|---|---|
-| BGE only | 0.4986 | 0.7146 | 0.7778 | 0.5400 |
-| BM25 only | 0.5696 | 0.7545 | 0.8008 | 0.5808 |
-| BGE + CE + Window | 0.5754 | 0.7373 | 0.7778 | 0.5841 |
-| **Full pipeline (pool m = 50)** | **0.5750** | **0.7624** | **0.8029** | **0.5915** |
+| BGE only | 0.4986 | 0.7146 | 0.7796 | 0.5402 |
+| BM25 only | 0.5693 | 0.7548 | 0.8055 | 0.5814 |
+| BGE + CE | 0.5725 | 0.7674 | 0.8216 | 0.5967 |
+| **Full pipeline (pool m = 20)** | **0.5826** | **0.7904** | **0.8460** | **0.6083** |
 
-Differences between the full pipeline and BM25 are small; `code_series/07_obliqa_results_ablation` gives paired-bootstrap 95% confidence intervals and the m = 20 variant.
-Published baselines on ObliQA: BM25 MAP@10 = 0.6236, BGE-5shot MAP@10 = 0.6178 (Gokhan et al., COLING 2025).
+Recomputed on all 2,786 test questions with the released code. With a pool of m = 50 the full pipeline reaches R@10 0.8403 and MAP@10 0.6019. `code_series/07_obliqa_results_ablation` gives paired-bootstrap 95% confidence intervals and the m = 20 / 50 / 100 variants.
+Published baselines on ObliQA: BM25 (R@10 0.7611, MAP@10 0.6236; Gokhan et al.) and BGE-5shot (R@10 0.7796, MAP@10 0.6178; Li et al.). Our MAP@10 remains below the published BM25 figure.
 
 ### Reproducibility notes
 
 * The released spans in `evaluation/extraction_results.csv` come from the original submitted run. Re-running the released code reproduces about 88% of the saved top-1 spans exactly; the rest differ because of small retrieval-pool differences.
-* The saved spans are single sentences (the best-scoring sentence of the ±1 window of each candidate). `src/pipeline.py` returns all sentences kept by inner decay; `code_series/03_rqa_span_extraction` computes both and labels them.
+* The saved spans are single sentences (the best-scoring sentence of the ±1 window of each candidate). `src/pipeline.py` returns all sentences kept by inner decay; `code_series/03_rqa_span_extraction` computes both and labels them. The adaptive study is `code_series/12_span_extraction_study.py` (with judges in `13_judge_adaptive_spans.py`).
 * Hallucination (NLI) numbers in the paper come from the original run; `code_series/09_hallucination_nli` is a fresh re-run and will differ.
 
 ---
@@ -185,8 +198,8 @@ RegulationQA/
 ### Installation
 
 ```bash
-git clone https://github.com/[anonymous]/RegulationQA
-cd RegulationQA
+git clone https://github.com/sauraviitj/RegulationQA_dataset
+cd RegulationQA_dataset
 pip install -r requirements.txt
 ```
 
@@ -363,10 +376,9 @@ SOFTWARE.
 
 ## Citation
 
-If you use RegulationQA in your research, please cite:
+If you use RegulationQA or this code, please cite:
 
-To be updated
-
+to be updated
 
 ---
 
